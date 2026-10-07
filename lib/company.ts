@@ -1,0 +1,37 @@
+export const company = {
+  name: "Coolnest Industries",
+  founded: "2026",
+  location: "Hapur, Uttar Pradesh, India",
+  founders: ["Mohd Imran", "Abu Lais"],
+  address: "F-720, MG Road Industrial Area, Hapur, Uttar Pradesh, India",
+  phones: ["+91 9717146404", "+91 7014586670"],
+  email: "Coolnestindustries@gmail.com",
+  gst: "09ACJPI1610D2Z3",
+  hours: "Monday – Saturday, 9 am – 9 pm",
+  closed: "Sunday: Closed",
+  instagram: "https://www.instagram.com/coolnestindustries?stkn=MWkzbTY4bWljeG5nMQ==",
+  mission: "To manufacture high-quality cooling pads with consistent performance, reliable quality and competitive pricing while building long-term relationships with our customers.",
+  vision: "To become a trusted and leading manufacturer of Honeycomb Cooling Pads in India and expand our presence in domestic as well as international markets.",
+  usp: [
+    "Manufacturer of Honeycomb Cooling Pads", "Consistent product quality", "Strong manufacturing capability", "Competitive pricing",
+    "Custom sizes and specifications", "Bulk production capability", "Reliable supply and timely delivery", "Customer-focused service",
+  ],
+  foundersDetail: [
+    {
+      name: "Mohd Imran",
+      role: "Co-Founder & Head of Manufacturing Operations",
+      initials: "MI",
+      focus: "Plant Engineering & Quality Assurance",
+      bio: "Leads technical manufacturing at our Hapur industrial plant. He oversees paper media saturation, resin curing, flute profiling (5mm–7mm), and strict structural durability tests for consistent cooling output.",
+      quote: "Every pad produced in our workshop must deliver reliable water absorption and long-term durability. We inspect every batch with zero compromise.",
+    },
+    {
+      name: "Abu Lais",
+      role: "Co-Founder & Head of Commercial & Supply Strategy",
+      initials: "AL",
+      focus: "Custom Sizing, OEM Partnerships & Logistics",
+      bio: "Drives customer engagement, custom dimensional tailoring, and OEM distribution. He coordinates directly with cooler manufacturers and industrial clients across India to ensure timely supply and transparent pricing.",
+      quote: "Our business is built on trust and accessibility. When a customer specifies custom dimensions and urgent timelines, we deliver with precision.",
+    },
+  ],
+};

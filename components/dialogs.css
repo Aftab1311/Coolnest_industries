@@ -1,0 +1,239 @@
+.dialog-panel {
+  width: min(580px, calc(100% - 32px));
+  max-height: min(90dvh, 900px);
+  margin: auto;
+  padding: 0;
+  overflow: auto;
+  border: 1px solid #ede5d8;
+  border-radius: 14px;
+  background: #fffefa;
+  color: var(--navy, #17263a);
+  box-shadow: 0 22px 80px #17263a26;
+}
+
+.dialog-panel::backdrop {
+  background: #17263a73;
+  backdrop-filter: blur(4px);
+}
+
+.dialog-close {
+  position: absolute;
+  z-index: 1;
+  top: 13px;
+  right: 13px;
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid #e8dece;
+  border-radius: 50%;
+  background: #fffefaf0;
+  color: var(--navy, #17263a);
+  cursor: pointer;
+  transition: background 160ms ease;
+}
+
+.dialog-close:hover {
+  background: #f4ead7;
+}
+
+.dialog-panel h2 {
+  margin: 8px 0 12px;
+  font-size: clamp(24px, 4vw, 30px);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.035em;
+}
+
+.dialog-eyebrow {
+  margin: 0;
+  color: #a96f13;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+}
+
+.enquiry-content {
+  padding: 35px;
+}
+
+.enquiry-content > h2 {
+  padding-right: 16px;
+}
+
+.enquiry-content > p:not(.dialog-eyebrow),
+.detail-copy > p:not(.dialog-eyebrow) {
+  color: var(--muted, #596474);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.enquiry-form {
+  display: grid;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.enquiry-form label {
+  display: block;
+  color: var(--navy, #17263a);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.enquiry-form label > span {
+  color: #a96f13;
+}
+
+.enquiry-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin-top: 7px;
+  padding: 11px 12px;
+  border: 1px solid #ded7cd;
+  border-radius: 5px;
+  background: white;
+  color: var(--navy, #17263a);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.enquiry-form textarea {
+  min-height: 112px;
+  resize: vertical;
+}
+
+.enquiry-form input:focus-visible,
+.enquiry-form select:focus-visible,
+.enquiry-form textarea:focus-visible,
+.enquiry-submit:focus-visible,
+.dialog-close:focus-visible {
+  outline: 2px solid #bd8b36;
+  outline-offset: 3px;
+}
+
+.enquiry-note {
+  margin: -2px 0 0;
+  color: var(--muted, #596474);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.enquiry-submit {
+  display: inline-flex;
+  width: fit-content;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 11px 22px;
+  border: 1px solid #b38230;
+  border-radius: 50px;
+  background: linear-gradient(110deg, #956014, #7f4f0a);
+  color: #fff;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: filter 160ms ease;
+}
+
+.enquiry-submit:hover {
+  filter: brightness(0.94);
+}
+
+.enquiry-success {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #d5dfc7;
+  border-radius: 7px;
+  background: #f3f7ed;
+  color: #3c562b;
+}
+
+.enquiry-success > svg {
+  flex: 0 0 auto;
+  margin-top: 1px;
+}
+
+.enquiry-success strong {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.enquiry-success p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.detail-image {
+  overflow: hidden;
+  background: #faf6ee;
+}
+
+.detail-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 310px;
+  object-fit: contain;
+}
+
+.detail-copy {
+  padding: 28px 35px 35px;
+}
+
+.detail-features {
+  display: grid;
+  gap: 12px;
+  margin: 23px 0 26px;
+  padding: 0;
+  list-style: none;
+}
+
+.detail-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--muted, #596474);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.detail-features svg {
+  flex: 0 0 auto;
+  margin-top: 3px;
+  color: #b17b25;
+}
+
+@media (max-width: 480px) {
+  .enquiry-content,
+  .detail-copy {
+    padding: 30px 23px;
+  }
+
+  .enquiry-row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .dialog-panel {
+    max-height: 92dvh;
+  }
+}

@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+.env*
+!.env.example
+artifacts/
+*.log
+.npm-cache/
+tmp/
+AGENTS.md
+CLAUDE.md
+.DS_Store
+Thumbs.db

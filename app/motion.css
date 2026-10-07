@@ -1,0 +1,146 @@
+@keyframes reveal-up {
+  from { opacity: 0; transform: translate3d(0, 28px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes reveal-left {
+  from { opacity: 0; transform: translate3d(-34px, 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes reveal-right {
+  from { opacity: 0; transform: translate3d(34px, 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    main section:not(.hero):not(.page-hero) .section-label,
+    main section:not(.hero):not(.page-hero) h2,
+    main .center-intro,
+    main .advantages-subtitle,
+    main .heading-row > p,
+    main .section-copy > p,
+    main .sustainability-copy > p:not(.commitment-label),
+    main .company-profile-heading > p {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 4% entry 38%;
+    }
+
+    main .spotlight-visual,
+    main .story-image,
+    main .about-image,
+    main .applications-image,
+    main .company-profile-visual {
+      animation: reveal-left linear both;
+      animation-timeline: view();
+      animation-range: entry 2% entry 34%;
+    }
+
+    main .quality-image,
+    main .sustainability-leaves,
+    main .contact-card,
+    main .contact-details {
+      animation: reveal-right linear both;
+      animation-timeline: view();
+      animation-range: entry 2% entry 34%;
+    }
+
+    main .featured-pad-card,
+    main .advantage,
+    main .feature-cards > *,
+    main .category-grid > *,
+    main .specs-grid > *,
+    main .company-profile-principles > *,
+    main .company-profile-strengths > *,
+    main .process-grid > *,
+    main .applications-list > *,
+    main .contact-steps > *,
+    main .about-values > *,
+    main .commitments > *,
+    main .founder-card,
+    main .founders-commitment,
+    main .faq-list > *,
+    .site-footer .footer-main > * {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 3% entry 32%;
+    }
+  }
+}
+
+.gold-button, .outline-button, .light-button, .featured-pad-action, .enquiry-submit, .whatsapp-float {
+  transition: transform 240ms ease, box-shadow 240ms ease, background 240ms ease, border-color 240ms ease, filter 240ms ease;
+}
+
+.gold-button:hover, .outline-button:hover, .light-button:hover,
+.featured-pad-action:hover, .enquiry-submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(135, 88, 19, .2);
+}
+
+.gold-button:active, .outline-button:active, .light-button:active,
+.featured-pad-action:active, .enquiry-submit:active { transform: translateY(0) scale(.98); }
+
+.featured-pad-image img, .spotlight-visual img, .category-card-image img,
+.applications-image img, .quality-image img, .story-image img, .about-image img,
+.company-profile-visual img {
+  transition: transform 800ms cubic-bezier(.22, 1, .36, 1), filter 600ms ease;
+}
+
+.featured-pad-card:hover .featured-pad-image img,
+.category-card:hover .category-card-image img,
+.spotlight-visual:hover img, .applications-image:hover img,
+.quality-image:hover img, .story-image:hover img, .about-image:hover img,
+.company-profile-visual:hover img {
+  transform: scale(1.045);
+}
+
+.advantage .outline-icon, .feature-cards .feature-number,
+.process-grid article > svg, .commitment > svg {
+  transition: transform 400ms cubic-bezier(.2, 1.6, .4, 1), color 300ms ease, background 300ms ease;
+}
+
+.advantage:hover .outline-icon, .feature-cards article:hover .feature-number,
+.process-grid article:hover > svg, .commitment:hover > svg {
+  transform: translateY(-5px) scale(1.08);
+}
+
+@keyframes motion-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes motion-bounce {
+  0%, 88%, 100% { transform: translateY(0); }
+  92% { transform: translateY(-7px); }
+  96% { transform: translateY(0); }
+  98% { transform: translateY(-3px); }
+}
+
+@keyframes motion-header-in {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.site-header { animation: motion-header-in 600ms cubic-bezier(.22, 1,.36, 1) both; }
+.hero-tag { animation: motion-float 6s ease-in-out infinite; }
+.whatsapp-float { animation: motion-bounce 7s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header, .hero-tag, .whatsapp-float { animation: none; }
+  .gold-button, .outline-button, .light-button, .featured-pad-action,
+  .enquiry-submit, .featured-pad-image img, .spotlight-visual img,
+  .category-card-image img, .applications-image img, .quality-image img,
+  .story-image img, .about-image img, .company-profile-visual img { transition: none; }
+  .gold-button:hover, .outline-button:hover, .light-button:hover,
+  .featured-pad-action:hover, .enquiry-submit:hover,
+  .featured-pad-card:hover .featured-pad-image img,
+  .category-card:hover .category-card-image img,
+  .spotlight-visual:hover img, .applications-image:hover img,
+  .quality-image:hover img, .story-image:hover img, .about-image:hover img,
+  .company-profile-visual:hover img,
+  .advantage:hover .outline-icon, .feature-cards article:hover .feature-number,
+  .process-grid article:hover > svg, .commitment:hover > svg { transform: none; }
+}
