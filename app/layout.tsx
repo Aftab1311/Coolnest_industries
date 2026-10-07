@@ -6,6 +6,7 @@ import "@/components/dialogs.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import SiteMotion from "@/components/SiteMotion";
 
 const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter" });
 
@@ -15,5 +16,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body className={`${inter.variable} antialiased`}><a href="#main" className="skip-link">Skip to content</a><Header />{children}<Footer /><WhatsAppButton /></body></html>;
+  return <html lang="en"><body className={`${inter.variable} antialiased`}><a href="#main" className="skip-link">Skip to content</a><Header />{children}<Footer /><WhatsAppButton /><SiteMotion /></body></html>;
 }

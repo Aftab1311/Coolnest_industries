@@ -51,6 +51,8 @@ export default function SiteMotion() {
       ".specs-grid",
       ".company-profile-principles",
       ".company-profile-strengths",
+      ".founders-grid",
+      ".story-badges",
       ".process-grid",
       ".applications-list",
       ".contact-steps",
@@ -62,12 +64,12 @@ export default function SiteMotion() {
     cardGrids.forEach((selector) => {
       document.querySelectorAll(selector).forEach((grid) => {
         Array.from(grid.children).forEach((item, index) => {
-          add(item, index % 2 === 0 ? "up" : "scale", Math.min(index * 70, 280), true);
+          add(item, index % 2 === 0 ? "up" : "scale", Math.min(index * 65, 300), true);
         });
       });
     });
 
-    addAll("main .cta-band .page-container > *, main .focus-grid > *, .site-footer .footer-main > div", "up", 75);
+    addAll("main .cta-band .page-container > *, main .focus-grid > *, main .founders-commitment, .site-footer .footer-main > div", "up", 75);
 
     const observer = new IntersectionObserver(
       (entries) => {
