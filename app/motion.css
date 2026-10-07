@@ -70,36 +70,6 @@
   }
 }
 
-html.motion-ready [data-motion] {
-  opacity: 0;
-  transition: opacity 650ms cubic-bezier(.22, 1, .36, 1),
-              transform 650ms cubic-bezier(.22, 1, .36, 1);
-  transition-delay: var(--motion-delay, 0ms);
-  will-change: opacity, transform;
-}
-
-html.motion-ready [data-motion="up"] {
-  transform: translate3d(0, 32px, 0);
-}
-
-html.motion-ready [data-motion="left"] {
-  transform: translate3d(-34px, 0, 0);
-}
-
-html.motion-ready [data-motion="right"] {
-  transform: translate3d(34px, 0, 0);
-}
-
-html.motion-ready [data-motion="scale"] {
-  transform: scale(0.93);
-}
-
-html.motion-ready [data-motion].is-visible,
-html.motion-ready [data-motion].has-revealed {
-  opacity: 1;
-  transform: translate3d(0, 0, 0) scale(1);
-}
-
 .gold-button, .outline-button, .light-button, .featured-pad-action, .enquiry-submit, .whatsapp-float {
   transition: transform 240ms ease, box-shadow 240ms ease, background 240ms ease, border-color 240ms ease, filter 240ms ease;
 }
@@ -159,7 +129,6 @@ html.motion-ready [data-motion].has-revealed {
 .whatsapp-float { animation: motion-bounce 7s ease-in-out infinite; }
 
 @media (prefers-reduced-motion: reduce) {
-  html.motion-ready [data-motion] { opacity: 1 !important; transform: none !important; transition: none !important; }
   .site-header, .hero-tag, .whatsapp-float { animation: none; }
   .gold-button, .outline-button, .light-button, .featured-pad-action,
   .enquiry-submit, .featured-pad-image img, .spotlight-visual img,
@@ -171,7 +140,7 @@ html.motion-ready [data-motion].has-revealed {
   .category-card:hover .category-card-image img,
   .spotlight-visual:hover img, .applications-image:hover img,
   .quality-image:hover img, .story-image:hover img, .about-image:hover img,
-  .company-profile-visual:hover img,
+  .company-profile-visual:hover img { transform: none; }
   .advantage:hover .outline-icon, .feature-cards article:hover .feature-number,
   .process-grid article:hover > svg, .commitment:hover > svg,
   .founder-card:hover .founder-avatar { transform: none; }
