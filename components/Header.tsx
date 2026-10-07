@@ -1,9 +1,4 @@
-"use client";
-
-import { useEffect, useState } from "react";
 import { ArrowRight, Menu, X } from "lucide-react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import Logo from "./Logo";
 
 export const navigation = [
@@ -13,19 +8,18 @@ export const navigation = [
 ];
 
 export default function Header() {
-  const [open, setOpen] = useState(false);
-  const pathname = usePathname();
-  useEffect(() => {
-    const closeOnEscape = (event: KeyboardEvent) => { if (event.key === "Escape") setOpen(false); };
-    window.addEventListener("keydown", closeOnEscape);
-    return () => window.removeEventListener("keydown", closeOnEscape);
-  }, []);
   return <header className="site-header"><div className="page-container header-inner">
     <Logo />
-    <nav className={`primary-nav${open ? " is-open" : ""}`} aria-label="Main navigation" id="main-navigation">
-      {navigation.map(item => <Link key={item.href} className={pathname === item.href ? "is-active" : undefined} aria-current={pathname === item.href ? "page" : undefined} href={item.href} onClick={() => setOpen(false)}>{item.label}</Link>)}
+    <nav className="primary-nav" aria-label="Main navigation">
+      {navigation.map(item => <a key={item.href} href={item.href}>{item.label}</a>)}
     </nav>
-    <Link href="/contact#quote-form" className="gold-button header-quote">Get a Quote <ArrowRight aria-hidden="true" /></Link>
-    <button className="menu-toggle" aria-label={open ? "Close navigation" : "Open navigation"} aria-controls="main-navigation" aria-expanded={open} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
+    <a href="/contact#quote-form" className="gold-button header-quote">Get a Quote <ArrowRight aria-hidden="true" /></a>
+    <details className="mobile-nav">
+      <summary className="menu-toggle"><span className="sr-only">Navigation menu</span><Menu className="menu-open-icon" aria-hidden="true" /><X className="menu-close-icon" aria-hidden="true" /></summary>
+      <nav className="mobile-nav-links" aria-label="Mobile navigation">
+        {navigation.map(item => <a key={item.href} href={item.href}>{item.label}</a>)}
+        <a href="/contact#quote-form">Get a Quote</a>
+      </nav>
+    </details>
   </div></header>;
 }

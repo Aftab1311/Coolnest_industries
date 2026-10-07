@@ -1,108 +1,107 @@
 "use client";
 
-import { usePathname } from "next/navigation";
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
-type MotionDirection = "up" | "left" | "right" | "scale";
+type Direction = "up" | "left" | "right" | "card" | "scale";
 
 export default function SiteMotion() {
   const pathname = usePathname();
 
   useEffect(() => {
+    const media = window.matchMedia("(min-width: 1024px) and (prefers-reduced-motion: no-preference)");
     const root = document.documentElement;
-    const main = document.querySelector("main");
-    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let stop = () => {};
 
-    if (!main || reduceMotion.matches || !window.IntersectionObserver) {
-      root.classList.remove("motion-ready");
-      return;
-    }
+    const start = () => {
+      stop();
+      if (!media.matches || !("IntersectionObserver" in window)) return;
 
-    const targets = new Set<HTMLElement>();
-    const add = (element: Element | null, direction: MotionDirection, delay = 0, card = false) => {
-      if (!(element instanceof HTMLElement) || targets.has(element)) return;
-      element.dataset.motion = direction;
-      if (card) element.dataset.motionCard = "";
-      element.style.setProperty("--motion-delay", `${delay}ms`);
-      targets.add(element);
-    };
+      const main = document.querySelector("main");
+      if (!main) return;
 
-    const addAll = (selector: string, direction: MotionDirection, step = 0, card = false) => {
-      document.querySelectorAll(selector).forEach((element, index) => {
-        add(element, direction, Math.min(index * step, 320), card);
-      });
-    };
+      const targets = new Set<HTMLElement>();
+      const add = (element: Element | null, direction: Direction, delay = 0) => {
+        if (!(element instanceof HTMLElement) || targets.has(element)) return;
+        element.dataset.motion = direction;
+        element.style.setProperty("--motion-delay", `${Math.min(delay, 420)}ms`);
+        targets.add(element);
+      };
 
-    // Lead each page in from the side, then let the remaining sections reveal as they enter view.
-    addAll("main .hero-eyebrow, main .page-hero h1, main .hero h1", "left", 90);
-    addAll("main .hero-description, main .hero-actions, main .hero-proof, main .page-hero-inner > div:first-child > p:last-child", "left", 110);
-    addAll("main .hero-visual-note, main .page-hero-art", "right", 110);
-
-    addAll("main section:not(.hero):not(.page-hero) .section-label, main section:not(.hero):not(.page-hero) h2", "up", 55);
-    addAll("main .center-intro, main .advantages-subtitle, main .heading-row > p, main .section-copy > p, main .sustainability-copy > p:not(.commitment-label), main .company-profile-heading > p, main .company-profile-strengths-heading", "up", 35);
-    addAll("main .spotlight-visual, main .story-image, main .about-image, main .applications-image, main .company-profile-visual", "left");
-    addAll("main .quality-image, main .sustainability-leaves, main .contact-card, main .contact-details", "right");
-
-    const cardGrids = [
-      ".featured-pads-grid",
-      ".advantages-grid",
-      ".feature-cards",
-      ".category-grid",
-      ".specs-grid",
-      ".company-profile-principles",
-      ".company-profile-strengths",
-      ".founders-grid",
-      ".story-badges",
-      ".process-grid",
-      ".applications-list",
-      ".contact-steps",
-      ".about-values",
-      ".commitments",
-      ".faq-list",
-    ];
-
-    cardGrids.forEach((selector) => {
-      document.querySelectorAll(selector).forEach((grid) => {
-        Array.from(grid.children).forEach((item, index) => {
-          add(item, index % 2 === 0 ? "up" : "scale", Math.min(index * 65, 300), true);
+      main.querySelectorAll("section:not(.hero):not(.page-hero)").forEach((section) => {
+        section.querySelectorAll(".section-label, h2, .center-intro, .advantages-subtitle, .heading-row > p").forEach((element, index) => {
+          add(element, "up", index * 100);
         });
       });
-    });
 
-    addAll("main .cta-band .page-container > *, main .focus-grid > *, main .founders-commitment, .site-footer .footer-main > div", "up", 75);
+      const reveal = (selector: string, direction: Direction, step = 0) => {
+        document.querySelectorAll(selector).forEach((element, index) => add(element, direction, index * step));
+      };
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const element = entry.target as HTMLElement;
-          if (entry.isIntersecting) {
-            element.classList.add("is-visible");
-            element.classList.add("has-revealed");
-          } else {
-            const bounds = entry.boundingClientRect;
-            if (bounds.bottom < window.innerHeight * 0.08 || bounds.top > window.innerHeight * 0.92) {
-              element.classList.remove("is-visible");
-            }
-          }
+      reveal("main .spotlight-visual, main .story-image, main .about-image, main .applications-image, main .company-profile-visual", "left");
+      reveal("main .quality-image, main .sustainability-leaves, main .contact-details", "right");
+      reveal("main .section-copy > p, main .section-copy > .button-row, main .about-copy > p, main .about-copy > a, main .sustainability-copy > p, main .sustainability-copy > a, main .company-profile-heading > p, main .company-profile-strengths-heading, main .contact-card, main .founders-commitment", "up", 45);
+      reveal("main .section-copy .check-list > *, main .story-badges > *, main .company-profile-strengths > *", "left", 70);
+
+      const grids = [
+        ".featured-pads-grid", ".advantages-grid", ".feature-cards",
+        ".category-grid", ".specs-grid", ".company-profile-principles",
+        ".process-grid", ".applications-list", ".contact-steps",
+        ".about-values", ".commitments", ".founders-grid", ".faq-list",
+      ];
+
+      grids.forEach((selector) => {
+        document.querySelectorAll(selector).forEach((grid) => {
+          Array.from(grid.children).forEach((element, index) => {
+            add(element, selector === ".advantages-grid" ? "scale" : "card", index * 100);
+          });
         });
-      },
-      { threshold: 0.08, rootMargin: "0px 0px -6% 0px" },
-    );
+      });
 
-    targets.forEach((element) => observer.observe(element));
-    const frame = requestAnimationFrame(() => root.classList.add("motion-ready"));
+      document.querySelectorAll(".focus-grid, .cta-band .page-container, .principle-band .page-container, .site-footer .footer-main").forEach((group) => {
+        Array.from(group.children).forEach((element, index) => {
+          add(element, index % 2 === 0 ? "left" : "right", index * 90);
+        });
+      });
 
-    return () => {
-      cancelAnimationFrame(frame);
-      observer.disconnect();
-      root.classList.remove("motion-ready");
+      // Keep content already on screen visible while later sections wait to enter.
       targets.forEach((element) => {
-        delete element.dataset.motion;
-        delete element.dataset.motionCard;
-        element.style.removeProperty("--motion-delay");
-        element.classList.remove("is-visible");
-        element.classList.remove("has-revealed");
+        const bounds = element.getBoundingClientRect();
+        if (bounds.bottom > 0 && bounds.top < window.innerHeight * 0.88) {
+          element.classList.add("is-visible", "motion-skip");
+        }
       });
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          const element = entry.target as HTMLElement;
+          element.classList.add("is-visible");
+          observer.unobserve(element);
+        });
+      }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+
+      targets.forEach((element) => {
+        if (!element.classList.contains("is-visible")) observer.observe(element);
+      });
+      root.classList.add("motion-ready");
+
+      stop = () => {
+        observer.disconnect();
+        root.classList.remove("motion-ready");
+        targets.forEach((element) => {
+          delete element.dataset.motion;
+          element.style.removeProperty("--motion-delay");
+          element.classList.remove("is-visible", "motion-skip");
+        });
+      };
+    };
+
+    start();
+    media.addEventListener("change", start);
+    return () => {
+      media.removeEventListener("change", start);
+      stop();
     };
   }, [pathname]);
 

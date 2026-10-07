@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Hero() {
   const proof = [
@@ -15,6 +14,7 @@ export default function Hero() {
           src="/images/hero-honeycomb-v2.webp"
           alt=""
           fill
+          loading="eager"
           fetchPriority="high"
           sizes="100vw"
         />
@@ -28,8 +28,8 @@ export default function Hero() {
           </h1>
           <p className="hero-description">High-performance cooling media made with imported raw materials for strong water absorption, dependable airflow and lasting structure.</p>
           <div className="hero-actions">
-            <Link className="gold-button" href="/products">Explore Cooling Pads</Link>
-            <Link className="outline-button" href="/contact#quote-form">Get a Custom Quote</Link>
+            <a className="gold-button" href="/products">Explore Cooling Pads</a>
+            <a className="outline-button" href="/contact#quote-form">Get a Custom Quote</a>
           </div>
           <div className="hero-proof" role="list" aria-label="Product highlights">
             {proof.map((item) => <div role="listitem" key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>)}
