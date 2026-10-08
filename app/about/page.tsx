@@ -26,22 +26,20 @@ export default function AboutPage() {
             <Image
               src="/images/coolnest-interior.png"
               alt="Coolnest Industries corporate emblem and interior"
-              width={766}
-              height={430}
+              width={1066}
+              height={720}
             />
           </div>
           <div className="section-copy">
             <SectionLabel>OUR STORY &amp; IDENTITY</SectionLabel>
-            <h2 id="story-title">100% Focused on Honeycomb Cooling Media</h2>
+            <h2 id="story-title">Coolnest industries</h2>
             <p>
               Coolnest Industries is a dedicated manufacturing enterprise located at F-720, MG Road Industrial Area, Hapur, Uttar Pradesh (GST: {company.gst}). Unlike generic traders or broad assemblers, we concentrate 100% of our production, engineering, and testing on one essential component: Honeycomb Cooling Pads.
             </p>
             <p>
               Founded by Mohd Imran and Abu Lais, our company was built to solve a key industry challenge: delivering consistently dense, sag-resistant, and high-absorption cooling media. By utilizing imported raw materials and precision flute forming (5 mm to 7 mm), our pads maximize water-to-air evaporation while maintaining low pressure drop.
             </p>
-            <p>
-              From custom-dimension replacements for residential and commercial coolers to large-scale bulk OEM contracts, Coolnest Industries stands for direct factory pricing, reliable supply, and personal accountability.
-            </p>
+
             <div className="story-badges">
               <div className="story-badge"><Factory aria-hidden="true" /><span>Hapur Industrial Facility</span></div>
               <div className="story-badge"><Layers aria-hidden="true" /><span>5 mm to 7 mm Flute Profiles</span></div>

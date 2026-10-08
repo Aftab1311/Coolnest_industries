@@ -75,7 +75,6 @@ export function FoundersSpotlight() {
                 <div className="founder-meta">
                   <span className="founder-role-badge">{founder.role}</span>
                   <h3>{founder.name}</h3>
-                  <div className="founder-focus-pill">{founder.focus}</div>
                 </div>
               </div>
               <p className="founder-bio">{founder.bio}</p>
