@@ -227,7 +227,7 @@
 
 .site-header { animation: motion-header-in 600ms cubic-bezier(.22, 1,.36, 1) both; }
 .hero-tag { animation: motion-float 6s ease-in-out infinite; }
-.whatsapp-float { animation: motion-bounce 7s ease-in-out infinite; }
+.whatsapp-float-group { animation: motion-bounce 7s ease-in-out infinite; }
 
 @media (prefers-reduced-motion: no-preference) {
   .hero-copy .hero-eyebrow, .hero-copy h1, .hero-description, .hero-actions,
@@ -242,7 +242,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .site-header, .hero-tag, .whatsapp-float { animation: none; }
+  .site-header, .hero-tag, .whatsapp-float-group, .whatsapp-float { animation: none; }
   .gold-button, .outline-button, .light-button, .featured-pad-action,
   .enquiry-submit, .featured-pad-image img, .spotlight-visual img,
   .category-card-image img, .applications-image img, .quality-image img,
