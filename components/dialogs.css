@@ -154,33 +154,114 @@
   filter: brightness(0.94);
 }
 
-.enquiry-success {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
+.enquiry-submit:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.honeypot-field {
+  position: absolute !important;
+  left: -10000px;
+  width: 1px !important;
+  height: 1px;
+  overflow: hidden;
+}
+
+.enquiry-error {
   margin-top: 20px;
   padding: 15px;
-  border: 1px solid #d5dfc7;
+  border: 1px solid #e6c5bd;
   border-radius: 7px;
-  background: #f3f7ed;
-  color: #3c562b;
-}
-
-.enquiry-success > svg {
-  flex: 0 0 auto;
-  margin-top: 1px;
-}
-
-.enquiry-success strong {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.enquiry-success p {
-  margin: 5px 0 0;
+  background: #fff5f2;
+  color: #9a3e2b;
   font-size: 12px;
   line-height: 1.6;
 }
+
+.enquiry-success-modal {
+  position: fixed;
+  z-index: 100;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: #1725368c;
+  backdrop-filter: blur(5px);
+  animation: enquiry-modal-in 180ms ease-out both;
+}
+
+.enquiry-success-card {
+  position: relative;
+  display: flex;
+  width: min(430px, 100%);
+  flex-direction: column;
+  align-items: center;
+  padding: 42px 34px 32px;
+  border: 1px solid #ead9bb;
+  border-radius: 18px;
+  background: #fffefa;
+  box-shadow: 0 24px 80px #17253640;
+  color: var(--navy, #17263a);
+  text-align: center;
+  animation: enquiry-card-in 260ms cubic-bezier(.2, 1.4, .4, 1) both;
+}
+
+.enquiry-success-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border: 1px solid #eadfce;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted, #596474);
+}
+
+.enquiry-success-close:hover { background: #f5eddf; color: var(--navy, #17263a); }
+
+.enquiry-success-icon {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  place-items: center;
+  border: 1px solid #bd8731;
+  border-radius: 50%;
+  background: #fbf1de;
+  color: #9b6716;
+}
+
+.enquiry-success-card strong {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.enquiry-success-card p {
+  max-width: 320px;
+  margin-top: 9px;
+  color: var(--muted, #596474);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.enquiry-success-action {
+  min-width: 120px;
+  min-height: 40px;
+  margin-top: 24px;
+  padding: 0 20px;
+  border: 1px solid #b38230;
+  border-radius: 999px;
+  background: linear-gradient(110deg, #956014, #7f4f0a);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+@keyframes enquiry-modal-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes enquiry-card-in { from { opacity: 0; transform: translateY(16px) scale(.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
 
 .detail-image {
   overflow: hidden;

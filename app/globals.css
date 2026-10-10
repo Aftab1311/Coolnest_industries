@@ -5,7 +5,7 @@
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; scroll-padding-top:90px; }
 body { margin:0; color:var(--navy); background:#fff; font-family:var(--font-inter),Arial,sans-serif; }
-body:has(dialog[open]) { overflow:hidden; }
+body:has(dialog[open]),body:has(.enquiry-success-modal) { overflow:hidden; }
 a { color:inherit; text-decoration:none; }
 button,input,select,textarea { font:inherit; }
 button { color:inherit; cursor:pointer; }
