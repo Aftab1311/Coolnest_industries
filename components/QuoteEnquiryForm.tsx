@@ -1,24 +1,14 @@
 "use client";
 
 import { CheckCircle2, Send, X } from "lucide-react";
-import { type FormEvent, useEffect, useState } from "react";
+import { type FormEvent, useState } from "react";
 
-const productNames = {
-  "honeycomb-pad": "Honeycomb Cooling Pad",
-  "air-cooler-pad": "Air Cooler Cooling Pad",
-} as const;
+type ProductId = "honeycomb-pad" | "air-cooler-pad";
 
-type ProductId = keyof typeof productNames;
-
-export default function QuoteEnquiryForm() {
-  const [product, setProduct] = useState<ProductId>("honeycomb-pad");
+export default function QuoteEnquiryForm({ initialProduct = "honeycomb-pad" }: { initialProduct?: ProductId }) {
+  const [product, setProduct] = useState<ProductId>(initialProduct);
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
-
-  useEffect(() => {
-    const requestedProduct = new URLSearchParams(window.location.search).get("product");
-    if (requestedProduct === "honeycomb-pad" || requestedProduct === "air-cooler-pad") setProduct(requestedProduct);
-  }, []);
 
   async function sendEnquiry(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -61,7 +51,7 @@ export default function QuoteEnquiryForm() {
         </div>
         <div className="enquiry-row">
           <label htmlFor="quote-product">Product <span>*</span><select id="quote-product" name="product" value={product} onChange={(event) => setProduct(event.target.value as ProductId)}><option value="honeycomb-pad">Honeycomb Cooling Pad</option><option value="air-cooler-pad">Air Cooler Cooling Pad</option></select></label>
-          <label htmlFor="quote-application">Application <span>*</span><select id="quote-application" name="application" required defaultValue=""><option value="" disabled>Select an application</option><option>Air cooler</option><option>Evaporative cooling system</option><option>OEM / bulk requirement</option><option>Other</option></select></label>
+          <label htmlFor="quote-application">Application <span>*</span><select id="quote-application" name="application" required defaultValue=""><option value="" disabled>Select an application</option><option>Air cooler</option><option>Evaporative cooling system</option><option>Industrial cooling</option><option>Air washer</option><option>Bulk order</option><option>Other</option></select></label>
         </div>
         <label htmlFor="quote-quantity">Quantity <span>*</span><input id="quote-quantity" name="quantity" placeholder="e.g. 100 pieces" required /></label>
         <label htmlFor="quote-message">Additional requirements<textarea id="quote-message" name="message" placeholder="Add colour, flute profile, delivery timeline or any other requirement." /></label>

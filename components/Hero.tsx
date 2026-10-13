@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   const proof = [
-    { value: "5–7 mm", label: "Flute profile" },
-    { value: "Custom", label: "Sizes & colours" },
-    { value: "Bulk", label: "OEM ready" },
+    { value: "Custom", label: "Sizes by enquiry" },
+    { value: "Bulk", label: "Order enquiries" },
+    { value: "Hapur", label: "Uttar Pradesh" },
   ];
 
   return (
@@ -23,13 +24,13 @@ export default function Hero() {
         <div className="hero-copy">
           <p className="hero-eyebrow">COOLNEST INDUSTRIES <span>•</span> HAPUR, INDIA</p>
           <h1 id="hero-title">
-            <span className="hero-title-primary">Honeycomb Cooling Pads</span>
-            <span className="hero-title-accent">Built for Better Air.</span>
+            <span className="hero-title-primary">Honeycomb Cooling Pad</span>
+            <span className="hero-title-accent">Manufacturer in Hapur</span>
           </h1>
-          <p className="hero-description">High-performance cooling media made with imported raw materials for strong water absorption, dependable airflow and lasting structure.</p>
+          <p className="hero-description">Coolnest Industries manufactures honeycomb evaporative cooling pads in Hapur, Uttar Pradesh. Share the required size, flute profile, quantity and application for an enquiry.</p>
           <div className="hero-actions">
-            <a className="gold-button" href="/products">Explore Cooling Pads</a>
-            <a className="outline-button" href="/contact#quote-form">Get a Custom Quote</a>
+            <Link className="gold-button" href="/products">Explore Cooling Pads</Link>
+            <Link className="outline-button" href="/contact#quote-form">Get a Custom Quote</Link>
           </div>
           <div className="hero-proof" role="list" aria-label="Product highlights">
             {proof.map((item) => <div role="listitem" key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>)}

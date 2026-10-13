@@ -7,14 +7,25 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import SiteMotion from "@/components/SiteMotion";
+import { SiteStructuredData } from "@/components/StructuredData";
+import { pageMetadata, siteName, siteUrl } from "@/lib/seo";
 
 const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: { default: "CoolNest Industries | Honeycomb Cooling Pads", template: "%s | CoolNest Industries" },
-  description: "High-quality honeycomb evaporative cooling pads made with treated water-absorbing paper for reliable, efficient cooler performance.",
+  ...pageMetadata({
+    title: "Honeycomb Cooling Pad Manufacturer in Hapur",
+    description: "Coolnest Industries manufactures honeycomb cooling pads in Hapur, Uttar Pradesh. Explore evaporative cooling pads, bulk supply and custom sizes.",
+    path: "/",
+  }),
+  metadataBase: siteUrl,
+  title: {
+    default: `${siteName} | Honeycomb Cooling Pad Manufacturer in Hapur`,
+    template: `%s | ${siteName}`,
+  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body className={`${inter.variable} antialiased`}><a href="#main" className="skip-link">Skip to content</a><Header />{children}<Footer /><WhatsAppButton /><SiteMotion /></body></html>;
+  return <html lang="en-IN"><body className={`${inter.variable} antialiased`}><SiteStructuredData /><a href="#main" className="skip-link">Skip to content</a><Header />{children}<Footer /><WhatsAppButton /><SiteMotion /></body></html>;
 }

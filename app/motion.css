@@ -257,3 +257,22 @@
   .advantage:hover .outline-icon, .feature-cards article:hover .feature-number,
   .process-grid article:hover > svg, .commitment:hover > svg { transform: none; }
 }
+
+/* Keep in-view motion from temporarily widening the mobile layout. */
+@supports (animation-timeline: view()) {
+  @media (max-width:1023px) and (prefers-reduced-motion: no-preference) {
+    main .spotlight-visual,
+    main .story-image,
+    main .about-image,
+    main .applications-image,
+    main .company-profile-visual,
+    main .quality-image,
+    main .sustainability-leaves,
+    main .contact-card,
+    main .contact-details,
+    main .founder-card:nth-child(odd),
+    main .founder-card:nth-child(even) {
+      animation-name: reveal-up;
+    }
+  }
+}

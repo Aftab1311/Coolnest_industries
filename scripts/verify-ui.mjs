@@ -2,7 +2,7 @@ import { mkdir } from "node:fs/promises";
 import { launchBrowser } from "./browser.mjs";
 
 const base = process.env.BASE_URL ?? "http://localhost:3000";
-const routes = ["/", "/products", "/about", "/sustainability", "/contact"];
+const routes = ["/", "/products", "/products/honeycomb-cooling-pads", "/products/air-cooler-cooling-pads", "/about", "/sustainability", "/contact"];
 const viewports = [{ name: "desktop", width: 1440, height: 1000 }, { name: "mobile", width: 390, height: 844 }];
 const browser = await launchBrowser();
 await mkdir("artifacts/routes", { recursive: true });
@@ -38,25 +38,23 @@ for (const viewport of viewports) {
 }
 
 const page = await browser.newPage({ viewport: viewports[0] });
-await page.goto(base, { waitUntil: "networkidle" });
-await page.getByRole("button", { name: "View Product" }).click();
-await page.locator("dialog").getByRole("heading", { name: "Honeycomb Cooling Pads" }).waitFor();
-await page.locator("dialog").getByRole("button", { name: "Request a Quote" }).click();
-await page.getByRole("heading", { name: "Request a Quote" }).waitFor();
+await page.goto(`${base}/products`, { waitUntil: "networkidle" });
+await page.getByRole("link", { name: "Product information" }).first().click();
+await page.getByRole("heading", { name: "Honeycomb Cooling Pad Manufacturer in Hapur" }).waitFor();
+if (!page.url().endsWith("/products/honeycomb-cooling-pads")) failures.push({ interaction: "product detail link did not navigate" });
+
+await page.goto(`${base}/contact?product=air-cooler-pad#quote-form`, { waitUntil: "networkidle" });
+await page.getByRole("heading", { name: "Tell Us What You Need" }).waitFor();
 await page.getByLabel("Your name *").fill("Visual QA");
-await page.getByLabel("Email address *").fill("qa@example.com");
-await page.getByLabel("How can we help? *").fill("Honeycomb pad requirement test");
-const download = page.waitForEvent("download");
-await page.getByRole("button", { name: "Download enquiry", exact: true }).click();
-await download;
-await page.getByText("Your enquiry is ready").waitFor();
-await page.getByRole("button", { name: "Close dialog" }).click();
-if (await page.locator("dialog[open]").count()) failures.push({ interaction: "dialog failed to close" });
+await page.getByLabel("Phone number *").fill("+91 9000000000");
+await page.getByLabel("Quantity *").fill("10 pieces");
+if (await page.locator("#quote-product").inputValue() !== "air-cooler-pad") failures.push({ interaction: "product enquiry selection did not load" });
+
 await page.setViewportSize(viewports[1]);
-await page.getByRole("button", { name: "Open navigation" }).click();
-if (!(await page.getByRole("navigation", { name: "Main navigation" }).isVisible())) failures.push({ interaction: "mobile navigation failed to open" });
+await page.locator(".mobile-nav summary").click();
+if (!(await page.getByRole("navigation", { name: "Mobile navigation" }).isVisible())) failures.push({ interaction: "mobile navigation failed to open" });
 await page.close();
 await browser.close();
 
 if (failures.length) { console.error(JSON.stringify(failures, null, 2)); process.exit(1); }
-console.log(`Verified ${routes.length} routes at desktop and mobile sizes, plus quote download and mobile navigation.`);
+console.log(`Verified ${routes.length} routes at desktop and mobile sizes, product detail navigation, enquiry form inputs and mobile navigation.`);

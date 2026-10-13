@@ -3,7 +3,7 @@
 @theme inline { --font-sans: var(--font-inter), Arial, sans-serif; --color-gold: #bd8b36; --color-navy: #19283a; }
 :root { --gold:#bd8731; --gold-dark:#89570b; --navy:#19283a; --muted:#5a6675; --line:#eadfce; --cream:#fbf8f1; --soft:#f5efe4; }
 * { box-sizing:border-box; }
-html { scroll-behavior:smooth; scroll-padding-top:90px; }
+html { scroll-behavior:smooth; scroll-padding-top:90px; overflow-x:clip; }
 body { margin:0; color:var(--navy); background:#fff; font-family:var(--font-inter),Arial,sans-serif; }
 body:has(dialog[open]),body:has(.enquiry-success-modal) { overflow:hidden; }
 a { color:inherit; text-decoration:none; }
@@ -104,7 +104,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible { outline:2px solid v
 
 .advantages-section { padding:90px 0; background:var(--cream); }
 .advantages-section h2,.center-title { margin-top:10px; text-align:center; font-size:clamp(32px,3vw,43px); font-weight:400; line-height:1.2; letter-spacing:-.035em; }
-.advantages-grid { display:grid; grid-template-columns:repeat(5,1fr); margin-top:48px; }
+.advantages-grid { display:grid; grid-template-columns:repeat(3,1fr); row-gap:36px; margin-top:48px; }
 .advantage { position:relative; padding:0 18px; text-align:center; }
 .advantage+.advantage::before { content:""; position:absolute; left:0; top:14px; bottom:0; width:1px; background:var(--line); }
 .outline-icon,.feature-number { display:inline-grid; place-items:center; width:58px; height:58px; border:1px solid var(--gold); border-radius:50%; color:var(--gold); background:#fffdf8; }
@@ -209,6 +209,32 @@ button:focus-visible,a:focus-visible,summary:focus-visible { outline:2px solid v
 .page-hero-art { height:430px; position:relative; overflow:hidden; align-self:stretch; margin-right:calc(-1 * max(36px,calc((100vw - 1180px)/2))); }
 .page-hero-art::after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,#f8f2e7 0,transparent 22%); }
 .page-hero-art img { width:100%; height:100%; object-fit:cover; }
+.breadcrumbs { padding-top:15px; padding-bottom:15px; }
+.breadcrumbs ol { display:flex; flex-wrap:wrap; gap:9px; margin:0; padding:0; list-style:none; color:#687382; font-size:11px; }
+.breadcrumbs li+li::before { content:"/"; margin-right:9px; color:#a28a64; }
+.breadcrumbs a:hover { color:var(--gold-dark); text-decoration:underline; }
+.product-detail { background:linear-gradient(115deg,#fff,#f8f2e7); }
+.product-detail-grid { display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:64px; }
+.product-detail-image { overflow:hidden; border-radius:16px; background:#f0ede7; box-shadow:0 20px 60px #31240f18; }
+.product-detail-image img { width:100%; height:auto; }
+.product-detail-copy h1 { margin-top:15px; font-size:clamp(39px,4vw,58px); font-weight:400; line-height:1.08; letter-spacing:-.045em; }
+.product-detail-copy>p { margin-top:19px; color:var(--muted); font-size:14px; line-height:1.8; }
+.product-detail-copy .check-list { display:grid; grid-template-columns:1fr; margin-bottom:25px; }
+.product-information { background:#fff; }
+.product-information-grid { display:grid; grid-template-columns:1fr 1fr; align-items:start; gap:60px; }
+.product-information-grid h2 { margin-top:12px; font-size:clamp(29px,3vw,40px); font-weight:400; line-height:1.15; letter-spacing:-.04em; }
+.product-information-grid p { margin-top:16px; color:var(--muted); font-size:14px; line-height:1.75; }
+.product-information-grid .text-button { display:inline-flex; margin-top:18px; color:var(--gold-dark); }
+.product-spec-list { margin:0; border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+.product-spec-list>div { display:grid; grid-template-columns:1fr 1.3fr; gap:18px; padding:15px 20px; border-bottom:1px solid var(--line); }
+.product-spec-list>div:last-child { border-bottom:0; }
+.product-spec-list dt { color:var(--muted); font-size:12px; }
+.product-spec-list dd { margin:0; color:var(--navy); font-size:12px; line-height:1.5; }
+.product-faq { background:var(--cream); }
+.flute-profile-note { margin-top:36px; padding:27px 30px; border:1px solid var(--line); border-radius:12px; background:#fffdfa; }
+.flute-profile-note h3 { font-size:18px; font-weight:600; }
+.flute-profile-note p { max-width:800px; margin-top:9px; color:var(--muted); font-size:13px; line-height:1.7; }
+.flute-profile-note .text-button { display:inline-flex; margin-top:10px; color:var(--gold-dark); }
 .quality { background:white; }
 .quality-image { height:520px; overflow:hidden; border-radius:18px; box-shadow:0 24px 60px #31240f18; }
 .quality-image img { width:100%; height:100%; object-fit:cover; object-position:center; }
@@ -336,6 +362,17 @@ button:focus-visible,a:focus-visible,summary:focus-visible { outline:2px solid v
 }
 
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition:none!important; } }
+
+@media (max-width:800px) {
+  .product-detail-grid,.product-information-grid { grid-template-columns:1fr; gap:34px; }
+  .product-detail-image { max-width:680px; }
+}
+@media (max-width:540px) {
+  .breadcrumbs { padding-top:12px; padding-bottom:12px; }
+  .product-detail-copy h1 { font-size:38px; }
+  .product-spec-list>div { grid-template-columns:1fr; gap:5px; padding:13px 16px; }
+  .flute-profile-note { padding:22px 20px; }
+}
 
 /* Air-cooling pad feature section */
 .advantages-section {
@@ -736,5 +773,12 @@ button:focus-visible,a:focus-visible,summary:focus-visible { outline:2px solid v
   .story-badges {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width:540px) {
+  .footer-main { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .footer-main>div { min-width:0; }
+  .footer-main>div:not(.footer-brand)>a { width:auto; overflow-wrap:anywhere; }
+  .footer-brand>p { overflow-wrap:anywhere; }
 }
 

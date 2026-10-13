@@ -1,23 +1,23 @@
 export type ProductId = "honeycomb-pad" | "air-cooler-pad";
-export type Product = { id: ProductId; name: string; shortName: string; image: string; imageAlt: string; description: string; details: string[]; specs: { label: string; value: string }[]; };
+export type Product = { id: ProductId; slug: string; name: string; shortName: string; image: string; imageWidth: number; imageHeight: number; imageAlt: string; description: string; details: string[]; specs: { label: string; value: string }[]; };
 
 const sharedSpecs = [
-  { label: "Material", value: "Imported raw materials" }, { label: "Thickness", value: "Custom size available" },
-  { label: "Height / width", value: "Custom size available" }, { label: "Flute / profile", value: "5 mm to 7 mm" },
-  { label: "Colour", value: "All colours" }, { label: "Customization", value: "Available as per requirement" },
+  { label: "Material", value: "Confirm for the selected product" }, { label: "Thickness", value: "Confirm for your requirement" },
+  { label: "Height / width", value: "Custom sizes by enquiry" }, { label: "Flute / profile", value: "5090 and 7090 profiles listed; confirm specification" },
+  { label: "Customization", value: "Discuss dimensions and profile with our team" },
 ];
 
 export const products: Product[] = [
   {
-    id: "honeycomb-pad", name: "Honeycomb Cooling Pads", shortName: "Honeycomb Cooling Pad", image: "/images/honeycomb-cooling-pad.webp",
+    id: "honeycomb-pad", slug: "honeycomb-cooling-pads", name: "Honeycomb Cooling Pads", shortName: "Honeycomb Cooling Pad", image: "/images/honeycomb-cooling-pad.webp", imageWidth: 900, imageHeight: 620,
     imageAlt: "Brown honeycomb cooling pad with a dense folded paper structure",
-    description: "High-performance honeycomb cooling pads designed for efficient water absorption, air cooling performance, durability and consistent quality.",
-    details: ["Uniform honeycomb structure for good air-to-water contact.", "Custom sizes and specifications available by enquiry.", "Suitable for bulk and OEM requirements."], specs: sharedSpecs,
+    description: "Honeycomb cooling pads for evaporative cooling applications. Share the required size, flute profile and quantity when you enquire.",
+    details: ["Honeycomb cooling pad product family.", "Custom sizes can be discussed by enquiry.", "Bulk quantity enquiries accepted."], specs: sharedSpecs,
   },
   {
-    id: "air-cooler-pad", name: "Air Cooler Cooling Pads", shortName: "Air Cooler Cooling Pad", image: "/images/air-cooler-cooling-pad.webp",
+    id: "air-cooler-pad", slug: "air-cooler-cooling-pads", name: "Air Cooler Cooling Pads", shortName: "Air Cooler Cooling Pad", image: "/images/air-cooler-cooling-pad.webp", imageWidth: 900, imageHeight: 620,
     imageAlt: "Blue air cooler cooling pad with a structured evaporative paper profile",
-    description: "Cooling media made for air coolers and evaporative cooling applications, with a focus on water absorption, dependable airflow and reliable supply.",
-    details: ["Suitable for various air-cooler applications.", "Available in custom sizes for replacement or new requirements.", "Bulk production and competitive pricing available by enquiry."], specs: sharedSpecs,
+    description: "Air cooler cooling pads for evaporative cooling applications. Share the equipment, required dimensions and quantity so the team can discuss fit and availability.",
+    details: ["Air cooler cooling pad product family.", "Custom sizes can be discussed by enquiry.", "Bulk quantity enquiries accepted."], specs: sharedSpecs,
   },
 ];
