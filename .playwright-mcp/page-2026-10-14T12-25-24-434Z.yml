@@ -1,0 +1,345 @@
+- generic [active] [ref=f15e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f15e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f15e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f15e8]:
+    - search [ref=f15e9]:
+      - generic [ref=f15e11]:
+        - link "Go to Google Home" [ref=f15e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQPHoECAYQBA
+        - generic [ref=f15e17]:
+          - combobox "Search" [ref=f15e19]: Coolnest Industries Dasna Coolnest Industries Dasna
+          - generic [ref=f15e20]:
+            - button "Clear" [ref=f15e24] [cursor=pointer]
+            - generic [ref=f15e29]:
+              - button "Search by voice" [ref=f15e32] [cursor=pointer]
+              - button "Search by image" [ref=f15e37] [cursor=pointer]
+    - generic [ref=f15e40]:
+      - button "Share" [ref=f15e41] [cursor=pointer]
+      - generic [ref=f15e47]:
+        - button "Google apps" [ref=f15e49] [cursor=pointer]
+        - 'button "Google Account: Umar Khan (umar8368khan@gmail.com)" [ref=f15e54] [cursor=pointer]'
+  - generic [ref=f15e57]:
+    - navigation [ref=f15e63]:
+      - generic [ref=f15e69]:
+        - list [ref=f15e70]:
+          - listitem [ref=f15e71]:
+            - link "AI Mode" [ref=f15e74] [cursor=pointer]:
+              - /url: /search?q=Coolnest+Industries+Dasna&sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQpqR7-Mv1_7cDWgsUufYqZpbKy9zTKCNKDemw88JFWgzgT1gIj5mUazeKucHrUZPyv-YseKkgdr7tiyQyOuNy-o8nT8Zq_Dk9-zYP1uaJ0eOruYFj4haG46Qo8Kp7hjHaazNieQ&vsint=&aep=1&ntc=1&cs=1&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ2J8OegQIFBAD
+          - listitem [ref=f15e78]:
+            - link "All" [disabled] [ref=f15e79]
+          - listitem [ref=f15e82]:
+            - link "Shopping" [ref=f15e83] [cursor=pointer]:
+              - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQpqR7-Mv1_7cDWgsUufYqZpbKy9zTKCNKDemw88JFWgzgT1gIj5mUazeKucHrUZPyv-YseKkgdr7tiyQyOuNy-o8nT8Zq_Dk9-zYP1uaJ0eOruYFj4haG46Qo8Kp7hjHaazNieQ&q=Coolnest+Industries+Dasna&ved=1t:220175&ictx=111
+          - listitem [ref=f15e86]:
+            - link "Images" [ref=f15e87] [cursor=pointer]:
+              - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQpqR7-Mv1_7cDWgsUufYqZpbKy9zTKCNKDemw88JFWgzgT1gIj5mUazeKucHrUZPyv-YseKkgdr7tiyQyOuNy-o8nT8Zq_Dk9-zYP1uaJ0eOruYFj4haG46Qo8Kp7hjHaazNieQ&q=Coolnest+Industries+Dasna&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQtKgLegQIFhAB
+          - listitem [ref=f15e90]:
+            - link "Maps" [ref=f15e91] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=590b7d7f3528a665&output=search&q=Coolnest+Industries+Dasna&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQpqR7-Mv1_7cDWgsUufYqZpbKy9zTKCNKDemw88JFWgzgT1gIj5mUazeKucHrUZPyv-YseKkgdr7tiyQyOuNy-o8nT8Zq_Dk9-zYP1uaJ0eOruYFj4haG46Qo8Kp7hjHaazNieQ&entry=mc&ved=1t:200715&ictx=111
+          - listitem [ref=f15e94]:
+            - link "Videos" [ref=f15e95] [cursor=pointer]:
+              - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQpqR7-Mv1_7cDWgsUufYqZpbKy9zTKCNKDemw88JFWgzgT1gIj5mUazeKucHrUZPyv-YseKkgdr7tiyQyOuNy-o8nT8Zq_Dk9-zYP1uaJ0eOruYFj4haG46Qo8Kp7hjHaazNieQ&q=Coolnest+Industries+Dasna&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQtKgLegQIGBAB
+          - listitem [ref=f15e98]:
+            - link "Forums" [ref=f15e99] [cursor=pointer]:
+              - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQpqR7-Mv1_7cDWgsUufYqZpbKy9zTKCNKDemw88JFWgzgT1gIj5mUazeKucHrUZPyv-YseKkgdr7tiyQyOuNy-o8nT8Zq_Dk9-zYP1uaJ0eOruYFj4haG46Qo8Kp7hjHaazNieQ&q=Coolnest+Industries+Dasna&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQs6gLegQIGRAB
+          - listitem [ref=f15e102]:
+            - button [ref=f15e103] [cursor=pointer]:
+              - generic "More filters" [ref=f15e104]: More
+        - button "Tools" [ref=f15e111] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f15e118]
+    - generic [ref=f15e123]:
+      - generic [ref=f15e142]:
+        - heading "Searching Thinking a little longer" [level=2] [ref=f15e146]:
+          - generic [ref=f15e147]:
+            - generic [ref=f15e148]: Searching
+            - generic [ref=f15e150]: Thinking a little longer
+        - progressbar "Generating" [ref=f15e153]
+      - main [ref=f15e204]:
+        - generic [ref=f15e208]:
+          - generic [ref=f15e209]:
+            - generic [ref=f15e212]:
+              - generic [ref=f15e216]:
+                - generic [ref=f15e224]:
+                  - button "See photos" [ref=f15e228] [cursor=pointer]
+                  - generic [ref=f15e232]:
+                    - generic [ref=f15e233]:
+                      - link [ref=f15e235] [cursor=pointer]:
+                        - /url: /maps/place/Coolvent+Aircon/data=!4m2!3m1!1s0x0:0x702c1060b5067ce5?sa=X&ved=1t:2428&ictx=111
+                        - img "Map of Coolvent Aircon" [ref=f15e237]
+                      - link [ref=f15e239] [cursor=pointer]:
+                        - /url: /maps/place/Coolvent+Aircon/data=!4m2!3m1!1s0x0:0x702c1060b5067ce5?sa=X&ved=1t:2428&ictx=111
+                        - img "Map of Coolvent Aircon" [ref=f15e241]
+                    - link "See outside" [ref=f15e249] [cursor=pointer]:
+                      - /url: /local/place/fid/0x390cef2feb87dd59:0x702c1060b5067ce5/photosphere?iu=https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid%3Dk6XqtlXViLQ6p4C-n3WcxA%26cb_client%3Dsearch.gws-prod.grass%26yaw%3D63.947563%26pitch%3D0%26thumbfov%3D100%26w%3D0%26h%3D0&ik=CAISFms2WHF0bFhWaUxRNnA0Qy1uM1djeEE%3D&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQpx96BAg6EBI
+                - generic [ref=f15e254]:
+                  - heading "Coolvent Aircon" [level=2] [ref=f15e257]
+                  - generic [ref=f15e260]:
+                    - text: "5.0"
+                    - img "Rated 5.0 out of 5," [ref=f15e261]
+                    - button "1 Google review" [ref=f15e266] [cursor=pointer]
+                    - text: Manufacturer in Ghaziabad, Uttar Pradesh
+                - generic [ref=f15e273]:
+                  - generic [ref=f15e285]:
+                    - link "Website" [ref=f15e287] [cursor=pointer]:
+                      - /url: https://coolventaircon.in/
+                    - link "Directions" [ref=f15e294]
+                    - button "Write a review" [ref=f15e304] [cursor=pointer]
+                    - button "Save Coolvent Aircon to collection" [ref=f15e315] [cursor=pointer]:
+                      - generic [ref=f15e318]: Save
+                    - button "Share" [ref=f15e321] [cursor=pointer]
+                    - button "Call" [ref=f15e328] [cursor=pointer]
+                  - generic [ref=f15e338]:
+                    - generic [ref=f15e340]:
+                      - generic [ref=f15e341]:
+                        - link "Address" [ref=f15e342] [cursor=pointer]:
+                          - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&q=coolvent+aircon+greater+noida+address&ludocid=8082853438763203813&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ6BN6BAguEAI
+                        - text: ":"
+                      - text: O-1248/8, Greater Noida W Rd, Gaur City 1, Center, Greater Noida, Ghaziabad, Uttar Pradesh 201318
+                    - generic [ref=f15e345]:
+                      - generic [ref=f15e346]:
+                        - link "Phone" [ref=f15e347] [cursor=pointer]:
+                          - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&q=coolvent+aircon+greater+noida+phone&ludocid=8082853438763203813&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ6BN6BAgwEAI
+                        - text: ":"
+                      - link "Call phone number 093696 07568" [ref=f15e350] [cursor=pointer]:
+                        - /url: "#"
+                        - text: 093696 07568
+                    - generic [ref=f15e351]:
+                      - generic [ref=f15e352]:
+                        - link "Hours" [ref=f15e353] [cursor=pointer]:
+                          - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&q=coolvent+aircon+greater+noida+hours&ludocid=8082853438763203813&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ6BN6BAgvEAI
+                        - text: ":"
+                      - button "Closes soon · 6 pm · Opens 10 am Thu" [ref=f15e355]
+                    - generic [ref=f15e366]:
+                      - link "Suggest an edit" [ref=f15e369] [cursor=pointer]:
+                        - /url: "#"
+                      - text: ·
+                      - link "Own this business?" [ref=f15e372] [cursor=pointer]:
+                        - /url: "#"
+                  - generic [ref=f15e380]:
+                    - generic [ref=f15e381]:
+                      - heading "Reviews" [level=3] [ref=f15e382]
+                      - button "More info" [ref=f15e387] [cursor=pointer]
+                      - generic [ref=f15e391]:
+                        - button "Write a review" [ref=f15e395] [cursor=pointer]
+                        - button "Add photos" [ref=f15e400] [cursor=pointer]
+                    - generic [ref=f15e404]:
+                      - text: "5.0"
+                      - img "Rated 5.0 out of 5," [ref=f15e405]
+                      - button "1 Google review" [ref=f15e410] [cursor=pointer]
+                  - generic [ref=f15e418]:
+                    - generic [ref=f15e419]:
+                      - heading "From Coolvent Aircon" [level=3] [ref=f15e420]
+                      - button "Report description" [ref=f15e422]
+                    - generic [ref=f15e425]: "\"World-class Grills, Diffusers, Louvers, Dampers, and Flexible Ducts supplied to elevate your HVAC systems. Proudly based in Noida, powering projects across North-India.\""
+              - link "About this data" [ref=f15e427] [cursor=pointer]:
+                - /url: https://support.google.com/local-listings?p=how_google_sources
+            - generic [ref=f15e429]:
+              - heading "Web results" [level=2] [ref=f15e430]
+              - generic [ref=f15e431]:
+                - generic [ref=f15e434]:
+                  - link "Honeycomb Cooling Pad Manufacturer in Hapur coolnestindustries.com https://coolnestindustries.com" [ref=f15e436] [cursor=pointer]:
+                    - /url: https://coolnestindustries.com/
+                    - heading "Honeycomb Cooling Pad Manufacturer in Hapur" [level=3] [ref=f15e437]
+                    - generic [ref=f15e443]:
+                      - generic [ref=f15e444]: coolnestindustries.com
+                      - generic [ref=f15e446]: https://coolnestindustries.com
+                  - button "About this result" [ref=f15e452] [cursor=pointer]
+                - generic [ref=f15e458]:
+                  - generic [ref=f15e459]:
+                    - text: Coolnest Industries focuses exclusively on
+                    - emphasis [ref=f15e460]: honeycomb cooling pads
+                    - text: . Established in Hapur in 2026, we keep our attention on the paper media, honeycomb formation, ...
+                  - link "Read more" [ref=f15e461] [cursor=pointer]:
+                    - /url: https://coolnestindustries.com/#:~:text=Coolnest%20Industries%20focuses%20exclusively%20on,to%20cooler%20businesses%20and%20buyers.
+                - link [aria-hidden] [ref=f15e464] [cursor=pointer]:
+                  - /url: https://coolnestindustries.com/
+                - generic [ref=f15e468]:
+                  - text: "Missing: Dasna ‎| Show results with:"
+                  - link "Dasna" [ref=f15e469] [cursor=pointer]:
+                    - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&q=Coolnest+Industries+%22Dasna%22&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ5t4CegQIIRAB
+          - generic [ref=f15e473]:
+            - generic [ref=f15e476]:
+              - link "About the Hapur Cooling Pad Manufacturer - Coolnest Industries coolnestindustries.com https://coolnestindustries.com › about" [ref=f15e478] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/about
+                - heading "About the Hapur Cooling Pad Manufacturer - Coolnest Industries" [level=3] [ref=f15e479]
+                - generic [ref=f15e485]:
+                  - generic [ref=f15e486]: coolnestindustries.com
+                  - generic [ref=f15e488]: https://coolnestindustries.com › about
+              - button "About this result" [ref=f15e494] [cursor=pointer]
+            - generic [ref=f15e500]:
+              - generic [ref=f15e501]:
+                - text: Coolnest Industries was established in 2026 by Mohd Imran and Abu Lais. The company manufactures honeycomb cooling pads at F-
+                - emphasis [ref=f15e502]: 720, MG Road Industrial
+                - text: Area, Hapur ...
+              - link "Read more" [ref=f15e503] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/about#:~:text=Coolnest%20Industries%20was%20established%20in,Industrial%20Area%2C%20Hapur%2C%20Uttar%20Pradesh.
+            - generic [ref=f15e505]:
+              - text: "Missing: Dasna ‎| Show results with:"
+              - link "Dasna" [ref=f15e506] [cursor=pointer]:
+                - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&q=Coolnest+Industries+%22Dasna%22&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ5t4CegQIHRAB
+          - generic [ref=f15e510]:
+            - generic [ref=f15e513]:
+              - link "Honeycomb & Air Cooler Cooling Pads - Coolnest Industries coolnestindustries.com https://coolnestindustries.com › products" [ref=f15e515] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/products
+                - heading "Honeycomb & Air Cooler Cooling Pads - Coolnest Industries" [level=3] [ref=f15e516]
+                - generic [ref=f15e522]:
+                  - generic [ref=f15e523]: coolnestindustries.com
+                  - generic [ref=f15e525]: https://coolnestindustries.com › products
+              - button "About this result" [ref=f15e531] [cursor=pointer]
+            - generic [ref=f15e537]:
+              - generic [ref=f15e538]:
+                - text: Coolnest Industries
+                - emphasis [ref=f15e539]: manufactures honeycomb cooling pads for evaporative cooling applications
+                - text: . Buyers can share dimensions, flute profile, quantity and ...
+              - link "Read more" [ref=f15e540] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/products#:~:text=Coolnest%20Industries%20manufactures%20honeycomb%20cooling,respond%20to%20the%20specific%20requirement.
+            - generic [ref=f15e542]:
+              - text: "Missing: Dasna ‎| Show results with:"
+              - link "Dasna" [ref=f15e543] [cursor=pointer]:
+                - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&q=Coolnest+Industries+%22Dasna%22&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ5t4CegQITxAB
+          - generic [ref=f15e547]:
+            - generic [ref=f15e550]:
+              - link "Coolnest Engineering Solutions | HVAC, Ducting ... Coolnest Engineering Solutions https://coolnestengineering.in" [ref=f15e552] [cursor=pointer]:
+                - /url: https://coolnestengineering.in/
+                - heading "Coolnest Engineering Solutions | HVAC, Ducting ..." [level=3] [ref=f15e553]
+                - generic [ref=f15e559]:
+                  - generic [ref=f15e560]: Coolnest Engineering Solutions
+                  - generic [ref=f15e562]: https://coolnestengineering.in
+              - button "About this result" [ref=f15e568] [cursor=pointer]
+            - generic [ref=f15e574]:
+              - generic [ref=f15e575]:
+                - text: We are a trusted
+                - emphasis [ref=f15e576]: duct work contractor
+                - text: specialising in HVAC ducting, centralised AC duct work, kitchenhood cleaning, cladding work, exhaust works, and duct ...
+              - link "Read more" [ref=f15e577] [cursor=pointer]:
+                - /url: https://coolnestengineering.in/#:~:text=We%20are%20a%20trusted%20duct,exhaust%20works%2C%20and%20duct%20maintenance.
+            - generic [ref=f15e579]:
+              - text: "Missing: Dasna ‎| Show results with:"
+              - link "Dasna" [ref=f15e580] [cursor=pointer]:
+                - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&q=Coolnest+Industries+%22Dasna%22&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ5t4CegQITRAB
+          - generic [ref=f15e584]:
+            - generic [ref=f15e587]:
+              - link "Top Cooling Tower Manufacturers in Dasna, Ghaziabad Justdial https://www.justdial.com › ... › 360+ Listings" [ref=f15e589] [cursor=pointer]:
+                - /url: https://www.justdial.com/Ghaziabad/Cooling-Tower-Manufacturers-in-Dasna/nct-10137057
+                - heading "Top Cooling Tower Manufacturers in Dasna, Ghaziabad" [level=3] [ref=f15e590]
+                - generic [ref=f15e596]:
+                  - generic [ref=f15e597]: Justdial
+                  - generic [ref=f15e599]: https://www.justdial.com › ... › 360+ Listings
+              - button "About this result" [ref=f15e605] [cursor=pointer]
+            - generic [ref=f15e612]:
+              - emphasis [ref=f15e613]: 360 Cooling Tower Manufacturers in Dasna
+              - text: . From ₹50/Pc Products Available. Good company, Quality material. providing essential heat rejection
+          - generic [ref=f15e617]:
+            - generic [ref=f15e620]:
+              - link "Top Air Cooler Manufacturers in Dasna Rs Ghaziabad Justdial https://www.justdial.com › ... › 1526+ Listings" [ref=f15e622] [cursor=pointer]:
+                - /url: https://www.justdial.com/Ghaziabad/Air-Cooler-Manufacturers-in-Dasna-Rs-Ghaziabad/nct-10010709
+                - heading "Top Air Cooler Manufacturers in Dasna Rs Ghaziabad" [level=3] [ref=f15e623]
+                - generic [ref=f15e629]:
+                  - generic [ref=f15e630]: Justdial
+                  - generic [ref=f15e632]: https://www.justdial.com › ... › 1526+ Listings
+              - button "About this result" [ref=f15e638] [cursor=pointer]
+            - generic [ref=f15e645]:
+              - text: "1526"
+              - emphasis [ref=f15e646]: Air Cooler Manufacturers in Dasna Rs Ghaziabad
+              - text: . Find ✓Air Coolers, ✓Plastic Air Cooler, ✓Portable Air Cooler, Starts From ₹1.8K delhi
+            - link [aria-hidden] [ref=f15e649] [cursor=pointer]:
+              - /url: https://www.justdial.com/Ghaziabad/Air-Cooler-Manufacturers-in-Dasna-Rs-Ghaziabad/nct-10010709
+          - generic [ref=f15e655]:
+            - generic [ref=f15e658]:
+              - link "Air Cooler Cooling Pad Manufacturer in Hapur coolnestindustries.com https://coolnestindustries.com › Products" [ref=f15e660] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/products/air-cooler-cooling-pads
+                - heading "Air Cooler Cooling Pad Manufacturer in Hapur" [level=3] [ref=f15e661]
+                - generic [ref=f15e667]:
+                  - generic [ref=f15e668]: coolnestindustries.com
+                  - generic [ref=f15e670]: https://coolnestindustries.com › Products
+              - button "About this result" [ref=f15e676] [cursor=pointer]
+            - generic [ref=f15e683]:
+              - text: Coolnest Industries
+              - emphasis [ref=f15e684]: manufactures cooling pads in Hapur, Uttar Pradesh
+              - text: . industries@gmail.com +91 9717146404 +91 7014586670 Monday – Saturday, 9 am – 9 pm Sunday ...
+            - link [aria-hidden] [ref=f15e687] [cursor=pointer]:
+              - /url: https://coolnestindustries.com/products/air-cooler-cooling-pads
+            - generic [ref=f15e691]:
+              - text: "Missing: Dasna ‎| Show results with:"
+              - link "Dasna" [ref=f15e692] [cursor=pointer]:
+                - /url: /search?sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&q=Coolnest+Industries+%22Dasna%22&sa=X&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ5t4CegQIVBAB
+          - generic [ref=f15e696]:
+            - generic [ref=f15e699]:
+              - link "Store Name SBI Card https://www.sbicard.com › store-godrej-aug24" [ref=f15e701] [cursor=pointer]:
+                - /url: https://www.sbicard.com/sbi-card-en/assets/media/images/personal/offers/categories/shopping/godrej-aug24/store-godrej-aug24.pdf
+                - heading "Store Name" [level=3] [ref=f15e702]
+                - generic [ref=f15e708]:
+                  - generic [ref=f15e709]: SBI Card
+                  - generic [ref=f15e711]: https://www.sbicard.com › store-godrej-aug24
+              - generic [ref=f15e713]: PDF
+              - button "About this result" [ref=f15e718] [cursor=pointer]
+            - generic [ref=f15e725]:
+              - emphasis [ref=f15e726]: Dasna Opposite Yes Bank Dasna
+              - text: GHAZIABAD. AKOLA Maharashtra 444001. KHAITAN NO 558/51
+          - generic [ref=f15e730]:
+            - generic [ref=f15e733]:
+              - link "Geeta Institute of Law, Panipat Delhi NCR Facebook · Geeta Institute of Law, Panipat Delhi NCR 10+ reactions · 2 years ago" [ref=f15e735] [cursor=pointer]:
+                - /url: https://m.facebook.com/GeetaLawCollege/photos/hey-freshers-welcome-to-the-geeta-institute-of-law-familywere-super-excited-to-k/1429893734433341/
+                - heading "Geeta Institute of Law, Panipat Delhi NCR" [level=3] [ref=f15e736]
+                - generic [ref=f15e742]:
+                  - generic [ref=f15e743]: Facebook · Geeta Institute of Law, Panipat Delhi NCR
+                  - generic [ref=f15e745]: 10+ reactions · 2 years ago
+              - button "About this result" [ref=f15e751] [cursor=pointer]
+            - generic [ref=f15e757]:
+              - text: Hey Freshers, welcome to the Geeta Institute of Law family! We're super excited to kick off an amazing journey with you at our "Aarambh 2024" ...
+              - link "Read more" [ref=f15e758] [cursor=pointer]:
+                - /url: https://m.facebook.com/GeetaLawCollege/photos/hey-freshers-welcome-to-the-geeta-institute-of-law-familywere-super-excited-to-k/1429893734433341/#:~:text=Hey%20Freshers%2C%20welcome%20to%20the,Program%20starting%20on%2026th%20July.
+        - navigation [ref=f15e761]:
+          - heading "Page navigation" [level=1] [ref=f15e762]
+          - text: "1"
+          - link "Page 2" [ref=f15e765] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Dasna&sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&ei=snTPavzoPPDl1e8PtsLEyQE&start=10&sa=N&sstk=AS6-VmIqBFgtqHpXjYvbebIqBC2TwR4vP_DoT8CN0c2MEei-HPZf8txXhFZWgYCKGsoeAz06hckmfQ6WCSRnEm1yIZe3lFjGOiK4uw&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ8tMDegQIQhAE
+            - text: "2"
+          - link "Page 3" [ref=f15e767] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Dasna&sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&ei=snTPavzoPPDl1e8PtsLEyQE&start=20&sa=N&sstk=AS6-VmIqBFgtqHpXjYvbebIqBC2TwR4vP_DoT8CN0c2MEei-HPZf8txXhFZWgYCKGsoeAz06hckmfQ6WCSRnEm1yIZe3lFjGOiK4uw&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ8tMDegQIQhAG
+            - text: "3"
+          - link "Page 4" [ref=f15e769] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Dasna&sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&ei=snTPavzoPPDl1e8PtsLEyQE&start=30&sa=N&sstk=AS6-VmIqBFgtqHpXjYvbebIqBC2TwR4vP_DoT8CN0c2MEei-HPZf8txXhFZWgYCKGsoeAz06hckmfQ6WCSRnEm1yIZe3lFjGOiK4uw&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ8tMDegQIQhAI
+            - text: "4"
+          - link "Page 5" [ref=f15e771] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Dasna&sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&ei=snTPavzoPPDl1e8PtsLEyQE&start=40&sa=N&sstk=AS6-VmIqBFgtqHpXjYvbebIqBC2TwR4vP_DoT8CN0c2MEei-HPZf8txXhFZWgYCKGsoeAz06hckmfQ6WCSRnEm1yIZe3lFjGOiK4uw&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ8tMDegQIQhAK
+            - text: "5"
+          - link "Page 6" [ref=f15e773] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Dasna&sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&ei=snTPavzoPPDl1e8PtsLEyQE&start=50&sa=N&sstk=AS6-VmIqBFgtqHpXjYvbebIqBC2TwR4vP_DoT8CN0c2MEei-HPZf8txXhFZWgYCKGsoeAz06hckmfQ6WCSRnEm1yIZe3lFjGOiK4uw&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ8tMDegQIQhAM
+            - text: "6"
+          - link "Page 7" [ref=f15e775] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Dasna&sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&ei=snTPavzoPPDl1e8PtsLEyQE&start=60&sa=N&sstk=AS6-VmIqBFgtqHpXjYvbebIqBC2TwR4vP_DoT8CN0c2MEei-HPZf8txXhFZWgYCKGsoeAz06hckmfQ6WCSRnEm1yIZe3lFjGOiK4uw&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ8tMDegQIQhAO
+            - text: "7"
+          - heading [level=2] [ref=f15e777]:
+            - link "Next" [ref=f15e778] [cursor=pointer]:
+              - /url: /search?q=Coolnest+Industries+Dasna&sca_esv=590b7d7f3528a665&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005&ei=snTPavzoPPDl1e8PtsLEyQE&start=10&sa=N&sstk=AS6-VmIqBFgtqHpXjYvbebIqBC2TwR4vP_DoT8CN0c2MEei-HPZf8txXhFZWgYCKGsoeAz06hckmfQ6WCSRnEm1yIZe3lFjGOiK4uw&ved=2ahUKEwj8icGzwLmXAxXwcvUHHTYhMRkQ8NMDegQIQhAQ
+        - navigation
+    - contentinfo [ref=f15e782]:
+      - heading "Footer links" [level=1] [ref=f15e783]
+      - generic [ref=f15e787]:
+        - generic [ref=f15e790]:
+          - generic [ref=f15e791]: Results are personalised
+          - generic [ref=f15e792]: "-"
+          - link "Try without personalisation" [ref=f15e794] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Coolnest+Industries+Dasna&peek_pws=0&sxsrf=APpeQnvukW4pwerQhUOaur1t30cFo---1Q:1791980723005
+        - generic [ref=f15e797]:
+          - text: India
+          - generic [ref=f15e799]:
+            - button "Karwal Nagar, Delhi - Based on your past activity" [ref=f15e801] [cursor=pointer]:
+              - generic [ref=f15e802]: Karwal Nagar, Delhi
+              - generic [ref=f15e804]:
+                - text: "-"
+                - generic [ref=f15e805]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f15e807] [cursor=pointer]
+        - generic [ref=f15e810]:
+          - link "Help" [ref=f15e811] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - button "Send feedback" [ref=f15e813] [cursor=pointer]
+          - link "Privacy" [ref=f15e815] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f15e816] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

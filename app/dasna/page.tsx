@@ -6,20 +6,20 @@ import { company } from "@/lib/company";
 import { businessId, pageMetadata, siteUrl, websiteId } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Honeycomb Cooling Pads in Dasna",
+  title: "Honeycomb Cooling Pads for Dasna",
   description:
-    "Enquire about honeycomb cooling pads, air cooler pads, 5090 and 7090 flute profiles, custom sizes and bulk supply for Dasna. Coolnest Industries manufactures in Hapur, Uttar Pradesh.",
+    "Looking for honeycomb cooling pads in Dasna? Enquire about air cooler pads, 5090 and 7090 profiles, custom sizes and bulk orders. Confirm supply and dispatch for Dasna.",
   path: "/dasna",
 });
 
 const faqs = [
   {
     q: "Can I order honeycomb cooling pads for Dasna?",
-    a: "Yes, Dasna buyers can contact Coolnest Industries with their pad size, quantity and application. Ask our Hapur team to confirm dispatch availability, timing and price for your location.",
+    a: "Yes. Send Coolnest Industries your pad dimensions, quantity and application for a Dasna requirement. The team will confirm product fit, price, availability and dispatch details before you place an order.",
   },
   {
-    q: "Are you a honeycomb pad manufacturer in Dasna?",
-    a: `Coolnest Industries manufactures honeycomb cooling pads at its facility in ${company.location}. Dasna customers can enquire directly with the manufacturer about product specifications and supply to their address.`,
+    q: "Can Dasna buyers order directly from a honeycomb cooling pad manufacturer?",
+    a: `Coolnest Industries manufactures honeycomb cooling pads at its facility in ${company.location}. Dasna buyers can contact the manufacturer directly to discuss specifications and confirm supply and dispatch for their requirement.`,
   },
   {
     q: "What details are needed for a cooling pad price quote?",
@@ -47,9 +47,9 @@ export default function DasnaLocationPage() {
             "@type": "WebPage",
             "@id": `${pageUrl}#webpage`,
             url: pageUrl,
-            name: "Honeycomb Cooling Pads in Dasna | Coolnest Industries",
+            name: "Honeycomb Cooling Pads for Dasna | Coolnest Industries",
             description:
-              "Cooling pad product and supply enquiries for Dasna from Coolnest Industries, a manufacturer based in Hapur, Uttar Pradesh.",
+              "Product and bulk order enquiries for Dasna buyers looking for honeycomb cooling pads, air cooler pads and custom sizes from Coolnest Industries.",
             about: { "@id": businessId },
             isPartOf: { "@id": websiteId },
             inLanguage: "en-IN",
@@ -58,23 +58,22 @@ export default function DasnaLocationPage() {
       />
 
       <PageHero
-        eyebrow="COOLING PADS FOR DASNA"
-        title="Honeycomb Cooling Pads"
-        accent="for Dasna Enquiries"
-        text="Source honeycomb evaporative cooling media from Coolnest Industries, a manufacturer based in Hapur, Uttar Pradesh. Dasna buyers can share their dimensions and quantity to confirm product fit, price and dispatch availability."
+        eyebrow="HONEYCOMB COOLING PADS FOR DASNA"
+        title="Cooling Pad Supply"
+        accent="for Dasna Buyers"
+        text="Looking for honeycomb cooling pads in Dasna? Enquire about air cooler replacement pads, custom sizes and bulk quantities for your application. Coolnest Industries confirms product fit, supply and dispatch details for each order."
       />
 
       <section className="section-pad" aria-labelledby="dasna-products-title">
         <div className="page-container">
           <SectionLabel>PRODUCTS &amp; SUPPLY</SectionLabel>
-          <h2 id="dasna-products-title">Cooling Pad Options for Dasna Buyers</h2>
+          <h2 id="dasna-products-title">Honeycomb and Air Cooler Pads for Dasna</h2>
           <p>
-            If you are looking for a honeycomb cooling pad supplier for Dasna,
-            Coolnest makes evaporative cooling pads for air cooler replacement,
-            commercial requirements and OEM enquiries. Ask about cellulose
-            cooling media, 5090 and 7090 flute profiles, and custom-size pads.
-            Product suitability depends on your cooler or installation, so
-            share the existing pad measurements before ordering.
+            Dasna businesses and buyers can enquire about honeycomb evaporative
+            cooling pads for air cooler replacements, commercial applications
+            and OEM requirements. Ask about cellulose cooling media, 5090 and
+            7090 flute profiles, custom dimensions and bulk quantities. Share
+            the existing pad measurements so the team can confirm suitability.
           </p>
 
           <div className="feature-cards">
@@ -92,7 +91,8 @@ export default function DasnaLocationPage() {
               <h3>Air Cooler Cooling Pads</h3>
               <p>
                 Discuss air cooler cooling pad sizes and compatible replacement
-                profiles with our Hapur manufacturing team.
+                profiles for your Dasna requirement. Share the cooler model or
+                existing pad measurements to check fit.
               </p>
               <a className="text-button" href="/products#air-cooler-pad">
                 View air cooler pads
@@ -117,18 +117,12 @@ export default function DasnaLocationPage() {
         <div className="page-container split-layout">
           <div>
             <SectionLabel>HOW TO ENQUIRE</SectionLabel>
-            <h2 id="dasna-order-title">Get the Right Pad for Your Application</h2>
+            <h2 id="dasna-order-title">Request a Cooling Pad Quote for Dasna</h2>
             <p>
-              Buyers comparing cooling pad manufacturers near Dasna can start
-              with the equipment measurements and application. This helps us
-              check the required honeycomb cooling media profile before
-              discussing cost, minimum quantity or delivery to Dasna.
-          </p>
-          <p>
-            If you are searching for the best honeycomb cooling pad manufacturer
-            in Dasna, compare the profile, dimensions and confirmed dispatch
-            details for your specific requirement. Coolnest manufactures in
-            Hapur, so contact the team to check supply options for Dasna.
+              For a Dasna cooling pad enquiry, share the equipment dimensions,
+              application and quantity. Coolnest Industries manufactures at
+              its Hapur facility; the team can confirm product fit, pricing and
+              dispatch options for your Dasna requirement.
             </p>
           </div>
           <ul className="check-list">
@@ -142,8 +136,8 @@ export default function DasnaLocationPage() {
 
       <Faq items={faqs} />
       <CtaBand
-        title="Need honeycomb pads delivered to Dasna?"
-        text="Send the size, profile and quantity. Coolnest Industries will confirm product fit, pricing and dispatch options from Hapur."
+        title="Need honeycomb cooling pads for Dasna?"
+        text="Send your pad size, profile and quantity. Coolnest Industries will confirm product fit, pricing and dispatch availability for Dasna."
       />
     </main>
   );
