@@ -1,0 +1,69 @@
+- generic [active] [ref=f36e1]:
+  - link "Skip to content" [ref=f36e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f36e3]:
+    - generic [ref=f36e4]:
+      - link "Coolnest Industries home" [ref=f36e5] [cursor=pointer]:
+        - /url: /
+        - img "Coolnest Industries" [ref=f36e6]
+      - navigation "Main navigation" [ref=f36e7]:
+        - link "Home" [ref=f36e8] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=f36e9] [cursor=pointer]:
+          - /url: /products
+        - link "About Us" [ref=f36e10] [cursor=pointer]:
+          - /url: /about
+        - link "Sustainability" [ref=f36e11] [cursor=pointer]:
+          - /url: /sustainability
+        - link "Contact" [ref=f36e12] [cursor=pointer]:
+          - /url: /contact
+      - link "Get a Quote" [ref=f36e13] [cursor=pointer]:
+        - /url: /contact#quote-form
+  - generic [ref=f36e17]:
+    - heading "404" [level=1] [ref=f36e18]
+    - heading "This page could not be found." [level=2] [ref=f36e20]
+  - contentinfo [ref=f36e21]:
+    - generic [ref=f36e22]:
+      - generic [ref=f36e23]:
+        - link "Coolnest Industries home" [ref=f36e24] [cursor=pointer]:
+          - /url: /
+          - img "Coolnest Industries" [ref=f36e25]
+        - paragraph [ref=f36e26]: Specialists in honeycomb evaporative cooling pads made for cooler air and dependable supply.
+      - generic [ref=f36e27]:
+        - heading "Explore" [level=2] [ref=f36e28]
+        - link "Home" [ref=f36e29] [cursor=pointer]:
+          - /url: /
+        - link "Cooling Pads" [ref=f36e30] [cursor=pointer]:
+          - /url: /products
+        - link "Cooling Pads in Dasna" [ref=f36e31] [cursor=pointer]:
+          - /url: /locations/dasna
+        - link "About Us" [ref=f36e32] [cursor=pointer]:
+          - /url: /about
+        - link "Sustainability" [ref=f36e33] [cursor=pointer]:
+          - /url: /sustainability
+      - generic [ref=f36e34]:
+        - heading "Contact" [level=2] [ref=f36e35]
+        - paragraph [ref=f36e36]: F-720, MG Road Industrial Area, Hapur, Uttar Pradesh, India
+        - link "Coolnestindustries@gmail.com" [ref=f36e40] [cursor=pointer]:
+          - /url: mailto:Coolnestindustries@gmail.com
+        - link "+91 9717146404" [ref=f36e44] [cursor=pointer]:
+          - /url: tel:+919717146404
+        - link "+91 7014586670" [ref=f36e47] [cursor=pointer]:
+          - /url: tel:+917014586670
+        - paragraph [ref=f36e50]: "Monday – Saturday, 9 am – 9 pmSunday: Closed"
+      - generic [ref=f36e51]:
+        - heading "Social Links" [level=2] [ref=f36e52]
+        - link "Instagram" [ref=f36e53] [cursor=pointer]:
+          - /url: https://www.instagram.com/coolnestindustries?stkn=MWkzbTY4bWljeG5nMQ==
+        - paragraph [ref=f36e58]: Facebook under process
+    - generic [ref=f36e64]:
+      - paragraph [ref=f36e65]: © 2026 Coolnest Industries. All rights reserved.
+      - paragraph [ref=f36e66]: Honeycomb cooling pad manufacturer · Hapur
+  - generic "WhatsApp Contact Options" [ref=f36e67]:
+    - link "Chat with us on WhatsApp at +91 97171 46404" [ref=f36e68] [cursor=pointer]:
+      - /url: https://wa.me/919717146404?text=Hello%20Coolnest%20Industries%2C%20I%20would%20like%20to%20enquire%20about%20cooling%20pads.
+      - generic [ref=f36e71]: +91 97171 46404
+    - link "Chat with us on WhatsApp at +91 70145 86670" [ref=f36e72] [cursor=pointer]:
+      - /url: https://wa.me/917014586670?text=Hello%20Coolnest%20Industries%2C%20I%20would%20like%20to%20enquire%20about%20cooling%20pads.
+      - generic [ref=f36e75]: +91 70145 86670
+  - alert [ref=f36e76]

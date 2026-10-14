@@ -168,7 +168,7 @@ export function PageHero({ eyebrow, title, accent, text }: { eyebrow: string; ti
       : eyebrow === "CONTACT COOLNEST"
         ? { src: "/images/pad-custom-enquiry.webp", alt: "Honeycomb cooling pad samples beside a measuring tape and notebook" }
         : { src: "/images/pad-product-lineup.webp", alt: "Three honeycomb air cooler cooling pads displayed together" };
-  return <section className="page-hero"><div className="page-container page-hero-inner"><div><p className="hero-eyebrow">{eyebrow}</p><h1>{title} {accent && <span>{accent}</span>}</h1><p>{text}</p></div><div className="page-hero-art"><Image src={visual.src} alt={visual.alt} width={1536} height={1024} fetchPriority="high" sizes="(max-width: 800px) 100vw, 44vw" /></div></div></section>;
+  return <section className="page-hero"><div className="page-container page-hero-inner"><div><p className="hero-eyebrow">{eyebrow}</p><h1>{title} {accent && <span>{accent}</span>}</h1><p>{text}</p></div><div className="page-hero-art"><Image src={visual.src} alt={visual.alt} width={1536} height={1024} fetchPriority="high" loading="eager" sizes="(max-width: 800px) 100vw, 44vw" /></div></div></section>;
 }
 
 export function QualitySection() {

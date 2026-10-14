@@ -1,0 +1,146 @@
+- generic "Google Maps" [ref=f23e2]:
+  - generic [ref=f23e3]:
+    - application "Map · Use arrow keys to pan the map. · Get details about a place by pressing its corresponding number key." [ref=f23e5]
+    - search [ref=f23e10]:
+      - generic [ref=f23e11]:
+        - combobox [ref=f23e13]: Coolnest Industries
+        - button "Search" [ref=f23e15] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f23e16]: 
+        - button "Close" [ref=f23e18] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f23e19]: 
+    - generic [ref=f23e20]:
+      - generic [ref=f23e21]:
+        - list [ref=f23e23]:
+          - listitem [ref=f23e24]:
+            - button "Menu" [ref=f23e25] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f23e27]: 
+          - listitem [ref=f23e28]:
+            - button "Ask Maps" [ref=f23e29] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f23e31]: 
+          - listitem [ref=f23e34]:
+            - button "Saved" [ref=f23e35] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f23e37]: 
+          - listitem [ref=f23e40]:
+            - button "Recents" [disabled] [ref=f23e41]:
+              - generic [aria-hidden] [ref=f23e43]: 
+          - listitem [ref=f23e47]:
+            - button "Get app" [ref=f23e48] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f23e50]: 
+        - main "Coolnest Industries" [ref=f23e57]:
+          - generic [ref=f23e58]:
+            - generic [ref=f23e59]:
+              - button "Photo of Coolnest Industries" [active] [ref=f23e61] [cursor=pointer]
+              - button "See photos" [ref=f23e63] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f23e64]: 
+            - generic [ref=f23e68]:
+              - heading "Coolnest Industries" [level=1] [ref=f23e70]
+              - generic [ref=f23e72]:
+                - generic [ref=f23e74]:
+                  - generic [ref=f23e75]:
+                    - text: "4.2"
+                    - img "4.2 stars" [ref=f23e76]
+                  - img "5 reviews" [ref=f23e84]: (5)
+                - button "Manufacturer" [ref=f23e88]
+            - tablist [ref=f23e91]:
+              - tab "Overview of Coolnest Industries" [selected] [ref=f23e92]:
+                - generic [aria-hidden] [ref=f23e94]: Overview
+              - tab "Reviews for Coolnest Industries" [ref=f23e96]:
+                - generic [aria-hidden] [ref=f23e98]: Reviews
+            - region "Actions for Coolnest Industries" [ref=f23e100]:
+              - button "Directions" [ref=f23e102] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f23e104]: 
+              - button "Save" [ref=f23e107] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f23e109]: 
+              - button "Nearby" [ref=f23e112] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f23e114]: 
+              - button "Send to phone" [ref=f23e117] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f23e119]: 
+              - button "Share" [ref=f23e122] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f23e124]: 
+            - region "Information for Coolnest Industries" [ref=f23e128]:
+              - generic [ref=f23e129]:
+                - 'button "Address: F-720, MG Road, Industrial Area, Hapur, Amapur Lodha, Uttar Pradesh 201015" [ref=f23e130] [cursor=pointer]':
+                  - generic [ref=f23e131]:
+                    - generic [aria-hidden] [ref=f23e133]: 
+                    - generic [ref=f23e134]: F-720, MG Road, Industrial Area, Hapur, Amapur Lodha, Uttar Pradesh 201015
+                - button "Copy address" [ref=f23e138] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f23e140]: 
+              - button "Hours Open · Closes 9 pm Show open hours for the week" [ref=f23e142] [cursor=pointer]:
+                - img "Hours" [ref=f23e143]: 
+                - generic [ref=f23e145]:
+                  - generic [ref=f23e146]: Open · Closes 9 pm
+                  - img "Show open hours for the week" [ref=f23e148]: 
+              - generic [ref=f23e149]:
+                - 'link "Website: coolnestindustries.com" [ref=f23e150] [cursor=pointer]':
+                  - /url: https://coolnestindustries.com/
+                  - generic [ref=f23e151]:
+                    - generic [aria-hidden] [ref=f23e153]: 
+                    - generic [ref=f23e154]: coolnestindustries.com
+                - generic [ref=f23e156]:
+                  - link "Open website" [ref=f23e158] [cursor=pointer]:
+                    - /url: https://coolnestindustries.com/
+                    - generic [aria-hidden] [ref=f23e160]: 
+                  - button "Copy website" [ref=f23e162] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f23e164]: 
+              - generic [ref=f23e165]:
+                - 'button "Plus code: JHX9+FJ Amapur Lodha, Uttar Pradesh" [ref=f23e166] [cursor=pointer]':
+                  - generic [ref=f23e167]:
+                    - generic [aria-hidden] [ref=f23e169]: 
+                    - generic [ref=f23e170]: JHX9+FJ Amapur Lodha, Uttar Pradesh
+                - generic [ref=f23e172]:
+                  - button "Copy plus code" [ref=f23e174] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f23e176]: 
+                  - button "Learn more about plus codes" [ref=f23e178] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f23e180]: 
+              - button "Your Maps history" [ref=f23e182] [cursor=pointer]:
+                - generic [ref=f23e183]:
+                  - generic [aria-hidden] [ref=f23e185]: 
+                  - generic [ref=f23e186]: Your Maps history
+            - button "Add a label" [ref=f23e189]:
+              - generic [ref=f23e190]:
+                - generic [aria-hidden] [ref=f23e191]: 
+                - generic [ref=f23e192]: Add a label
+            - button "Suggest an edit" [ref=f23e196] [cursor=pointer]:
+              - generic [ref=f23e197]:
+                - generic [aria-hidden] [ref=f23e198]: 
+                - generic [ref=f23e199]: Suggest an edit
+            - generic [ref=f23e202]:
+              - heading "Add missing information" [level=2] [ref=f23e203]
+              - button "More info" [ref=f23e204] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f23e205]: 
+            - button "Add place's phone number" [ref=f23e207]:
+              - generic [ref=f23e208]:
+                - generic [aria-hidden] [ref=f23e209]: 
+                - generic [ref=f23e210]: Add place's phone number
+            - heading "Photos" [level=2] [ref=f23e214]
+            - button "2 Photos" [ref=f23e217] [cursor=pointer]
+            - button "Add photos & videos" [ref=f23e225] [cursor=pointer]:
+              - generic [ref=f23e226]:
+                - generic [aria-hidden] [ref=f23e227]: 
+                - generic [ref=f23e228]: Add photos & videos
+            - generic [ref=f23e231]:
+              - heading "Review summary" [level=2] [ref=f23e232]
+              - button "More information about the review summary" [ref=f23e233] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f23e234]: 
+            - generic [ref=f23e236] [cursor=pointer]:
+              - table [ref=f23e238]:
+                - rowgroup [ref=f23e239]:
+                  - img "5 stars, 4 reviews" [ref=f23e240]: "5"
+                  - img "4 stars, 0 reviews" [ref=f23e243]: "4"
+                  - img "3 stars, 0 reviews" [ref=f23e246]: "3"
+                  - img "2 stars, 0 reviews" [ref=f23e249]: "2"
+                  - img "1 stars, 1 review" [ref=f23e252]: "1"
+              - generic [ref=f23e255]:
+                - generic [ref=f23e256]: "4.2"
+                - img "4.2 stars" [ref=f23e257]
+                - button "5 reviews" [ref=f23e263]
+            - button "Write a review" [ref=f23e269] [cursor=pointer]:
+              - generic [ref=f23e270]:
+                - generic [aria-hidden] [ref=f23e271]: 
+                - generic [ref=f23e272]: Write a review
+            - heading "Web results" [level=2] [ref=f23e276]
+            - region [ref=f23e279]
+            - link "About this data" [ref=f23e318] [cursor=pointer]:
+              - /url: https://support.google.com/local-listings?p=how_google_sources&authuser=0&hl=en
+      - button "Collapse side panel" [ref=f23e322] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f23e323]: 

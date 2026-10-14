@@ -1,0 +1,101 @@
+- generic [active] [ref=f39e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f39e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f39e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f39e8]:
+    - search [ref=f39e9]:
+      - generic [ref=f39e11]:
+        - link "Go to Google Home" [ref=f39e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwi2ptL1mbmXAxVdGjQIHe_8BGwQPHoECAYQBA
+        - generic [ref=f39e17]:
+          - combobox "Search" [ref=f39e19]: site:coolnestindustries.com/locations/dasna site:coolnestindustries.com/locations/dasna
+          - generic [ref=f39e20]:
+            - button "Clear" [ref=f39e24] [cursor=pointer]
+            - generic [ref=f39e29]:
+              - button "Search by voice" [ref=f39e32] [cursor=pointer]
+              - button "Search by image" [ref=f39e37] [cursor=pointer]
+    - generic [ref=f39e40]:
+      - button "Share" [ref=f39e41] [cursor=pointer]
+      - generic [ref=f39e47]:
+        - button "Google apps" [ref=f39e49] [cursor=pointer]
+        - 'button "Google Account: Umar Khan (umar8368khan@gmail.com)" [ref=f39e54] [cursor=pointer]'
+  - generic [ref=f39e57]:
+    - navigation [ref=f39e63]:
+      - generic [ref=f39e69]:
+        - list [ref=f39e70]:
+          - listitem [ref=f39e71]:
+            - link "AI Mode" [ref=f39e74] [cursor=pointer]:
+              - /url: /search?q=site:coolnestindustries.com/locations/dasna&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnscMrxQtcChPpstvfu101I-Iptp8w:1791970392715&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&vsint=&aep=1&ntc=1&cs=1&sa=X&ved=2ahUKEwi2ptL1mbmXAxVdGjQIHe_8BGwQ2J8OegQIExAD
+          - listitem [ref=f39e78]:
+            - link "All" [disabled] [ref=f39e79]
+          - listitem [ref=f39e82]:
+            - link "Shopping" [ref=f39e83] [cursor=pointer]:
+              - /url: /search?sca_esv=ec89609dbb59da0a&sxsrf=APpeQnscMrxQtcChPpstvfu101I-Iptp8w:1791970392715&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&q=site:coolnestindustries.com/locations/dasna&ved=1t:220175&ictx=111
+          - listitem [ref=f39e86]:
+            - link "Images" [ref=f39e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ec89609dbb59da0a&sxsrf=APpeQnscMrxQtcChPpstvfu101I-Iptp8w:1791970392715&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&q=site:coolnestindustries.com/locations/dasna&sa=X&ved=2ahUKEwi2ptL1mbmXAxVdGjQIHe_8BGwQtKgLegQIGBAB
+          - listitem [ref=f39e90]:
+            - link "Videos" [ref=f39e91] [cursor=pointer]:
+              - /url: /search?sca_esv=ec89609dbb59da0a&sxsrf=APpeQnscMrxQtcChPpstvfu101I-Iptp8w:1791970392715&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&q=site:coolnestindustries.com/locations/dasna&sa=X&ved=2ahUKEwi2ptL1mbmXAxVdGjQIHe_8BGwQtKgLegQIFxAB
+          - listitem [ref=f39e94]:
+            - link "Short videos" [ref=f39e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ec89609dbb59da0a&sxsrf=APpeQnscMrxQtcChPpstvfu101I-Iptp8w:1791970392715&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&q=site:coolnestindustries.com/locations/dasna&sa=X&ved=2ahUKEwi2ptL1mbmXAxVdGjQIHe_8BGwQs6gLegQIFhAB
+          - listitem [ref=f39e98]:
+            - link "Forums" [ref=f39e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ec89609dbb59da0a&sxsrf=APpeQnscMrxQtcChPpstvfu101I-Iptp8w:1791970392715&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&q=site:coolnestindustries.com/locations/dasna&sa=X&ved=2ahUKEwi2ptL1mbmXAxVdGjQIHe_8BGwQs6gLegQIFRAB
+          - listitem [ref=f39e102]:
+            - button [ref=f39e103] [cursor=pointer]:
+              - generic "More filters" [ref=f39e104]: More
+        - button "Tools" [ref=f39e111] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f39e118]
+    - main [ref=f39e124]:
+      - generic [ref=f39e128]:
+        - heading "Google promotion" [level=2] [ref=f39e129]
+        - list [ref=f39e130]:
+          - listitem [ref=f39e131]:
+            - heading [level=3] [ref=f39e132]:
+              - link "Try Google Search Console" [ref=f39e133] [cursor=pointer]:
+                - /url: https://www.google.com/webmasters/tools/home#utm_source=en-wmxmsg&utm_medium=wmxmsg&utm_campaign=bm&authuser=0
+            - text: www.google.com/webmasters/Do you own coolnestindustries.com/locations/dasna? Get indexing and ranking data from Google.
+      - generic [ref=f39e135]:
+        - generic [ref=f39e137]:
+          - heading [level=3] [ref=f39e138]:
+            - text: Your search -
+            - emphasis [ref=f39e140]: site:coolnestindustries.com/locations/dasna
+            - text: "- did not match any documents."
+          - paragraph [ref=f39e141]: "Suggestions:"
+          - list [ref=f39e142]:
+            - listitem [ref=f39e143]: Make sure that all words are spelled correctly.
+            - listitem [ref=f39e144]: Try different keywords.
+            - listitem [ref=f39e145]: Try more general keywords.
+          - img "An image of a yeti fishing for something in the ice" [ref=f39e149]
+        - navigation
+      - navigation
+    - contentinfo [ref=f39e441]:
+      - heading "Footer links" [level=1] [ref=f39e442]
+      - generic [ref=f39e446]:
+        - generic [ref=f39e449]:
+          - generic [ref=f39e450]: Results are personalised
+          - generic [ref=f39e451]: "-"
+          - link "Try without personalisation" [ref=f39e453] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=site:coolnestindustries.com/locations/dasna&peek_pws=0&sxsrf=APpeQnscMrxQtcChPpstvfu101I-Iptp8w:1791970392715
+        - generic [ref=f39e456]:
+          - text: India
+          - generic [ref=f39e458]:
+            - button "Ghukna, Ghaziabad, Uttar Pradesh - Based on your past activity" [ref=f39e460] [cursor=pointer]:
+              - generic [ref=f39e461]: Ghukna, Ghaziabad, Uttar Pradesh
+              - generic [ref=f39e463]:
+                - text: "-"
+                - generic [ref=f39e464]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f39e466] [cursor=pointer]
+        - generic [ref=f39e469]:
+          - link "Help" [ref=f39e470] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - button "Send feedback" [ref=f39e472] [cursor=pointer]
+          - link "Privacy" [ref=f39e474] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f39e475] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

@@ -1,0 +1,267 @@
+- generic [active] [ref=f15e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f15e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f15e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f15e8]:
+    - search [ref=f15e9]:
+      - generic [ref=f15e11]:
+        - link "Go to Google Home" [ref=f15e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQPHoECAYQBA
+        - generic [ref=f15e17]:
+          - combobox "Search" [ref=f15e19]: Coolnest Industries Hapur Coolnest Industries Hapur
+          - generic [ref=f15e20]:
+            - button "Clear" [ref=f15e24] [cursor=pointer]
+            - generic [ref=f15e29]:
+              - button "Search by voice" [ref=f15e32] [cursor=pointer]
+              - button "Search by image" [ref=f15e37] [cursor=pointer]
+    - generic [ref=f15e40]:
+      - button "Share" [ref=f15e41] [cursor=pointer]
+      - generic [ref=f15e47]:
+        - button "Google apps" [ref=f15e49] [cursor=pointer]
+        - 'button "Google Account: Umar Khan (umar8368khan@gmail.com)" [ref=f15e54] [cursor=pointer]'
+  - generic [ref=f15e57]:
+    - navigation [ref=f15e63]:
+      - generic [ref=f15e69]:
+        - list [ref=f15e70]:
+          - listitem [ref=f15e71]:
+            - link "AI Mode" [ref=f15e74] [cursor=pointer]:
+              - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQohRTVIyuhFYHUAcG-lXQ1_3Ck2_i1gFMl-3O_4t7gg-7bxUFiVMmyqZMfIVlJyoZu8dpaNZFp6dHcc4RAAiySxxAZ7ZFc-ajc5RcWf2Luzg-XHf5jobu9uxDIQxbbmqHF_CEbg&vsint=&aep=1&ntc=1&cs=1&sa=X&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ2J8OegQIFBAD
+          - listitem [ref=f15e78]:
+            - link "All" [disabled] [ref=f15e79]
+          - listitem [ref=f15e82]:
+            - link "Shopping" [ref=f15e83] [cursor=pointer]:
+              - /url: /search?sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQohRTVIyuhFYHUAcG-lXQ1_3Ck2_i1gFMl-3O_4t7gg-7bxUFiVMmyqZMfIVlJyoZu8dpaNZFp6dHcc4RAAiySxxAZ7ZFc-ajc5RcWf2Luzg-XHf5jobu9uxDIQxbbmqHF_CEbg&q=Coolnest+Industries+Hapur&ved=1t:220175&ictx=111
+          - listitem [ref=f15e86]:
+            - link "Images" [ref=f15e87] [cursor=pointer]:
+              - /url: /search?sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQohRTVIyuhFYHUAcG-lXQ1_3Ck2_i1gFMl-3O_4t7gg-7bxUFiVMmyqZMfIVlJyoZu8dpaNZFp6dHcc4RAAiySxxAZ7ZFc-ajc5RcWf2Luzg-XHf5jobu9uxDIQxbbmqHF_CEbg&q=Coolnest+Industries+Hapur&sa=X&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQtKgLegQIGhAB
+          - listitem [ref=f15e90]:
+            - link "Maps" [ref=f15e91] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=ec89609dbb59da0a&output=search&q=Coolnest+Industries+Hapur&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQohRTVIyuhFYHUAcG-lXQ1_3Ck2_i1gFMl-3O_4t7gg-7bxUFiVMmyqZMfIVlJyoZu8dpaNZFp6dHcc4RAAiySxxAZ7ZFc-ajc5RcWf2Luzg-XHf5jobu9uxDIQxbbmqHF_CEbg&entry=mc&ved=1t:200715&ictx=111
+          - listitem [ref=f15e94]:
+            - link "Videos" [ref=f15e95] [cursor=pointer]:
+              - /url: /search?sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQohRTVIyuhFYHUAcG-lXQ1_3Ck2_i1gFMl-3O_4t7gg-7bxUFiVMmyqZMfIVlJyoZu8dpaNZFp6dHcc4RAAiySxxAZ7ZFc-ajc5RcWf2Luzg-XHf5jobu9uxDIQxbbmqHF_CEbg&q=Coolnest+Industries+Hapur&sa=X&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQtKgLegQIFhAB
+          - listitem [ref=f15e98]:
+            - link "Forums" [ref=f15e99] [cursor=pointer]:
+              - /url: /search?sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn--wavS8TcVVggSf-u7aBQohRTVIyuhFYHUAcG-lXQ1_3Ck2_i1gFMl-3O_4t7gg-7bxUFiVMmyqZMfIVlJyoZu8dpaNZFp6dHcc4RAAiySxxAZ7ZFc-ajc5RcWf2Luzg-XHf5jobu9uxDIQxbbmqHF_CEbg&q=Coolnest+Industries+Hapur&sa=X&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQs6gLegQIFxAB
+          - listitem [ref=f15e102]:
+            - button [ref=f15e103] [cursor=pointer]:
+              - generic "More filters" [ref=f15e104]: More
+        - button "Tools" [ref=f15e111] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f15e118]
+    - generic [ref=f15e123]:
+      - generic [ref=f15e142]:
+        - heading "Thinking" [level=2] [ref=f15e146]
+        - progressbar "Generating" [ref=f15e149]
+      - main [ref=f15e151]:
+        - generic [ref=f15e155]:
+          - generic [ref=f15e158]:
+            - heading "Web results" [level=2] [ref=f15e159]
+            - generic [ref=f15e160]:
+              - generic [ref=f15e163]:
+                - link "Honeycomb Cooling Pad Manufacturer in Hapur coolnestindustries.com https://coolnestindustries.com" [ref=f15e165] [cursor=pointer]:
+                  - /url: https://coolnestindustries.com/
+                  - heading "Honeycomb Cooling Pad Manufacturer in Hapur" [level=3] [ref=f15e166]
+                  - generic [ref=f15e175]:
+                    - generic [ref=f15e176]: coolnestindustries.com
+                    - generic [ref=f15e178]: https://coolnestindustries.com
+                - button "About this result" [ref=f15e184] [cursor=pointer]
+              - generic [ref=f15e190]:
+                - generic [ref=f15e191]:
+                  - text: Coolnest Industries focuses exclusively on honeycomb cooling pads.
+                  - emphasis [ref=f15e192]: Established in Hapur in 2026
+                  - text: ", we keep our attention on the paper media, honeycomb formation, ..."
+                - link "Read more" [ref=f15e193] [cursor=pointer]:
+                  - /url: https://coolnestindustries.com/#:~:text=Coolnest%20Industries%20focuses%20exclusively%20on,to%20cooler%20businesses%20and%20buyers.
+              - link [aria-hidden] [ref=f15e196] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/
+          - generic [ref=f15e202]:
+            - generic [ref=f15e205]:
+              - link "About the Hapur Cooling Pad Manufacturer coolnestindustries.com https://coolnestindustries.com › about" [ref=f15e207] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/about
+                - heading "About the Hapur Cooling Pad Manufacturer" [level=3] [ref=f15e208]
+                - generic [ref=f15e217]:
+                  - generic [ref=f15e218]: coolnestindustries.com
+                  - generic [ref=f15e220]: https://coolnestindustries.com › about
+              - button "About this result" [ref=f15e226] [cursor=pointer]
+            - generic [ref=f15e232]:
+              - generic [ref=f15e233]:
+                - text: Coolnest Industries was established in 2026 by Mohd Imran and Abu Lais. The company manufactures honeycomb cooling pads at
+                - emphasis [ref=f15e234]: F-720, MG Road Industrial Area, Hapur
+                - text: ...
+              - link "Read more" [ref=f15e235] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/about#:~:text=Coolnest%20Industries%20was%20established%20in,Industrial%20Area%2C%20Hapur%2C%20Uttar%20Pradesh.
+            - link [aria-hidden] [ref=f15e238] [cursor=pointer]:
+              - /url: https://coolnestindustries.com/about
+          - generic [ref=f15e244]:
+            - generic [ref=f15e247]:
+              - link "Contact the Cooling Pad Manufacturer in Hapur coolnestindustries.com https://coolnestindustries.com › contact" [ref=f15e249] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/contact
+                - heading "Contact the Cooling Pad Manufacturer in Hapur" [level=3] [ref=f15e250]
+                - generic [ref=f15e259]:
+                  - generic [ref=f15e260]: coolnestindustries.com
+                  - generic [ref=f15e262]: https://coolnestindustries.com › contact
+              - button "About this result" [ref=f15e268] [cursor=pointer]
+            - generic [ref=f15e274]:
+              - generic [ref=f15e275]:
+                - text: Coolnest Industries · Directions in Google Maps · +
+                - emphasis [ref=f15e276]: 91 9717146404
+                - text: · +91 7014586670 · Coolnestindustries@gmail.com · Instagram.
+              - link "Read more" [ref=f15e277] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/contact#:~:text=Coolnest%20Industries&text=Directions%20in%20Google%20Maps&text=%2B91%209717146404&text=%2B91%207014586670&text=Coolnestindustries%40gmail.com&text=Instagram
+          - generic [ref=f15e281]:
+            - generic [ref=f15e284]:
+              - link "Popular Industrial Cooling System Manufacturers in Hapur Justdial https://www.justdial.com › ... › 13+ Listings" [ref=f15e286] [cursor=pointer]:
+                - /url: https://www.justdial.com/Hapur/Industrial-Cooling-System-Manufacturers/nct-10838750
+                - heading "Popular Industrial Cooling System Manufacturers in Hapur" [level=3] [ref=f15e287]
+                - generic [ref=f15e293]:
+                  - generic [ref=f15e294]: Justdial
+                  - generic [ref=f15e296]: https://www.justdial.com › ... › 13+ Listings
+              - button "About this result" [ref=f15e302] [cursor=pointer]
+            - generic [ref=f15e308]:
+              - generic [ref=f15e309]:
+                - text: Address, 1371, Bhanda Patti Sikander Gate, Mg Road, Bhanda Patti,
+                - emphasis [ref=f15e310]: Hapur
+                - text: "- 245101, Sec-63, Noida Sector-63, Noida Sector 63, Noida ; Listed Categories."
+              - link "Read more" [ref=f15e311] [cursor=pointer]:
+                - /url: https://www.justdial.com/Hapur/Industrial-Cooling-System-Manufacturers/nct-10838750#:~:text=Address,Sector%2D63%2C%20Noida%20Sector%2063%2C%20Noida&text=Listed%20Categories
+          - generic [ref=f15e315]:
+            - generic [ref=f15e318]:
+              - link "Air Cooler Cooling Pad Manufacturer in Hapur coolnestindustries.com https://coolnestindustries.com › Products" [ref=f15e320] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/products/air-cooler-cooling-pads
+                - heading "Air Cooler Cooling Pad Manufacturer in Hapur" [level=3] [ref=f15e321]
+                - generic [ref=f15e330]:
+                  - generic [ref=f15e331]: coolnestindustries.com
+                  - generic [ref=f15e333]: https://coolnestindustries.com › Products
+              - button "About this result" [ref=f15e339] [cursor=pointer]
+            - generic [ref=f15e346]:
+              - text: Coolnest Industries
+              - emphasis [ref=f15e347]: manufactures cooling pads in Hapur
+              - text: ", Uttar Pradesh. +91 9717146404 +91 7014586670 Monday – Saturday, 9 am – 9 pm Sunday:"
+            - link [aria-hidden] [ref=f15e350] [cursor=pointer]:
+              - /url: https://coolnestindustries.com/products/air-cooler-cooling-pads
+          - generic [ref=f15e356]:
+            - generic [ref=f15e359]:
+              - link "Home Appliances Manufacturers in Hapur | Supercool supercoolindia.com https://www.supercoolindia.com › home-appliances-hapur" [ref=f15e361] [cursor=pointer]:
+                - /url: https://www.supercoolindia.com/home-appliances-hapur/
+                - heading "Home Appliances Manufacturers in Hapur | Supercool" [level=3] [ref=f15e362]
+                - generic [ref=f15e371]:
+                  - generic [ref=f15e372]: supercoolindia.com
+                  - generic [ref=f15e374]: https://www.supercoolindia.com › home-appliances-hapur
+              - button "About this result" [ref=f15e380] [cursor=pointer]
+            - generic [ref=f15e387]:
+              - emphasis [ref=f15e388]: Supercool is a leading Home Appliances Manufacturers in Hapur
+              - text: ", offering high-quality, energy-efficient products for modern households. Phone: +91-98882-11444"
+            - link [aria-hidden] [ref=f15e391] [cursor=pointer]:
+              - /url: https://www.supercoolindia.com/home-appliances-hapur/
+          - generic [ref=f15e397]:
+            - generic [ref=f15e400]:
+              - link "Coolnest Engineering Solutions | HVAC, Ducting ... Coolnest Engineering Solutions https://coolnestengineering.in" [ref=f15e402] [cursor=pointer]:
+                - /url: https://coolnestengineering.in/
+                - heading "Coolnest Engineering Solutions | HVAC, Ducting ..." [level=3] [ref=f15e403]
+                - generic [ref=f15e409]:
+                  - generic [ref=f15e410]: Coolnest Engineering Solutions
+                  - generic [ref=f15e412]: https://coolnestengineering.in
+              - button "About this result" [ref=f15e418] [cursor=pointer]
+            - generic [ref=f15e424]:
+              - generic [ref=f15e425]:
+                - text: With 160+ skilled workers, we are the
+                - emphasis [ref=f15e426]: premier duct work contractors and kitchenhood cleaning contractor
+                - text: . From centralised AC duct work to complete exhaust works ...
+              - link "Read more" [ref=f15e427] [cursor=pointer]:
+                - /url: https://coolnestengineering.in/#:~:text=With%20160%2B%20skilled%20workers%2C%20we,engineering%20standards%20to%20every%20project.
+            - generic [ref=f15e429]:
+              - text: "Missing: Hapur ‎| Show results with:"
+              - link "Hapur" [ref=f15e430] [cursor=pointer]:
+                - /url: /search?sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&q=Coolnest+Industries+%22Hapur%22&sa=X&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ5t4CegQIRRAB
+          - generic [ref=f15e434]:
+            - generic [ref=f15e437]:
+              - link "Air Cooling Unit Manufacturers & Suppliers in Hapur Aajjo https://www.aajjo.com › industrial-air-conditioner-devices" [ref=f15e439] [cursor=pointer]:
+                - /url: https://www.aajjo.com/hapur/industrial-air-conditioner-devices/air-cooling-unit
+                - heading "Air Cooling Unit Manufacturers & Suppliers in Hapur" [level=3] [ref=f15e440]
+                - generic [ref=f15e446]:
+                  - generic [ref=f15e447]: Aajjo
+                  - generic [ref=f15e449]: https://www.aajjo.com › industrial-air-conditioner-devices
+              - button "About this result" [ref=f15e455] [cursor=pointer]
+            - generic [ref=f15e462]:
+              - text: Explore
+              - emphasis [ref=f15e463]: Air Cooling Unit products from verified manufacturers and suppliers in Hapur
+              - text: . Compare specifications, features and latest prices to find the right ...
+          - generic [ref=f15e467]:
+            - generic [ref=f15e470]:
+              - link "Top Industrial Air Cooler Manufacturers in Hapur Justdial https://www.justdial.com › ... › 12+ Listings" [ref=f15e472] [cursor=pointer]:
+                - /url: https://www.justdial.com/Hapur/Industrial-Air-Cooler-Manufacturers/nct-10264125
+                - heading "Top Industrial Air Cooler Manufacturers in Hapur" [level=3] [ref=f15e473]
+                - generic [ref=f15e479]:
+                  - generic [ref=f15e480]: Justdial
+                  - generic [ref=f15e482]: https://www.justdial.com › ... › 12+ Listings
+              - button "About this result" [ref=f15e488] [cursor=pointer]
+            - generic [ref=f15e494]:
+              - generic [ref=f15e495]:
+                - emphasis [ref=f15e496]: Popular Industrial Air Cooler Manufacturers in Hapur
+                - text: · Supreme Coolers · Hari Om Electricals · Enviro Tech Industrial Products · Metso Minerals Pvt Ltd · Matchless ...
+              - link "Read more" [ref=f15e497] [cursor=pointer]:
+                - /url: https://www.justdial.com/Hapur/Industrial-Air-Cooler-Manufacturers/nct-10264125#:~:text=Popular%20Industrial%20Air%20Cooler%20Manufacturers,in%20Hapur&text=Supreme%20Coolers&text=Hari%20Om%20Electricals&text=Enviro%20Tech%20Industrial%20Products&text=Metso%20Minerals%20Pvt%20Ltd&text=Matchless%20Shopper%20(Every%20Little%20Helps),(Jiomart%20Digital%20Partner)
+            - link [aria-hidden] [ref=f15e500] [cursor=pointer]:
+              - /url: https://www.justdial.com/Hapur/Industrial-Air-Cooler-Manufacturers/nct-10264125
+        - navigation [ref=f15e505]:
+          - heading "Page navigation" [level=1] [ref=f15e506]
+          - text: "1"
+          - link "Page 2" [ref=f15e509] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&ei=8kvPau_lAbLNkPIPzu-10Qc&start=10&sa=N&sstk=AS6-VmJwTh0eqLRkaLbv9IJLbZiwD0Po8wp1T8ES-O7n4AWJWZAo_pz0-HpI2PwmrPvWGRXmg0CfBJ7dDYPvzVfVcow_P3Y9FqrlXQ&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ8tMDegQIJBAE
+            - text: "2"
+          - link "Page 3" [ref=f15e511] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&ei=8kvPau_lAbLNkPIPzu-10Qc&start=20&sa=N&sstk=AS6-VmJwTh0eqLRkaLbv9IJLbZiwD0Po8wp1T8ES-O7n4AWJWZAo_pz0-HpI2PwmrPvWGRXmg0CfBJ7dDYPvzVfVcow_P3Y9FqrlXQ&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ8tMDegQIJBAG
+            - text: "3"
+          - link "Page 4" [ref=f15e513] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&ei=8kvPau_lAbLNkPIPzu-10Qc&start=30&sa=N&sstk=AS6-VmJwTh0eqLRkaLbv9IJLbZiwD0Po8wp1T8ES-O7n4AWJWZAo_pz0-HpI2PwmrPvWGRXmg0CfBJ7dDYPvzVfVcow_P3Y9FqrlXQ&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ8tMDegQIJBAI
+            - text: "4"
+          - link "Page 5" [ref=f15e515] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&ei=8kvPau_lAbLNkPIPzu-10Qc&start=40&sa=N&sstk=AS6-VmJwTh0eqLRkaLbv9IJLbZiwD0Po8wp1T8ES-O7n4AWJWZAo_pz0-HpI2PwmrPvWGRXmg0CfBJ7dDYPvzVfVcow_P3Y9FqrlXQ&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ8tMDegQIJBAK
+            - text: "5"
+          - link "Page 6" [ref=f15e517] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&ei=8kvPau_lAbLNkPIPzu-10Qc&start=50&sa=N&sstk=AS6-VmJwTh0eqLRkaLbv9IJLbZiwD0Po8wp1T8ES-O7n4AWJWZAo_pz0-HpI2PwmrPvWGRXmg0CfBJ7dDYPvzVfVcow_P3Y9FqrlXQ&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ8tMDegQIJBAM
+            - text: "6"
+          - link "Page 7" [ref=f15e519] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&ei=8kvPau_lAbLNkPIPzu-10Qc&start=60&sa=N&sstk=AS6-VmJwTh0eqLRkaLbv9IJLbZiwD0Po8wp1T8ES-O7n4AWJWZAo_pz0-HpI2PwmrPvWGRXmg0CfBJ7dDYPvzVfVcow_P3Y9FqrlXQ&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ8tMDegQIJBAO
+            - text: "7"
+          - link "Page 8" [ref=f15e521] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&ei=8kvPau_lAbLNkPIPzu-10Qc&start=70&sa=N&sstk=AS6-VmJwTh0eqLRkaLbv9IJLbZiwD0Po8wp1T8ES-O7n4AWJWZAo_pz0-HpI2PwmrPvWGRXmg0CfBJ7dDYPvzVfVcow_P3Y9FqrlXQ&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ8tMDegQIJBAQ
+            - text: "8"
+          - link "Page 9" [ref=f15e523] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&ei=8kvPau_lAbLNkPIPzu-10Qc&start=80&sa=N&sstk=AS6-VmJwTh0eqLRkaLbv9IJLbZiwD0Po8wp1T8ES-O7n4AWJWZAo_pz0-HpI2PwmrPvWGRXmg0CfBJ7dDYPvzVfVcow_P3Y9FqrlXQ&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ8tMDegQIJBAS
+            - text: "9"
+          - link "Page 10" [ref=f15e525] [cursor=pointer]:
+            - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&ei=8kvPau_lAbLNkPIPzu-10Qc&start=90&sa=N&sstk=AS6-VmJwTh0eqLRkaLbv9IJLbZiwD0Po8wp1T8ES-O7n4AWJWZAo_pz0-HpI2PwmrPvWGRXmg0CfBJ7dDYPvzVfVcow_P3Y9FqrlXQ&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ8tMDegQIJBAU
+            - text: "10"
+          - heading [level=2] [ref=f15e527]:
+            - link "Next" [ref=f15e528] [cursor=pointer]:
+              - /url: /search?q=Coolnest+Industries+Hapur&sca_esv=ec89609dbb59da0a&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036&ei=8kvPau_lAbLNkPIPzu-10Qc&start=10&sa=N&sstk=AS6-VmJwTh0eqLRkaLbv9IJLbZiwD0Po8wp1T8ES-O7n4AWJWZAo_pz0-HpI2PwmrPvWGRXmg0CfBJ7dDYPvzVfVcow_P3Y9FqrlXQ&ved=2ahUKEwjvptfEmbmXAxWyJkQIHc53LXoQ8NMDegQIJBAW
+        - navigation
+    - contentinfo [ref=f15e531]:
+      - heading "Footer links" [level=1] [ref=f15e532]
+      - generic [ref=f15e536]:
+        - generic [ref=f15e539]:
+          - generic [ref=f15e540]: Results are personalised
+          - generic [ref=f15e541]: "-"
+          - link "Try without personalisation" [ref=f15e543] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Coolnest+Industries+Hapur&peek_pws=0&sxsrf=APpeQnuipeksgytZKlCwV-KXBGo2wvLVLQ:1791970290036
+        - generic [ref=f15e546]:
+          - text: India
+          - generic [ref=f15e548]:
+            - button "Ghukna, Ghaziabad, Uttar Pradesh - Based on your past activity" [ref=f15e550] [cursor=pointer]:
+              - generic [ref=f15e551]: Ghukna, Ghaziabad, Uttar Pradesh
+              - generic [ref=f15e553]:
+                - text: "-"
+                - generic [ref=f15e554]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f15e556] [cursor=pointer]
+        - generic [ref=f15e559]:
+          - link "Help" [ref=f15e560] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - button "Send feedback" [ref=f15e562] [cursor=pointer]
+          - link "Privacy" [ref=f15e564] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f15e565] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

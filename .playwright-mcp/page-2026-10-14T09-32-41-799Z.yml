@@ -1,0 +1,55 @@
+- generic [active] [ref=f32e1]:
+  - generic [ref=f32e2]:
+    - banner [ref=f32e4]:
+      - generic [ref=f32e5]:
+        - generic [ref=f32e6]:
+          - button "Main menu" [ref=f32e7] [cursor=pointer]
+          - link "Google Search Console" [ref=f32e12] [cursor=pointer]:
+            - /url: ./search-console
+        - generic [ref=f32e17]:
+          - generic [ref=f32e19]:
+            - button "Help" [ref=f32e20] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f32e22]: help_outline
+            - tooltip [aria-hidden] [ref=f32e24]: Help
+          - generic [ref=f32e26]:
+            - button "User settings" [ref=f32e27] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f32e29]: manage_accounts
+            - tooltip [aria-hidden] [ref=f32e31]: User settings
+        - generic [ref=f32e33]:
+          - button "Google apps" [ref=f32e37] [cursor=pointer]
+          - 'button "Google Account: Umar Khan (umar8368khan@gmail.com)" [ref=f32e43] [cursor=pointer]'
+    - dialog "navigational drawer" [ref=f32e49]:
+      - navigation "Primary" [ref=f32e52]:
+        - button "Search property" [ref=f32e56] [cursor=pointer]:
+          - generic [ref=f32e63]:
+            - combobox "Add property" [ref=f32e64]
+            - generic [aria-hidden]: Add property
+          - generic [aria-hidden] [ref=f32e65]: 
+        - generic [ref=f32e67]:
+          - generic [ref=f32e69]:
+            - button "Submit feedback" [ref=f32e71] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f32e73]: feedback
+            - button "About Search Console" [ref=f32e78] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f32e80]: info
+          - generic [ref=f32e86]:
+            - link "Privacy" [ref=f32e87] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=en
+            - link "Terms" [ref=f32e88] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=en
+    - generic [ref=f32e91]:
+      - generic [aria-hidden] [ref=f32e93]: 
+      - generic [ref=f32e94]: Oops, you don't have access to this property
+      - generic [ref=f32e95]:
+        - generic [ref=f32e96]:
+          - text: "Signed in as:"
+          - generic [ref=f32e97]: umar8368khan@gmail.com
+        - generic [ref=f32e98]:
+          - text: "Property:"
+          - generic [ref=f32e99]: https://coolnestindustries.com/
+        - generic [ref=f32e100]: Sign in with an account that can access this property, or request access from a property owner.
+        - generic [ref=f32e101]: Otherwise
+        - button "Verify your ownership" [ref=f32e103] [cursor=pointer]
+  - generic [ref=f32e113]:
+    - generic [ref=f32e114]: New! Discover how visitors find your Instagram, TikTok, X and YouTube content on Google Search
+    - button "Close" [ref=f32e121] [cursor=pointer]:
+      - generic [aria-hidden] [ref=f32e123]: close

@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/sustainability",
     "/contact",
-    "/locations/dasna",
+    "/dasna",
   ];
 
   return paths.map((path) => ({ url: path === "/" ? siteUrl.origin : new URL(path, siteUrl).href }));
