@@ -22,7 +22,7 @@ export function SiteStructuredData() {
         "@type": "Organization",
         "@id": organizationId,
         name: siteName,
-        url: siteUrl.origin,
+        url: siteUrl.href,
         logo: new URL("/images/coolnest-logo.webp", siteUrl).href,
         founder: company.founders.map((name) => ({ "@type": "Person", name })),
         sameAs: [company.instagram],
@@ -31,7 +31,7 @@ export function SiteStructuredData() {
         "@type": "LocalBusiness",
         "@id": businessId,
         name: siteName,
-        url: siteUrl.origin,
+        url: siteUrl.href,
         description: "Manufacturer of honeycomb evaporative cooling pads in Hapur, Uttar Pradesh.",
         image: new URL("/images/pad-product-spotlight.webp", siteUrl).href,
         telephone: company.phones[0],
@@ -41,15 +41,19 @@ export function SiteStructuredData() {
         hasMap: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(company.address)}`,
         parentOrganization: { "@id": organizationId },
       },
-      {
-        "@type": "WebSite",
-        "@id": websiteId,
-        url: siteUrl.origin,
-        name: siteName,
-        publisher: { "@id": organizationId },
-        inLanguage: "en-IN",
-      },
     ],
+  }} />;
+}
+
+export function HomepageWebSiteStructuredData() {
+  return <JsonLd data={{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": websiteId,
+    url: siteUrl.href,
+    name: siteName,
+    publisher: { "@id": organizationId },
+    inLanguage: "en-IN",
   }} />;
 }
 

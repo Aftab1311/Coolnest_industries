@@ -3,6 +3,7 @@ import Advantages from "@/components/Advantages";
 import About from "@/components/About";
 import Sustainability from "@/components/Sustainability";
 import { Applications, CtaBand, FeaturedPads, FocusBanner, HowItWorks, ProductSpotlight } from "@/components/SiteSections";
+import { HomepageWebSiteStructuredData } from "@/components/StructuredData";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = {
@@ -15,5 +16,5 @@ export const metadata = {
 };
 
 export default function Home() {
-  return <main id="main"><Hero /><FeaturedPads /><ProductSpotlight /><FocusBanner /><Advantages /><Applications /><HowItWorks /><About /><Sustainability /><CtaBand /></main>;
+  return <><HomepageWebSiteStructuredData /><main id="main"><Hero /><FeaturedPads /><ProductSpotlight /><FocusBanner /><Advantages /><Applications /><HowItWorks /><About /><Sustainability /><CtaBand /></main></>;
 }
