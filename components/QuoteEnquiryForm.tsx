@@ -51,7 +51,7 @@ export default function QuoteEnquiryForm({ initialProduct = "honeycomb-pad" }: {
         </div>
         <div className="enquiry-row">
           <label htmlFor="quote-product">Product <span>*</span><select id="quote-product" name="product" value={product} onChange={(event) => setProduct(event.target.value as ProductId)}><option value="honeycomb-pad">Honeycomb Cooling Pad</option><option value="air-cooler-pad">Air Cooler Cooling Pad</option></select></label>
-          <label htmlFor="quote-application">Application <span>*</span><select id="quote-application" name="application" required defaultValue=""><option value="" disabled>Select an application</option><option>Air cooler</option><option>Evaporative cooling system</option><option>Industrial cooling</option><option>Air washer</option><option>Bulk order</option><option>Other</option></select></label>
+          <label htmlFor="quote-application">Application <span>*</span><select id="quote-application" name="application" required defaultValue=""><option value="" disabled>Select an application</option><option>Air cooler</option><option>Evaporative cooling system</option><option>OEM / bulk requirement</option><option>Other</option></select></label>
         </div>
         <label htmlFor="quote-quantity">Quantity <span>*</span><input id="quote-quantity" name="quantity" placeholder="e.g. 100 pieces" required /></label>
         <label htmlFor="quote-message">Additional requirements<textarea id="quote-message" name="message" placeholder="Add colour, flute profile, delivery timeline or any other requirement." /></label>

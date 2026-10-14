@@ -7,7 +7,7 @@ const values = [{ icon: Focus, title: <>Single-Product<br />Focus</> }, { icon: 
 export default function About() {
   return <section className="about-section" aria-labelledby="about-title"><div className="about-inner">
     <div className="about-image"><Image src="/images/pad-handling-inspection.webp" alt="Workshop worker handling a honeycomb cooling pad" width={1536} height={1024} sizes="(max-width: 900px) 100vw, 42vw" /></div>
-    <div className="about-copy"><SectionLabel>ABOUT COOLNEST</SectionLabel><h2 id="about-title">Cooling Pad Manufacturer in Hapur</h2><p>Coolnest Industries manufactures honeycomb cooling pads in Hapur, Uttar Pradesh. Established in 2026 by Mohd Imran and Abu Lais, the company also handles enquiries for air cooler pads, custom sizes and bulk quantities.</p><a href="/about" className="gold-button about-cta">Our Story <ArrowRight aria-hidden="true" /></a></div>
+    <div className="about-copy"><SectionLabel>ABOUT COOLNEST</SectionLabel><h2 id="about-title">Cooling Pad Specialists</h2><p>Coolnest Industries focuses exclusively on honeycomb cooling pads. Established in Hapur in 2026, we keep our attention on the paper media, honeycomb formation, fit requirements and supply needs that matter to cooler businesses and buyers.</p><a href="/about" className="gold-button about-cta">Our Story <ArrowRight aria-hidden="true" /></a></div>
     <div className="about-values">{values.map(({ icon: Icon, title }) => <div className="about-value" key={String(title)}><span className="outline-icon"><Icon aria-hidden="true" strokeWidth={1.25} /></span><span>{title}</span></div>)}</div>
   </div></section>;
 }

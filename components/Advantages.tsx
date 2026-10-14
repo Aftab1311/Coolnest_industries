@@ -1,29 +1,35 @@
-import { Building2, Check, Droplets, Factory, Layers3, Wind } from "lucide-react";
+import { Dumbbell, Droplets, Gauge, Handshake, History, Layers3, Leaf, ShieldCheck, Sparkles, Wind } from "lucide-react";
 import SectionLabel from "./SectionLabel";
 
-const productScope = [
-  { icon: Layers3, title: "Honeycomb Cooling Pads", description: "The core product family for evaporative cooling applications." },
-  { icon: Wind, title: "Air Cooler Pads", description: "Cooling pads for air cooler requirements and replacements." },
-  { icon: Factory, title: "Industrial & Air Washer Pads", description: "Enquire about pads for industrial and air washer applications." },
-  { icon: Droplets, title: "5090 & 7090 Flute Profiles", description: "Ask the team to confirm dimensions and specifications for your order." },
-  { icon: Building2, title: "Cellulose Cooling Pads", description: "Share the media and equipment details for a product enquiry." },
-  { icon: Check, title: "Custom Sizes & Bulk Enquiries", description: "Send the dimensions and quantity so the team can confirm the requirement." },
+const advantages = [
+  { icon: Droplets, title: "Strong Water Absorption", description: "Supports even wetting across the pad." },
+  { icon: Leaf, title: "Evaporative Cooling", description: "A natural and efficient cooling principle." },
+  { icon: Layers3, title: "Open Honeycomb Structure", description: "Effective air and water contact." },
+  { icon: ShieldCheck, title: "Treated Paper Media", description: "Made for dependable cooler use." },
+  { icon: Wind, title: "Low-Pressure Drop", description: "Moves air efficiently with less resistance." },
+  { icon: Layers3, title: "Compact Design", description: "Fits a wide range of cooler applications." },
+  { icon: Gauge, title: "Cooling Efficiency", description: "Supports effective water-to-air contact." },
+  { icon: Dumbbell, title: "High Structure Strength", description: "Holds its shape through repeated wetting." },
+  { icon: History, title: "Longer Life Cycle", description: "Built for reliable, repeatable service." },
+  { icon: Sparkles, title: "Dirt Resistant", description: "Maintains dependable performance in everyday use." },
 ];
 
 export default function Advantages() {
   return (
     <section className="advantages-section" aria-labelledby="advantages-title">
       <div className="page-container">
-        <SectionLabel centered>COOLNEST PRODUCT SCOPE</SectionLabel>
-        <h2 id="advantages-title">Cooling Pad Products and Profiles</h2>
-        <p className="advantages-subtitle">Share your application, dimensions and quantity with Coolnest Industries in Hapur.</p>
+        <SectionLabel centered>FEATURES OF AIR COOLING PAD</SectionLabel>
+        <h2 id="advantages-title">Features of <span>Air Cooling Pads</span></h2>
+        <p className="advantages-subtitle">Engineered for higher cooling efficiency, longer life and reliable performance.</p>
         <div className="advantages-grid">
-          {productScope.map(({ icon: Icon, title, description }) => (
-            <article className="advantage" key={title}>
-              <span className="outline-icon"><Icon aria-hidden="true" strokeWidth={1.8} /></span>
+          {advantages.map(({ icon: Icon, title, description }) => (
+            <div className="advantage" key={title}>
+              <span className="outline-icon">
+                <Icon aria-hidden="true" strokeWidth={1.8} />
+              </span>
               <h3>{title}</h3>
               <p>{description}</p>
-            </article>
+            </div>
           ))}
         </div>
       </div>
