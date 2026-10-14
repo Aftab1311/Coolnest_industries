@@ -1,0 +1,136 @@
+- generic [active] [ref=f31e1]:
+  - link "Skip to content" [ref=f31e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f31e3]:
+    - generic [ref=f31e4]:
+      - link "Coolnest Industries home" [ref=f31e5] [cursor=pointer]:
+        - /url: /
+        - img "Coolnest Industries" [ref=f31e6]
+      - navigation "Main navigation" [ref=f31e7]:
+        - link "Home" [ref=f31e8] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=f31e9] [cursor=pointer]:
+          - /url: /products
+        - link "About Us" [ref=f31e10] [cursor=pointer]:
+          - /url: /about
+        - link "Sustainability" [ref=f31e11] [cursor=pointer]:
+          - /url: /sustainability
+        - link "Contact" [ref=f31e12] [cursor=pointer]:
+          - /url: /contact
+      - link "Get a Quote" [ref=f31e13] [cursor=pointer]:
+        - /url: /contact#quote-form
+  - main [ref=f31e16]:
+    - generic [ref=f31e18]:
+      - generic [ref=f31e19]:
+        - paragraph [ref=f31e20]: COOLING PADS FOR DASNA
+        - heading "Honeycomb Cooling Pads for Dasna Enquiries" [level=1] [ref=f31e21]:
+          - text: Honeycomb Cooling Pads
+          - generic [ref=f31e22]: for Dasna Enquiries
+        - paragraph [ref=f31e23]: Source honeycomb evaporative cooling media from Coolnest Industries, a manufacturer based in Hapur, Uttar Pradesh. Dasna buyers can share their dimensions and quantity to confirm product fit, price and dispatch availability.
+      - img "Three honeycomb air cooler cooling pads displayed together" [ref=f31e25]
+    - region [ref=f31e26]:
+      - generic [ref=f31e27]:
+        - generic [ref=f31e28]: PRODUCTS & SUPPLY
+        - heading "Cooling Pad Options for Dasna Buyers" [level=2] [ref=f31e30]
+        - paragraph [ref=f31e31]: If you are looking for a honeycomb cooling pad supplier for Dasna, Coolnest makes evaporative cooling pads for air cooler replacement, commercial requirements and OEM enquiries. Ask about cellulose cooling media, 5090 and 7090 flute profiles, and custom-size pads. Product suitability depends on your cooler or installation, so share the existing pad measurements before ordering.
+        - generic [ref=f31e32]:
+          - article [ref=f31e33]:
+            - heading "Honeycomb Cooling Pads" [level=3] [ref=f31e34]
+            - paragraph [ref=f31e35]: Honeycomb cooling media for evaporative coolers. Enquire about pad thickness, dimensions and replacement requirements in Dasna.
+            - link "View honeycomb pads" [ref=f31e36] [cursor=pointer]:
+              - /url: /products#honeycomb-pad
+          - article [ref=f31e37]:
+            - heading "Air Cooler Cooling Pads" [level=3] [ref=f31e38]
+            - paragraph [ref=f31e39]: Discuss air cooler cooling pad sizes and compatible replacement profiles with our Hapur manufacturing team.
+            - link "View air cooler pads" [ref=f31e40] [cursor=pointer]:
+              - /url: /products#air-cooler-pad
+          - article [ref=f31e41]:
+            - heading "Custom & Bulk Enquiries" [level=3] [ref=f31e42]
+            - paragraph [ref=f31e43]: Ask for a cooling pad quote for custom sizes, bulk orders or project supply to Dasna. Dispatch and lead time are confirmed against the requirement.
+            - link "Request a price quote" [ref=f31e44] [cursor=pointer]:
+              - /url: /contact?product=honeycomb-pad#quote-form
+    - region [ref=f31e45]:
+      - generic [ref=f31e46]:
+        - generic [ref=f31e47]:
+          - generic [ref=f31e48]: HOW TO ENQUIRE
+          - heading "Get the Right Pad for Your Application" [level=2] [ref=f31e50]
+          - paragraph [ref=f31e51]: Buyers comparing cooling pad manufacturers near Dasna can start with the equipment measurements and application. This helps us check the required honeycomb cooling media profile before discussing cost, minimum quantity or delivery to Dasna.
+          - paragraph [ref=f31e52]: If you are searching for the best honeycomb cooling pad manufacturer in Dasna, compare the profile, dimensions and confirmed dispatch details for your specific requirement. Coolnest manufactures in Hapur, so contact the team to check supply options for Dasna.
+        - list [ref=f31e53]:
+          - listitem [ref=f31e54]: Pad height, width and thickness
+          - listitem [ref=f31e55]: 5090, 7090 or other known flute specification
+          - listitem [ref=f31e56]: Air cooler, air washer or other evaporative cooling use
+          - listitem [ref=f31e57]: Quantity and required delivery location in Dasna
+    - region [ref=f31e58]:
+      - generic [ref=f31e59]:
+        - generic [ref=f31e60]: GOOD TO KNOW
+        - heading "Frequently Asked Questions" [level=2] [ref=f31e62]
+        - generic [ref=f31e63]:
+          - group [ref=f31e64]:
+            - generic "Can I order honeycomb cooling pads for Dasna? +" [ref=f31e65] [cursor=pointer]:
+              - text: Can I order honeycomb cooling pads for Dasna?
+              - generic [ref=f31e66]: +
+          - group [ref=f31e67]:
+            - generic "Are you a honeycomb pad manufacturer in Dasna? +" [ref=f31e68] [cursor=pointer]:
+              - text: Are you a honeycomb pad manufacturer in Dasna?
+              - generic [ref=f31e69]: +
+          - group [ref=f31e70]:
+            - generic "What details are needed for a cooling pad price quote? +" [ref=f31e71] [cursor=pointer]:
+              - text: What details are needed for a cooling pad price quote?
+              - generic [ref=f31e72]: +
+          - group [ref=f31e73]:
+            - generic "Do you supply custom-size or bulk cooling pads to Dasna? +" [ref=f31e74] [cursor=pointer]:
+              - text: Do you supply custom-size or bulk cooling pads to Dasna?
+              - generic [ref=f31e75]: +
+    - generic [ref=f31e77]:
+      - generic [ref=f31e78]:
+        - paragraph [ref=f31e79]: READY TO TALK?
+        - heading "Need honeycomb pads delivered to Dasna?" [level=2] [ref=f31e80]
+        - generic [ref=f31e81]: Send the size, profile and quantity. Coolnest Industries will confirm product fit, pricing and dispatch options from Hapur.
+      - link "Request a Quote" [ref=f31e82] [cursor=pointer]:
+        - /url: /contact?product=honeycomb-pad#quote-form
+  - contentinfo [ref=f31e85]:
+    - generic [ref=f31e86]:
+      - generic [ref=f31e87]:
+        - link "Coolnest Industries home" [ref=f31e88] [cursor=pointer]:
+          - /url: /
+          - img "Coolnest Industries" [ref=f31e89]
+        - paragraph [ref=f31e90]: Specialists in honeycomb evaporative cooling pads made for cooler air and dependable supply.
+      - generic [ref=f31e91]:
+        - heading "Explore" [level=2] [ref=f31e92]
+        - link "Home" [ref=f31e93] [cursor=pointer]:
+          - /url: /
+        - link "Cooling Pads" [ref=f31e94] [cursor=pointer]:
+          - /url: /products
+        - link "Cooling Pads in Dasna" [ref=f31e95] [cursor=pointer]:
+          - /url: /dasna
+        - link "About Us" [ref=f31e96] [cursor=pointer]:
+          - /url: /about
+        - link "Sustainability" [ref=f31e97] [cursor=pointer]:
+          - /url: /sustainability
+      - generic [ref=f31e98]:
+        - heading "Contact" [level=2] [ref=f31e99]
+        - paragraph [ref=f31e100]: F-720, MG Road Industrial Area, Hapur, Uttar Pradesh, India
+        - link "Coolnestindustries@gmail.com" [ref=f31e104] [cursor=pointer]:
+          - /url: mailto:Coolnestindustries@gmail.com
+        - link "+91 9717146404" [ref=f31e108] [cursor=pointer]:
+          - /url: tel:+919717146404
+        - link "+91 7014586670" [ref=f31e111] [cursor=pointer]:
+          - /url: tel:+917014586670
+        - paragraph [ref=f31e114]: "Monday – Saturday, 9 am – 9 pmSunday: Closed"
+      - generic [ref=f31e115]:
+        - heading "Social Links" [level=2] [ref=f31e116]
+        - link "Instagram" [ref=f31e117] [cursor=pointer]:
+          - /url: https://www.instagram.com/coolnestindustries?stkn=MWkzbTY4bWljeG5nMQ==
+        - paragraph [ref=f31e122]: Facebook under process
+    - generic [ref=f31e128]:
+      - paragraph [ref=f31e129]: © 2026 Coolnest Industries. All rights reserved.
+      - paragraph [ref=f31e130]: Honeycomb cooling pad manufacturer · Hapur
+  - generic "WhatsApp Contact Options" [ref=f31e131]:
+    - link "Chat with us on WhatsApp at +91 97171 46404" [ref=f31e132] [cursor=pointer]:
+      - /url: https://wa.me/919717146404?text=Hello%20Coolnest%20Industries%2C%20I%20would%20like%20to%20enquire%20about%20cooling%20pads.
+      - generic [ref=f31e135]: +91 97171 46404
+    - link "Chat with us on WhatsApp at +91 70145 86670" [ref=f31e136] [cursor=pointer]:
+      - /url: https://wa.me/917014586670?text=Hello%20Coolnest%20Industries%2C%20I%20would%20like%20to%20enquire%20about%20cooling%20pads.
+      - generic [ref=f31e139]: +91 70145 86670
+  - alert [ref=f31e140]

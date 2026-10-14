@@ -1,0 +1,283 @@
+- generic [active] [ref=f16e1]:
+  - link "Skip to content" [ref=f16e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f16e3]:
+    - generic [ref=f16e4]:
+      - link "Coolnest Industries home" [ref=f16e5] [cursor=pointer]:
+        - /url: /
+        - img "Coolnest Industries" [ref=f16e6]
+      - navigation "Main navigation" [ref=f16e7]:
+        - link "Home" [ref=f16e8] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=f16e9] [cursor=pointer]:
+          - /url: /products
+        - link "About Us" [ref=f16e10] [cursor=pointer]:
+          - /url: /about
+        - link "Sustainability" [ref=f16e11] [cursor=pointer]:
+          - /url: /sustainability
+        - link "Contact" [ref=f16e12] [cursor=pointer]:
+          - /url: /contact
+      - link "Get a Quote" [ref=f16e13] [cursor=pointer]:
+        - /url: /contact#quote-form
+  - main [ref=f16e16]:
+    - region [ref=f16e17]:
+      - generic [ref=f16e19]:
+        - generic [ref=f16e20]:
+          - paragraph [ref=f16e21]:
+            - text: COOLNEST INDUSTRIES
+            - generic [ref=f16e22]: •
+            - text: HAPUR, INDIA
+          - heading "Honeycomb Cooling Pads Built for Better Air." [level=1] [ref=f16e23]:
+            - generic [ref=f16e24]: Honeycomb Cooling Pads
+            - generic [ref=f16e25]: Built for Better Air.
+          - paragraph [ref=f16e26]: High-performance cooling media made with imported raw materials for strong water absorption, dependable airflow and lasting structure.
+          - generic [ref=f16e27]:
+            - link "Explore Cooling Pads" [ref=f16e28] [cursor=pointer]:
+              - /url: /products
+            - link "Get a Custom Quote" [ref=f16e29] [cursor=pointer]:
+              - /url: /contact#quote-form
+          - list "Product highlights" [ref=f16e30]:
+            - listitem [ref=f16e31]:
+              - strong [ref=f16e32]: 5–7 mm
+              - generic [ref=f16e33]: Flute profile
+            - listitem [ref=f16e34]:
+              - strong [ref=f16e35]: Custom
+              - generic [ref=f16e36]: Sizes & colours
+            - listitem [ref=f16e37]:
+              - strong [ref=f16e38]: Bulk
+              - generic [ref=f16e39]: OEM ready
+        - generic [ref=f16e41]:
+          - generic [ref=f16e42]: ENGINEERED COOLING MEDIA
+          - strong [ref=f16e43]: High absorption.Consistent airflow.
+    - region [ref=f16e44]:
+      - generic [ref=f16e45]:
+        - generic [ref=f16e46]: FEATURED COOLING PADS
+        - heading "Our Best-Selling Pad Profiles" [level=2] [ref=f16e48]
+        - paragraph [ref=f16e49]: Choose a pad profile to explore, then share your required dimensions and quantity with our team.
+        - generic [ref=f16e50]:
+          - article [ref=f16e51]:
+            - generic [ref=f16e52]:
+              - generic [ref=f16e53]: "01"
+              - generic [ref=f16e54]: MOST POPULAR
+              - img "Brown honeycomb cooling pad profile" [ref=f16e55]
+            - generic [ref=f16e56]:
+              - generic [ref=f16e57]: Natural kraft profile
+              - heading "Honeycomb Cooling Pad" [level=3] [ref=f16e58]
+              - paragraph [ref=f16e59]: High water absorption, natural kraft material for efficient and long-lasting cooling performance.
+              - link "View Details" [ref=f16e60] [cursor=pointer]:
+                - /url: /products#honeycomb-pad
+          - article [ref=f16e63]:
+            - generic [ref=f16e64]:
+              - generic [ref=f16e65]: "02"
+              - generic [ref=f16e66]: WIDE APPLICATION
+              - img "Blue air cooler cooling pad profile" [ref=f16e67]
+            - generic [ref=f16e68]:
+              - generic [ref=f16e69]: Blue profile option
+              - heading "Air Cooler Cooling Pad" [level=3] [ref=f16e70]
+              - paragraph [ref=f16e71]: Designed for air coolers with dependable water absorption, cooling efficiency and consistent airflow.
+              - link "View Details" [ref=f16e72] [cursor=pointer]:
+                - /url: /products#air-cooler-pad
+          - article [ref=f16e75]:
+            - generic [ref=f16e76]:
+              - generic [ref=f16e77]: "03"
+              - generic [ref=f16e78]: CUSTOM COLOURS
+              - img "Green custom colour honeycomb cooling pad" [ref=f16e79]
+            - generic [ref=f16e80]:
+              - generic [ref=f16e81]: Made to specification
+              - heading "Custom Colour Pads" [level=3] [ref=f16e82]
+              - paragraph [ref=f16e83]: Available in multiple colours and sizes to match your specific cooling and design requirements.
+              - link "View Details" [ref=f16e84] [cursor=pointer]:
+                - /url: /contact#quote-form
+          - article [ref=f16e87]:
+            - generic [ref=f16e88]:
+              - generic [ref=f16e89]: "04"
+              - generic [ref=f16e90]: BULK / OEM
+              - img "Cooling pad range prepared for bulk supply" [ref=f16e91]
+            - generic [ref=f16e92]:
+              - generic [ref=f16e93]: Ready for larger requirements
+              - heading "Bulk / OEM Pad Range" [level=3] [ref=f16e94]
+              - paragraph [ref=f16e95]: Custom dimensions, thickness and colours available for bulk orders and OEM requirements.
+              - link "View Details" [ref=f16e96] [cursor=pointer]:
+                - /url: /contact#quote-form
+    - region [ref=f16e99]:
+      - generic [ref=f16e100]:
+        - generic [ref=f16e101]:
+          - img "Amber honeycomb cooling pads showing their deep paper channels and water absorption" [ref=f16e102]
+          - text: MATERIAL DETAIL
+        - generic [ref=f16e103]:
+          - generic [ref=f16e104]: OUR ONLY PRODUCT
+          - heading "Honeycomb Cooling Pads" [level=2] [ref=f16e106]
+          - paragraph [ref=f16e107]: Evaporative cooling depends on the media at its core. CoolNest pads create a broad wetted surface through their honeycomb channels, helping air meet water across the pad as it moves through a cooler.
+          - list [ref=f16e108]:
+            - listitem [ref=f16e109]: Treated water-absorbing paper
+            - listitem [ref=f16e112]: Structured honeycomb channels
+            - listitem [ref=f16e115]: Made for evaporative coolers
+            - listitem [ref=f16e118]: Dimensions and quantity by enquiry
+          - generic [ref=f16e121]:
+            - link "View Product" [ref=f16e122] [cursor=pointer]:
+              - /url: /products#honeycomb-pad
+            - link "Discuss Your Requirement" [ref=f16e125] [cursor=pointer]:
+              - /url: /contact?product=honeycomb-pad#quote-form
+    - generic [ref=f16e127]:
+      - paragraph [ref=f16e128]: ONE PRODUCT. DEEPER ATTENTION.
+      - heading "Everything we do starts with the honeycomb pad." [level=2] [ref=f16e129]
+      - paragraph [ref=f16e130]: From paper absorption and channel formation to sizing conversations and supply support, our focus stays clear.
+      - link "Why we specialise" [ref=f16e131] [cursor=pointer]:
+        - /url: /about
+    - region [ref=f16e134]:
+      - generic [ref=f16e135]:
+        - generic [ref=f16e136]: FEATURES OF AIR COOLING PAD
+        - heading "Features of Air Cooling Pads" [level=2] [ref=f16e138]
+        - paragraph [ref=f16e139]: Engineered for higher cooling efficiency, longer life and reliable performance.
+        - generic [ref=f16e140]:
+          - generic [ref=f16e141]:
+            - heading "Strong Water Absorption" [level=3] [ref=f16e146]
+            - paragraph [ref=f16e147]: Supports even wetting across the pad.
+          - generic [ref=f16e148]:
+            - heading "Evaporative Cooling" [level=3] [ref=f16e153]
+            - paragraph [ref=f16e154]: A natural and efficient cooling principle.
+          - generic [ref=f16e155]:
+            - heading "Open Honeycomb Structure" [level=3] [ref=f16e161]
+            - paragraph [ref=f16e162]: Effective air and water contact.
+          - generic [ref=f16e163]:
+            - heading "Treated Paper Media" [level=3] [ref=f16e168]
+            - paragraph [ref=f16e169]: Made for dependable cooler use.
+          - generic [ref=f16e170]:
+            - heading "Low-Pressure Drop" [level=3] [ref=f16e176]
+            - paragraph [ref=f16e177]: Moves air efficiently with less resistance.
+          - generic [ref=f16e178]:
+            - heading "Compact Design" [level=3] [ref=f16e184]
+            - paragraph [ref=f16e185]: Fits a wide range of cooler applications.
+          - generic [ref=f16e186]:
+            - heading "Cooling Efficiency" [level=3] [ref=f16e191]
+            - paragraph [ref=f16e192]: Supports effective water-to-air contact.
+          - generic [ref=f16e193]:
+            - heading "High Structure Strength" [level=3] [ref=f16e201]
+            - paragraph [ref=f16e202]: Holds its shape through repeated wetting.
+          - generic [ref=f16e203]:
+            - heading "Longer Life Cycle" [level=3] [ref=f16e209]
+            - paragraph [ref=f16e210]: Built for reliable, repeatable service.
+          - generic [ref=f16e211]:
+            - heading "Dirt Resistant" [level=3] [ref=f16e216]
+            - paragraph [ref=f16e217]: Maintains dependable performance in everyday use.
+    - region [ref=f16e218]:
+      - generic [ref=f16e219]:
+        - generic [ref=f16e220]: WHERE PADS ARE USED
+        - generic [ref=f16e222]:
+          - heading "Cooling Media in the Real World" [level=2] [ref=f16e223]
+          - paragraph [ref=f16e224]: From replacement needs to larger growing and commercial environments, the application defines the requirement.
+        - generic [ref=f16e225]:
+          - img "Honeycomb evaporative cooling pad wall installed in a bright greenhouse" [ref=f16e227]
+          - generic [ref=f16e228]:
+            - article [ref=f16e229]:
+              - generic [ref=f16e230]: "01"
+              - generic [ref=f16e234]:
+                - heading "Air Cooler Replacement" [level=3] [ref=f16e235]
+                - paragraph [ref=f16e236]: For replacing worn honeycomb media in compatible evaporative air coolers.
+            - article [ref=f16e237]:
+              - generic [ref=f16e238]: "02"
+              - generic [ref=f16e243]:
+                - heading "Commercial Cooling" [level=3] [ref=f16e244]
+                - paragraph [ref=f16e245]: For buyers sourcing cooling media for larger evaporative cooling requirements.
+            - article [ref=f16e246]:
+              - generic [ref=f16e247]: "03"
+              - generic [ref=f16e250]:
+                - heading "OEM & Project Supply" [level=3] [ref=f16e251]
+                - paragraph [ref=f16e252]: For manufacturers and project teams who can share dimensions, volume and application.
+    - region [ref=f16e253]:
+      - generic [ref=f16e254]:
+        - generic [ref=f16e255]:
+          - generic [ref=f16e256]:
+            - generic [ref=f16e257]: THE COOLING PRINCIPLE
+            - heading "Simple. Natural. Effective." [level=2] [ref=f16e259]
+          - paragraph [ref=f16e260]: Honeycomb pads support the heat-and-moisture exchange at the heart of an evaporative cooler.
+        - generic [ref=f16e261]:
+          - article [ref=f16e262]:
+            - generic [ref=f16e263]: "01"
+            - heading "Water wets the media" [level=3] [ref=f16e267]
+            - paragraph [ref=f16e268]: Water is distributed over the absorbent honeycomb pad.
+          - article [ref=f16e269]:
+            - generic [ref=f16e270]: "02"
+            - heading "Air passes through" [level=3] [ref=f16e275]
+            - paragraph [ref=f16e276]: Warm air moves through the pad’s open channels.
+          - article [ref=f16e277]:
+            - generic [ref=f16e278]: "03"
+            - heading "Evaporation cools" [level=3] [ref=f16e283]
+            - paragraph [ref=f16e284]: As water evaporates, the passing air becomes cooler.
+    - region [ref=f16e285]:
+      - generic [ref=f16e286]:
+        - img "Workshop worker handling a honeycomb cooling pad" [ref=f16e288]
+        - generic [ref=f16e289]:
+          - generic [ref=f16e290]: ABOUT COOLNEST
+          - heading "Cooling Pad Specialists" [level=2] [ref=f16e292]
+          - paragraph [ref=f16e293]: Coolnest Industries focuses exclusively on honeycomb cooling pads. Established in Hapur in 2026, we keep our attention on the paper media, honeycomb formation, fit requirements and supply needs that matter to cooler businesses and buyers.
+          - link "Our Story" [ref=f16e294] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=f16e297]:
+          - generic [ref=f16e298]: Single-ProductFocus
+          - generic [ref=f16e308]: QualityMindset
+          - generic [ref=f16e315]: Customer-LedSupport
+    - region [ref=f16e323]:
+      - generic [ref=f16e325]:
+        - generic [ref=f16e326]:
+          - paragraph [ref=f16e327]: THE COOLING PRINCIPLE
+          - heading "Air, Water & Thoughtful Media." [level=2] [ref=f16e328]
+          - paragraph [ref=f16e329]: Honeycomb pads support cooling through evaporation—a direct exchange between moving air and water held in the pad media.
+          - link "Our perspective" [ref=f16e330] [cursor=pointer]:
+            - /url: /sustainability
+        - generic [ref=f16e333]:
+          - generic [ref=f16e334]: FocusedMaterials
+          - generic [ref=f16e340]: Water-BasedCooling
+          - generic [ref=f16e345]: NaturalEvaporation
+    - generic [ref=f16e353]:
+      - generic [ref=f16e354]:
+        - paragraph [ref=f16e355]: READY TO TALK?
+        - heading "Tell us the pad size you need." [level=2] [ref=f16e356]
+        - generic [ref=f16e357]: Share your dimensions, quantity and application. We’ll prepare an enquiry you can send to the CoolNest team.
+      - link "Request a Quote" [ref=f16e358] [cursor=pointer]:
+        - /url: /contact?product=honeycomb-pad#quote-form
+  - contentinfo [ref=f16e361]:
+    - generic [ref=f16e362]:
+      - generic [ref=f16e363]:
+        - link "Coolnest Industries home" [ref=f16e364] [cursor=pointer]:
+          - /url: /
+          - img "Coolnest Industries" [ref=f16e365]
+        - paragraph [ref=f16e366]: Specialists in honeycomb evaporative cooling pads made for cooler air and dependable supply.
+      - generic [ref=f16e367]:
+        - heading "Explore" [level=2] [ref=f16e368]
+        - link "Home" [ref=f16e369] [cursor=pointer]:
+          - /url: /
+        - link "Cooling Pads" [ref=f16e370] [cursor=pointer]:
+          - /url: /products
+        - link "Cooling Pads in Dasna" [ref=f16e371] [cursor=pointer]:
+          - /url: /dasna
+        - link "About Us" [ref=f16e372] [cursor=pointer]:
+          - /url: /about
+        - link "Sustainability" [ref=f16e373] [cursor=pointer]:
+          - /url: /sustainability
+      - generic [ref=f16e374]:
+        - heading "Contact" [level=2] [ref=f16e375]
+        - paragraph [ref=f16e376]: F-720, MG Road Industrial Area, Hapur, Uttar Pradesh, India
+        - link "Coolnestindustries@gmail.com" [ref=f16e380] [cursor=pointer]:
+          - /url: mailto:Coolnestindustries@gmail.com
+        - link "+91 9717146404" [ref=f16e384] [cursor=pointer]:
+          - /url: tel:+919717146404
+        - link "+91 7014586670" [ref=f16e387] [cursor=pointer]:
+          - /url: tel:+917014586670
+        - paragraph [ref=f16e390]: "Monday – Saturday, 9 am – 9 pmSunday: Closed"
+      - generic [ref=f16e391]:
+        - heading "Social Links" [level=2] [ref=f16e392]
+        - link "Instagram" [ref=f16e393] [cursor=pointer]:
+          - /url: https://www.instagram.com/coolnestindustries?stkn=MWkzbTY4bWljeG5nMQ==
+        - paragraph [ref=f16e398]: Facebook under process
+    - generic [ref=f16e404]:
+      - paragraph [ref=f16e405]: © 2026 Coolnest Industries. All rights reserved.
+      - paragraph [ref=f16e406]: Honeycomb cooling pad manufacturer · Hapur
+  - generic "WhatsApp Contact Options" [ref=f16e407]:
+    - link "Chat with us on WhatsApp at +91 97171 46404" [ref=f16e408] [cursor=pointer]:
+      - /url: https://wa.me/919717146404?text=Hello%20Coolnest%20Industries%2C%20I%20would%20like%20to%20enquire%20about%20cooling%20pads.
+      - generic [ref=f16e411]: +91 97171 46404
+    - link "Chat with us on WhatsApp at +91 70145 86670" [ref=f16e412] [cursor=pointer]:
+      - /url: https://wa.me/917014586670?text=Hello%20Coolnest%20Industries%2C%20I%20would%20like%20to%20enquire%20about%20cooling%20pads.
+      - generic [ref=f16e415]: +91 70145 86670
+  - alert [ref=f16e416]

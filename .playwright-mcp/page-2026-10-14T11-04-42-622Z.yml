@@ -1,0 +1,187 @@
+- generic [active] [ref=f18e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f18e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f18e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f18e8]:
+    - search [ref=f18e9]:
+      - generic [ref=f18e11]:
+        - link "Go to Google Home" [ref=f18e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwj736OvrrmXAxVcoK8BHcU3HbcQPHoECAYQBA
+        - generic [ref=f18e17]:
+          - combobox "Search" [ref=f18e19]: site:coolnestindustries.com site:coolnestindustries.com
+          - generic [ref=f18e20]:
+            - button "Clear" [ref=f18e24] [cursor=pointer]
+            - generic [ref=f18e29]:
+              - button "Search by voice" [ref=f18e32] [cursor=pointer]
+              - button "Search by image" [ref=f18e37] [cursor=pointer]
+    - generic [ref=f18e40]:
+      - button "Share" [ref=f18e41] [cursor=pointer]
+      - generic [ref=f18e47]:
+        - button "Google apps" [ref=f18e49] [cursor=pointer]
+        - 'button "Google Account: Umar Khan (umar8368khan@gmail.com)" [ref=f18e54] [cursor=pointer]'
+  - generic [ref=f18e57]:
+    - navigation [ref=f18e63]:
+      - generic [ref=f18e69]:
+        - list [ref=f18e70]:
+          - listitem [ref=f18e71]:
+            - link "AI Mode" [ref=f18e74] [cursor=pointer]:
+              - /url: /search?q=site:coolnestindustries.com&sca_esv=4335b8c42c0b5a58&sxsrf=APpeQnuwFQyzZzVCroFutoL-CVoO5YGJVQ:1791975882300&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&vsint=&aep=1&ntc=1&cs=1&sa=X&ved=2ahUKEwj736OvrrmXAxVcoK8BHcU3HbcQ2J8OegQIFRAD
+          - listitem [ref=f18e78]:
+            - link "All" [disabled] [ref=f18e79]
+          - listitem [ref=f18e82]:
+            - link "Shopping" [ref=f18e83] [cursor=pointer]:
+              - /url: /search?sca_esv=4335b8c42c0b5a58&sxsrf=APpeQnuwFQyzZzVCroFutoL-CVoO5YGJVQ:1791975882300&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&q=site:coolnestindustries.com&ved=1t:220175&ictx=111
+          - listitem [ref=f18e86]:
+            - link "Images" [ref=f18e87] [cursor=pointer]:
+              - /url: /search?sca_esv=4335b8c42c0b5a58&sxsrf=APpeQnuwFQyzZzVCroFutoL-CVoO5YGJVQ:1791975882300&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&q=site:coolnestindustries.com&sa=X&ved=2ahUKEwj736OvrrmXAxVcoK8BHcU3HbcQtKgLegQIFxAB
+          - listitem [ref=f18e90]:
+            - link "Videos" [ref=f18e91] [cursor=pointer]:
+              - /url: /search?sca_esv=4335b8c42c0b5a58&sxsrf=APpeQnuwFQyzZzVCroFutoL-CVoO5YGJVQ:1791975882300&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&q=site:coolnestindustries.com&sa=X&ved=2ahUKEwj736OvrrmXAxVcoK8BHcU3HbcQtKgLegQIGBAB
+          - listitem [ref=f18e94]:
+            - link "Short videos" [ref=f18e95] [cursor=pointer]:
+              - /url: /search?sca_esv=4335b8c42c0b5a58&sxsrf=APpeQnuwFQyzZzVCroFutoL-CVoO5YGJVQ:1791975882300&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&q=site:coolnestindustries.com&sa=X&ved=2ahUKEwj736OvrrmXAxVcoK8BHcU3HbcQs6gLegQIGhAB
+          - listitem [ref=f18e98]:
+            - link "Forums" [ref=f18e99] [cursor=pointer]:
+              - /url: /search?sca_esv=4335b8c42c0b5a58&sxsrf=APpeQnuwFQyzZzVCroFutoL-CVoO5YGJVQ:1791975882300&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jnxvATrUU2Yg9dwuUGnsUHcXPuOM0_k1dPPnMiKJgy16fA_o6ggz9fufsmENEL4Z0BKdgQIXBAdAyzxUq_ArhIl1vPBll6hIu1zOtyv60dLXN6UWT3cF0J8EKXursJ2OQTF6H_rKgU9hPR0fWWzt8fFDjXsgg&q=site:coolnestindustries.com&sa=X&ved=2ahUKEwj736OvrrmXAxVcoK8BHcU3HbcQs6gLegQIGRAB
+          - listitem [ref=f18e102]:
+            - button [ref=f18e103] [cursor=pointer]:
+              - generic "More filters" [ref=f18e104]: More
+        - button "Tools" [ref=f18e111] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f18e118]
+    - main [ref=f18e124]:
+      - generic [ref=f18e125]:
+        - generic [ref=f18e128]:
+          - heading "Google promotion" [level=2] [ref=f18e129]
+          - list [ref=f18e130]:
+            - listitem [ref=f18e131]:
+              - heading [level=3] [ref=f18e132]:
+                - link "Try Google Search Console" [ref=f18e133] [cursor=pointer]:
+                  - /url: https://www.google.com/webmasters/tools/home#utm_source=en-wmxmsg&utm_medium=wmxmsg&utm_campaign=bm&authuser=0
+              - text: www.google.com/webmasters/Do you own coolnestindustries.com? Get indexing and ranking data from Google.
+        - generic [ref=f18e136]:
+          - generic [ref=f18e139]:
+            - heading "Web results" [level=2] [ref=f18e140]
+            - generic [ref=f18e141]:
+              - generic [ref=f18e144]:
+                - link "Coolnest Industries | Honeycomb Cooling Pad Manufacturer ... coolnestindustries.com https://coolnestindustries.com" [ref=f18e146] [cursor=pointer]:
+                  - /url: https://coolnestindustries.com/
+                  - heading "Coolnest Industries | Honeycomb Cooling Pad Manufacturer ..." [level=3] [ref=f18e147]
+                  - generic [ref=f18e156]:
+                    - generic [ref=f18e157]: coolnestindustries.com
+                    - generic [ref=f18e159]: https://coolnestindustries.com
+                - button "About this result" [ref=f18e165] [cursor=pointer]
+              - generic [ref=f18e170]: Coolnest Industries manufactures honeycomb cooling pads in Hapur, Uttar Pradesh. Explore evaporative cooling pads, bulk supply and custom sizes.
+          - generic [ref=f18e175]:
+            - generic [ref=f18e178]:
+              - link "About the Hapur Cooling Pad Manufacturer - Coolnest Industries coolnestindustries.com https://coolnestindustries.com › about" [ref=f18e180] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/about
+                - heading "About the Hapur Cooling Pad Manufacturer - Coolnest Industries" [level=3] [ref=f18e181]
+                - generic [ref=f18e190]:
+                  - generic [ref=f18e191]: coolnestindustries.com
+                  - generic [ref=f18e193]: https://coolnestindustries.com › about
+              - button "About this result" [ref=f18e199] [cursor=pointer]
+            - generic [ref=f18e205]:
+              - generic [ref=f18e206]:
+                - text: Coolnest Industries was established in 2026 by Mohd Imran and Abu Lais. The company
+                - emphasis [ref=f18e207]: manufactures honeycomb cooling pads
+                - text: at F-720, MG Road Industrial Area, Hapur ...
+              - link "Read more" [ref=f18e208] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/about#:~:text=Coolnest%20Industries%20was%20established%20in,Industrial%20Area%2C%20Hapur%2C%20Uttar%20Pradesh.
+          - generic [ref=f18e212]:
+            - generic [ref=f18e215]:
+              - link "Honeycomb & Air Cooler Cooling Pads - Coolnest Industries coolnestindustries.com https://coolnestindustries.com › products" [ref=f18e217] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/products
+                - heading "Honeycomb & Air Cooler Cooling Pads - Coolnest Industries" [level=3] [ref=f18e218]
+                - generic [ref=f18e227]:
+                  - generic [ref=f18e228]: coolnestindustries.com
+                  - generic [ref=f18e230]: https://coolnestindustries.com › products
+              - button "About this result" [ref=f18e236] [cursor=pointer]
+            - generic [ref=f18e243]:
+              - text: Explore
+              - emphasis [ref=f18e244]: honeycomb and air cooler cooling pads
+              - text: from Coolnest Industries in Hapur. Ask about 5090 and 7090 flute profiles, custom sizes and bulk requirements.
+          - generic [ref=f18e248]:
+            - generic [ref=f18e251]:
+              - link "Contact the Cooling Pad Manufacturer in Hapur coolnestindustries.com https://coolnestindustries.com › contact" [ref=f18e253] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/contact
+                - heading "Contact the Cooling Pad Manufacturer in Hapur" [level=3] [ref=f18e254]
+                - generic [ref=f18e263]:
+                  - generic [ref=f18e264]: coolnestindustries.com
+                  - generic [ref=f18e266]: https://coolnestindustries.com › contact
+              - button "About this result" [ref=f18e272] [cursor=pointer]
+            - generic [ref=f18e279]:
+              - text: Contact Coolnest Industries in Hapur, Uttar Pradesh for
+              - emphasis [ref=f18e280]: honeycomb cooling pad, air cooler pad, custom size and bulk enquiries
+              - text: . +91 7014586670. Monday – ...
+          - generic [ref=f18e284]:
+            - generic [ref=f18e287]:
+              - link "Evaporative Cooling and Honeycomb Pads - Coolnest Industries coolnestindustries.com https://coolnestindustries.com › sustainability" [ref=f18e289] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/sustainability
+                - heading "Evaporative Cooling and Honeycomb Pads - Coolnest Industries" [level=3] [ref=f18e290]
+                - generic [ref=f18e299]:
+                  - generic [ref=f18e300]: coolnestindustries.com
+                  - generic [ref=f18e302]: https://coolnestindustries.com › sustainability
+              - button "About this result" [ref=f18e308] [cursor=pointer]
+            - generic [ref=f18e315]:
+              - emphasis [ref=f18e316]: Evaporative cooling uses the relationship between air and water
+              - text: . Honeycomb media provides the surface where that exchange takes place.
+          - generic [ref=f18e320]:
+            - generic [ref=f18e323]:
+              - link "Honeycomb Cooling Pad Manufacturer in Hapur coolnestindustries.com https://coolnestindustries.com › Products" [ref=f18e325] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/products/honeycomb-cooling-pads
+                - heading "Honeycomb Cooling Pad Manufacturer in Hapur" [level=3] [ref=f18e326]
+                - generic [ref=f18e335]:
+                  - generic [ref=f18e336]: coolnestindustries.com
+                  - generic [ref=f18e338]: https://coolnestindustries.com › Products
+              - button "About this result" [ref=f18e344] [cursor=pointer]
+            - generic [ref=f18e350]:
+              - generic [ref=f18e351]:
+                - text: Coolnest Industries manufactures
+                - emphasis [ref=f18e352]: cooling pads in Hapur, Uttar Pradesh
+                - text: . Contact the team to discuss a product and order requirement. Honeycomb cooling pad ...
+              - link "Read more" [ref=f18e353] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/products/honeycomb-cooling-pads#:~:text=Coolnest%20Industries%20manufactures%20cooling%20pads,Honeycomb%20cooling%20pad%20product%20family.
+          - generic [ref=f18e357]:
+            - generic [ref=f18e360]:
+              - link "Air Cooler Cooling Pad Manufacturer in Hapur coolnestindustries.com https://coolnestindustries.com › Products" [ref=f18e362] [cursor=pointer]:
+                - /url: https://coolnestindustries.com/products/air-cooler-cooling-pads
+                - heading "Air Cooler Cooling Pad Manufacturer in Hapur" [level=3] [ref=f18e363]
+                - generic [ref=f18e372]:
+                  - generic [ref=f18e373]: coolnestindustries.com
+                  - generic [ref=f18e375]: https://coolnestindustries.com › Products
+              - button "About this result" [ref=f18e381] [cursor=pointer]
+            - generic [ref=f18e388]:
+              - emphasis [ref=f18e389]: Air cooler cooling pads
+              - text: . Coolnest Industries manufactures cooling pads in Hapur, Uttar Pradesh. +91 9717146404 +91 7014586670 Monday – Saturday, 9 am – 9 pm ...
+      - generic:
+        - generic:
+          - navigation
+      - navigation
+    - contentinfo [ref=f18e390]:
+      - heading "Footer links" [level=1] [ref=f18e391]
+      - generic [ref=f18e395]:
+        - generic [ref=f18e398]:
+          - generic [ref=f18e399]: Results are personalised
+          - generic [ref=f18e400]: "-"
+          - link "Try without personalisation" [ref=f18e402] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=site:coolnestindustries.com&peek_pws=0&sxsrf=APpeQnuwFQyzZzVCroFutoL-CVoO5YGJVQ:1791975882300
+        - generic [ref=f18e405]:
+          - text: India
+          - generic [ref=f18e407]:
+            - button "Ghukna, Ghaziabad, Uttar Pradesh - Based on your past activity" [ref=f18e409] [cursor=pointer]:
+              - generic [ref=f18e410]: Ghukna, Ghaziabad, Uttar Pradesh
+              - generic [ref=f18e412]:
+                - text: "-"
+                - generic [ref=f18e413]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f18e415] [cursor=pointer]
+        - generic [ref=f18e418]:
+          - link "Help" [ref=f18e419] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - button "Send feedback" [ref=f18e421] [cursor=pointer]
+          - link "Privacy" [ref=f18e423] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f18e424] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1
