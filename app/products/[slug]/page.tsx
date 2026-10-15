@@ -4,7 +4,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { CtaBand } from "@/components/SiteSections";
-import { ProductStructuredData } from "@/components/StructuredData";
 import SectionLabel from "@/components/SectionLabel";
 import { products } from "@/lib/products";
 import { pageMetadata } from "@/lib/seo";
@@ -41,7 +40,6 @@ export default async function ProductPage({ params }: RouteProps) {
   const pagePath = `/products/${product.slug}`;
 
   return <main id="main">
-    <ProductStructuredData name={product.name} description={product.description} image={product.image} path={pagePath} />
     <Breadcrumbs items={[
       { name: "Home", path: "/" },
       { name: "Products", path: "/products" },

@@ -1,0 +1,612 @@
+- generic [ref=f7e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f7e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f7e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f7e8]:
+    - search [ref=f7e9]:
+      - generic [ref=f7e11]:
+        - link "Go to Google Home" [ref=f7e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0QPHoECAYQBA
+        - generic [ref=f7e17]:
+          - combobox "Search" [ref=f7e19]: honeycomb cooling pads Dasna honeycomb cooling pads Dasna
+          - generic [ref=f7e20]:
+            - button "Clear" [ref=f7e24] [cursor=pointer]
+            - generic [ref=f7e29]:
+              - button "Search by voice" [ref=f7e32] [cursor=pointer]
+              - button "Search by image" [ref=f7e37] [cursor=pointer]
+    - generic [ref=f7e40]:
+      - button "Share" [ref=f7e41] [cursor=pointer]
+      - generic [ref=f7e47]:
+        - button "Google apps" [ref=f7e49] [cursor=pointer]
+        - 'button "Google Account: Umar Khan (umar8368khan@gmail.com)" [ref=f7e54] [cursor=pointer]'
+  - generic [ref=f7e57]:
+    - navigation [ref=f7e63]:
+      - generic [ref=f7e69]:
+        - list [ref=f7e70]:
+          - listitem [ref=f7e71]:
+            - link "AI Mode" [ref=f7e74] [cursor=pointer]:
+              - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn1PTmby9t4tumVo2l1imA7Sgl2sn6UgauLDePlglhpIbHBM60kOX4ET6V4blFDqPHgN_8lJw-pD7DIgsxc0kvcOeo6f8Oxv1giwDfjReMGEiT782rM80Hs-YH7fgwVGHJXouBl4SNm88l7b9SCCFgyd9vlZg&vsint=&aep=1&ntc=1&cs=1&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q2J8OegQIDRAD
+          - listitem [ref=f7e78]:
+            - link "All" [disabled] [ref=f7e79]
+          - listitem [ref=f7e82]:
+            - link "Shopping" [ref=f7e83] [cursor=pointer]:
+              - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn1PTmby9t4tumVo2l1imA7Sgl2sn6UgauLDePlglhpIbHBM60kOX4ET6V4blFDqPHgN_8lJw-pD7DIgsxc0kvcOeo6f8Oxv1giwDfjReMGEiT782rM80Hs-YH7fgwVGHJXouBl4SNm88l7b9SCCFgyd9vlZg&q=honeycomb+cooling+pads+Dasna&ved=1t:220175&ictx=111
+          - listitem [ref=f7e86]:
+            - link "Images" [ref=f7e87] [cursor=pointer]:
+              - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn1PTmby9t4tumVo2l1imA7Sgl2sn6UgauLDePlglhpIbHBM60kOX4ET6V4blFDqPHgN_8lJw-pD7DIgsxc0kvcOeo6f8Oxv1giwDfjReMGEiT782rM80Hs-YH7fgwVGHJXouBl4SNm88l7b9SCCFgyd9vlZg&q=honeycomb+cooling+pads+Dasna&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0QtKgLegQIFBAB
+          - listitem [ref=f7e90]:
+            - link "Videos" [ref=f7e91] [cursor=pointer]:
+              - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn1PTmby9t4tumVo2l1imA7Sgl2sn6UgauLDePlglhpIbHBM60kOX4ET6V4blFDqPHgN_8lJw-pD7DIgsxc0kvcOeo6f8Oxv1giwDfjReMGEiT782rM80Hs-YH7fgwVGHJXouBl4SNm88l7b9SCCFgyd9vlZg&q=honeycomb+cooling+pads+Dasna&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0QtKgLegQIFRAB
+          - listitem [ref=f7e94]:
+            - link "Forums" [ref=f7e95] [cursor=pointer]:
+              - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn1PTmby9t4tumVo2l1imA7Sgl2sn6UgauLDePlglhpIbHBM60kOX4ET6V4blFDqPHgN_8lJw-pD7DIgsxc0kvcOeo6f8Oxv1giwDfjReMGEiT782rM80Hs-YH7fgwVGHJXouBl4SNm88l7b9SCCFgyd9vlZg&q=honeycomb+cooling+pads+Dasna&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Qs6gLegQIERAB
+          - listitem [ref=f7e98]:
+            - link "Short videos" [ref=f7e99] [cursor=pointer]:
+              - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jn1PTmby9t4tumVo2l1imA7Sgl2sn6UgauLDePlglhpIbHBM60kOX4ET6V4blFDqPHgN_8lJw-pD7DIgsxc0kvcOeo6f8Oxv1giwDfjReMGEiT782rM80Hs-YH7fgwVGHJXouBl4SNm88l7b9SCCFgyd9vlZg&q=honeycomb+cooling+pads+Dasna&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Qs6gLegQIExAB
+          - listitem [ref=f7e102]:
+            - button [ref=f7e103] [cursor=pointer]:
+              - generic "More filters" [ref=f7e104]: More
+        - button "Tools" [ref=f7e111] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f7e118]
+    - generic [ref=f7e123]:
+      - generic [ref=f7e142]:
+        - generic [ref=f7e145]:
+          - generic [ref=f7e147]:
+            - heading "AI Overview" [level=2] [ref=f7e151]
+            - button "Listen" [ref=f7e155]:
+              - generic [ref=f7e159] [cursor=pointer]
+          - generic [ref=f7e184]:
+            - generic [ref=f7e187]:
+              - generic [ref=f7e188]:
+                - mark [ref=f7e189]:
+                  - button "Sarah Cooling" [ref=f7e192] [cursor=pointer]
+                - generic [ref=f7e194]: is a local manufacturer of honeycomb and cellulose evaporative cooling pads located in Dasna, Ghaziabad, Uttar Pradesh
+                - text: .
+                - generic [ref=f7e198]:
+                  - link "IndiaMART" [ref=f7e199] [cursor=pointer]:
+                    - /url: https://www.indiamart.com/sarahcoolingpad/profile.html
+                  - button "IndiaMART (+1) – related results" [ref=f7e200] [cursor=pointer]:
+                    - generic [ref=f7e202]:
+                      - generic [ref=f7e203]: IndiaMART
+                      - generic [ref=f7e204]: "+1"
+              - heading "Manufacturer Details" [level=3] [ref=f7e209]
+              - list [ref=f7e211]:
+                - listitem [ref=f7e212]:
+                  - generic [ref=f7e213]:
+                    - strong [ref=f7e214]: "Name:"
+                    - text: Sarah Cooling
+                - listitem [ref=f7e215]:
+                  - generic [ref=f7e216]:
+                    - strong [ref=f7e217]: "Location:"
+                    - text: Dasna, Ghaziabad, Uttar Pradesh
+                - listitem [ref=f7e218]:
+                  - generic [ref=f7e219]:
+                    - strong [ref=f7e220]: "Products:"
+                    - text: Residential and industrial honeycomb cooling pads, plastic/fiber coolers, and cooler pad production equipment.
+                - listitem [aria-hidden] [ref=f7e221]:
+                  - generic [ref=f7e222]:
+                    - strong [ref=f7e223]: "Pricing:"
+                    - text: Starting around ₹31 per square foot / piece.
+                - listitem [aria-hidden] [ref=f7e224]:
+                  - generic [ref=f7e225]:
+                    - strong [ref=f7e226]: "Contact:"
+                    - text: +91-8047638082
+                - listitem [aria-hidden] [ref=f7e227]:
+                  - generic [ref=f7e228]:
+                    - strong [ref=f7e229]: "Source:"
+                    - text: View business profile on
+                    - link [ref=f7e232] [cursor=pointer]:
+                      - /url: https://www.indiamart.com/sarahcoolingpad/profile.html
+                      - text: IndiaMART
+                  - button [ref=f7e237] [cursor=pointer]
+              - heading [level=3] [ref=f7e243]: Alternative Suppliers in the Ghaziabad Area
+              - list [ref=f7e245]:
+                - listitem [ref=f7e246]:
+                  - generic [ref=f7e247]:
+                    - strong [ref=f7e248]:
+                      - generic [ref=f7e249]:
+                        - button [ref=f7e251] [cursor=pointer]:
+                          - generic [ref=f7e252]: Prime Cool International
+                        - text: ":"
+                    - text: Offers 100mm honeycomb cellulose pads (around ₹60/sq ft) in Ghaziabad.
+                - listitem [ref=f7e253]:
+                  - generic [ref=f7e254]:
+                    - strong [ref=f7e255]:
+                      - generic [ref=f7e256]:
+                        - button [ref=f7e258] [cursor=pointer]:
+                          - generic [ref=f7e259]: Shiva Hi-Tech Industries
+                        - text: ":"
+                    - text: Supplies evaporative cooling pads in Ghaziabad.
+                - listitem [ref=f7e260]:
+                  - generic [ref=f7e261]:
+                    - strong [ref=f7e262]:
+                      - generic [ref=f7e263]:
+                        - button [ref=f7e265] [cursor=pointer]:
+                          - generic [ref=f7e266]: Uro Pack India Private Limited
+                        - text: ":"
+                    - text: Offers rectangular kraft-paper honeycomb pads (around ₹42/sq ft).
+                  - generic [ref=f7e270]:
+                    - link [ref=f7e271] [cursor=pointer]:
+                      - /url: https://dir.indiamart.com/ghaziabad/evaporative-cooling-pad.html?biz=10
+                    - button [ref=f7e272] [cursor=pointer]:
+                      - generic [ref=f7e273]: IndiaMART
+              - generic [ref=f7e282]:
+                - text: Are you looking for a
+                - strong [ref=f7e283]: specific size or thickness
+                - text: of honeycomb pad, or do you need
+                - strong [ref=f7e284]: wholesale/bulk pricing
+                - text: for an industrial or residential cooler?
+            - list [ref=f7e291]:
+              - listitem [ref=f7e292]:
+                - generic [ref=f7e293]:
+                  - link "Sarah Cooling - Manufacturer from Dasna, Ghaziabad, India | About Us. Opens in new tab." [ref=f7e294] [cursor=pointer]:
+                    - /url: https://www.indiamart.com/sarahcoolingpad/profile.html
+                  - generic [ref=f7e295]:
+                    - generic [ref=f7e296]:
+                      - generic [ref=f7e299]: IndiaMART
+                      - button "About this result" [ref=f7e305] [cursor=pointer]
+                    - generic [ref=f7e311]:
+                      - generic [ref=f7e312]: Sarah Cooling - Manufacturer from Dasna, Ghaziabad, India | About Us
+                      - generic [ref=f7e313]: "Company Overview: Sarah Cooling is an ISO 9001-2015 certified proprietorship manufacturer established in 2018, located in Dasna, G..."
+              - listitem [ref=f7e317]:
+                - generic [ref=f7e318]:
+                  - link "Evaporative Cooling Pad Manufacturers in Ghaziabad. Opens in new tab." [ref=f7e319] [cursor=pointer]:
+                    - /url: https://dir.indiamart.com/ghaziabad/evaporative-cooling-pad.html?biz=10
+                  - generic [ref=f7e320]:
+                    - generic [ref=f7e321]:
+                      - generic [ref=f7e324]: IndiaMART
+                      - button "About this result" [ref=f7e330] [cursor=pointer]
+                    - generic [ref=f7e336]:
+                      - generic [ref=f7e337]: Evaporative Cooling Pad Manufacturers in Ghaziabad
+                      - generic [ref=f7e339]: "29 Aug 2026 — * TrustSEAL. Evaporative Cellulose Cooling Pads. ₹ 60/sq ft. Pad Material: Honeycomb. Thickness: 7mm. Pad Thickness: 100 mm. Pad H..."
+        - button "Show more AI Overview" [ref=f7e345]:
+          - generic [ref=f7e346] [cursor=pointer]: Show more
+      - main [ref=f7e353]:
+        - generic [ref=f7e357]:
+          - generic [ref=f7e358]:
+            - generic [ref=f7e361]:
+              - generic [ref=f7e365]:
+                - generic [ref=f7e373]:
+                  - button "See photos" [ref=f7e377] [cursor=pointer]
+                  - generic [ref=f7e381]:
+                    - generic [ref=f7e382]:
+                      - link [ref=f7e384] [cursor=pointer]:
+                        - /url: /maps/place/Vinayak+Industries+Honeycomb+Cooling+Pad/data=!4m2!3m1!1s0x0:0x16eff10d88aaa060?sa=X&ved=1t:2428&ictx=111
+                        - img "Map of Vinayak Industries Honeycomb Cooling Pad" [ref=f7e386]
+                      - link [ref=f7e388] [cursor=pointer]:
+                        - /url: /maps/place/Vinayak+Industries+Honeycomb+Cooling+Pad/data=!4m2!3m1!1s0x0:0x16eff10d88aaa060?sa=X&ved=1t:2428&ictx=111
+                        - img "Map of Vinayak Industries Honeycomb Cooling Pad" [ref=f7e390]
+                    - link "See outside" [ref=f7e398] [cursor=pointer]:
+                      - /url: /local/place/fid/0x390cf18e4f64eea9:0x16eff10d88aaa060/photosphere?iu=https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid%3DS31lqJ98L9XqIzbRAbbJ1g%26cb_client%3Dsearch.gws-prod.grass%26yaw%3D304.4965%26pitch%3D0%26thumbfov%3D100%26w%3D0%26h%3D0&ik=CAISFlMzMWxxSjk4TDlYcUl6YlJBYmJKMWc%3D&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Qpx96BAg-EBI
+                - generic [ref=f7e403]:
+                  - heading "Vinayak Industries Honeycomb Cooling Pad" [level=2] [ref=f7e406]
+                  - generic [ref=f7e409]:
+                    - text: "5.0"
+                    - img "Rated 5.0 out of 5," [ref=f7e410]
+                    - button "3 Google reviews" [ref=f7e415] [cursor=pointer]
+                    - text: Manufacturer in Ghaziabad, Uttar Pradesh
+                - generic [ref=f7e422]:
+                  - generic [ref=f7e434]:
+                    - link "Website" [ref=f7e436] [cursor=pointer]:
+                      - /url: https://www.indiamart.com/vinayak-industries-ghaziabad/
+                    - link "Directions" [ref=f7e443]
+                    - button "Write a review" [ref=f7e453] [cursor=pointer]
+                    - button "Save Vinayak Industries Honeycomb Cooling Pad to collection" [ref=f7e464] [cursor=pointer]:
+                      - generic [ref=f7e467]: Save
+                    - button "Share" [ref=f7e470] [cursor=pointer]
+                  - generic [ref=f7e480]:
+                    - generic [ref=f7e482]:
+                      - text: "Located in:"
+                      - link "UP Roadways Workshop" [ref=f7e483] [cursor=pointer]:
+                        - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=UP+Roadways+Workshop&ludocid=1484730697735696536&lsig=AB86z5UZSg0ERL2No2N8cGiEMS3T&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8G0oAHoECC8QAQ
+                    - generic [ref=f7e485]:
+                      - generic [ref=f7e486]:
+                        - link "Address" [ref=f7e487] [cursor=pointer]:
+                          - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=vinayak+industries+honeycomb+cooling+pad+ghaziabad+address&ludocid=1652804628698013792&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q6BN6BAgwEAI
+                        - text: ":"
+                      - text: MF27+7WG, C-104/2, Bulandshahr Bypass Rd, Block B, Industrial Area, Bulandshahr Road Industrial Area, Ghaziabad, Uttar Pradesh 201009
+                    - generic [ref=f7e488]:
+                      - generic [ref=f7e489]:
+                        - link "Hours" [ref=f7e490] [cursor=pointer]:
+                          - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=vinayak+industries+honeycomb+cooling+pad+ghaziabad+hours&ludocid=1652804628698013792&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q6BN6BAgsEAI
+                        - text: ":"
+                      - button "Open · Closes 7:30 pm" [ref=f7e492]
+                    - generic [ref=f7e502]:
+                      - generic [ref=f7e503]:
+                        - link "Suggest an edit" [ref=f7e506] [cursor=pointer]:
+                          - /url: "#"
+                        - text: ·
+                        - link "Own this business?" [ref=f7e509] [cursor=pointer]:
+                          - /url: "#"
+                      - generic [ref=f7e510]:
+                        - generic [ref=f7e511]: Add missing information
+                        - link "Add place's phone number" [ref=f7e512] [cursor=pointer]
+                  - generic [ref=f7e517]:
+                    - generic [ref=f7e519]:
+                      - heading "Reviews from the web" [level=3] [ref=f7e520]
+                      - link "Vinayak Industries Honeycomb Cooling Pad got a 4.1 stars review on IndiaMART. 9 votes" [ref=f7e523] [cursor=pointer]:
+                        - /url: https://www.indiamart.com/vinayak-industries-ghaziabad/
+                        - text: 4.1/5IndiaMART · 9 votes
+                    - generic [ref=f7e526]:
+                      - generic [ref=f7e527]:
+                        - heading "Reviews" [level=3] [ref=f7e528]
+                        - button "More info" [ref=f7e533] [cursor=pointer]
+                        - generic [ref=f7e537]:
+                          - button "Write a review" [ref=f7e541] [cursor=pointer]
+                          - button "Add photos" [ref=f7e546] [cursor=pointer]
+                      - generic [ref=f7e550]:
+                        - text: "5.0"
+                        - img "Rated 5.0 out of 5," [ref=f7e551]
+                        - button "3 Google reviews" [ref=f7e556] [cursor=pointer]
+                  - generic [ref=f7e564]:
+                    - generic [ref=f7e565]:
+                      - heading "From Vinayak Industries Honeycomb Cooling Pad" [level=3] [ref=f7e566]
+                      - button "Report description" [ref=f7e568]
+                    - generic [ref=f7e571]: "\"Manufacturer of Honeycomb Cooling Pad Manufacturer of Evaporative Cooling Pad\""
+                  - generic [ref=f7e576]:
+                    - heading "Profiles" [level=3] [ref=f7e577]
+                    - generic [ref=f7e578]:
+                      - link "X (Twitter)" [ref=f7e582] [cursor=pointer]:
+                        - /url: https://twitter.com/IndiaMART
+                      - link "Facebook" [ref=f7e592] [cursor=pointer]:
+                        - /url: https://www.facebook.com/IndiaMART
+              - link "About this data" [ref=f7e600] [cursor=pointer]:
+                - /url: https://support.google.com/local-listings?p=how_google_sources
+            - generic [ref=f7e602]:
+              - heading "Web results" [level=2] [ref=f7e603]
+              - generic [ref=f7e604]:
+                - generic [ref=f7e607]:
+                  - link "Sarah Cooling - Manufacturer from Dasna, Ghaziabad, India IndiaMART https://www.indiamart.com › Sarah Cooling" [ref=f7e609] [cursor=pointer]:
+                    - /url: https://www.indiamart.com/sarahcoolingpad/profile.html?srsltid=AU7gw4XwJ6k8wCMrX1p1w17C8CpDy99iiOpbs4Bol-yOQyA4hlvJgR5D
+                    - heading "Sarah Cooling - Manufacturer from Dasna, Ghaziabad, India" [level=3] [ref=f7e610]
+                    - generic [ref=f7e616]:
+                      - generic [ref=f7e617]: IndiaMART
+                      - generic [ref=f7e619]: https://www.indiamart.com › Sarah Cooling
+                  - button "About this result" [ref=f7e625] [cursor=pointer]
+                - generic [ref=f7e631]:
+                  - generic [ref=f7e632]:
+                    - emphasis [ref=f7e633]: Honeycomb
+                    - text: Filter Air
+                    - emphasis [ref=f7e634]: Cooling Pad
+                    - text: ₹ 31/Square Feet.
+                    - emphasis [ref=f7e635]: Honeycomb
+                    - text: Filter Air
+                    - emphasis [ref=f7e636]: Cooling Pad
+                    - text: · Rectangular Air
+                    - emphasis [ref=f7e637]: Cooling Pad
+                    - text: ₹ 31/Piece. Rectangular Air
+                    - emphasis [ref=f7e638]: Cooling Pad
+                    - text: · Air ...
+                  - link "Read more" [ref=f7e639] [cursor=pointer]:
+                    - /url: https://www.indiamart.com/sarahcoolingpad/profile.html?srsltid=AU7gw4XwJ6k8wCMrX1p1w17C8CpDy99iiOpbs4Bol-yOQyA4hlvJgR5D#:~:text=Honeycomb%20Filter%20Air%20Cooling%20Pad&text=Rectangular%20Air%20Cooling%20Pad&text=Air%20Cooling%20Pad
+                - img "Rated 4.2 out of 5, (25) user reviews" [ref=f7e644]: 4.2(25)
+          - generic [ref=f7e651]:
+            - generic [ref=f7e654]:
+              - link "Popular Honeycomb Cooling Pad Distributors in Ghaziabad Justdial https://www.justdial.com › ... › 8+ Listings" [ref=f7e656] [cursor=pointer]:
+                - /url: https://www.justdial.com/Ghaziabad/Honeycomb-Cooling-Pad-Distributors/nct-11918182
+                - heading "Popular Honeycomb Cooling Pad Distributors in Ghaziabad" [level=3] [ref=f7e657]
+                - generic [ref=f7e663]:
+                  - generic [ref=f7e664]: Justdial
+                  - generic [ref=f7e666]: https://www.justdial.com › ... › 8+ Listings
+              - button "About this result" [ref=f7e672] [cursor=pointer]
+            - generic [ref=f7e678]:
+              - generic [ref=f7e679]:
+                - text: ...
+                - emphasis [ref=f7e680]: Dasna
+                - text: ", Nehru Nagar Ghaziabad, Ghaziabad - 201001 (Near Khichra Village), No.10/852, Street No.11, Chand Mohalla, Gandhi Nagar, Delhi - 110031 (Near Gandhi ..."
+              - link "Read more" [ref=f7e681] [cursor=pointer]:
+                - /url: https://www.justdial.com/Ghaziabad/Honeycomb-Cooling-Pad-Distributors/nct-11918182#:~:text=Plot%20No%20G%2D356%20%2CUPSIDC%20Industrial,(Near%20Gandhi%20Nagar%20Police%20Station)
+          - generic [ref=f7e685]:
+            - generic [ref=f7e688]:
+              - link "Honeycomb Cooling Pad Amazon.in https://www.amazon.in › honeycomb-cooling › k=honey..." [ref=f7e690] [cursor=pointer]:
+                - /url: https://www.amazon.in/honeycomb-cooling/s?k=honeycomb+cooling+pad&page=3
+                - heading "Honeycomb Cooling Pad" [level=3] [ref=f7e691]
+                - generic [ref=f7e697]:
+                  - generic [ref=f7e698]: Amazon.in
+                  - generic [ref=f7e700]: https://www.amazon.in › honeycomb-cooling › k=honey...
+              - button "About this result" [ref=f7e706] [cursor=pointer]
+            - generic [ref=f7e712]:
+              - generic [ref=f7e713]:
+                - text: Gel Seat Cushion |
+                - emphasis [ref=f7e714]: Double Layer Honeycomb Pad
+                - text: "| Breathable Cooling Pressure Relief Support | Non Slip Cover | Ergonomic Chair Accessory for Office ..."
+              - link "Read more" [ref=f7e715] [cursor=pointer]:
+                - /url: https://www.amazon.in/honeycomb-cooling/s?k=honeycomb+cooling+pad&page=3#:~:text=Gel%20Seat%20Cushion%20%7C%20Double,Wheelchair%20Car%20Home%20Travel%20Comfort
+            - generic [ref=f7e717]:
+              - generic [ref=f7e719]:
+                - img "Rated 4.1 out of 5," [ref=f7e721]: "4.1"
+                - generic [ref=f7e725]:
+                  - text: store rating (
+                  - link "1.5K user reviews" [ref=f7e726] [cursor=pointer]:
+                    - /url: https://www.google.com/m/storepages?q=amazon.in&c=IN&hl=en-IN
+                    - text: 1.5K
+                  - text: )
+              - text: ·
+              - generic [ref=f7e727]: Free delivery
+            - generic [ref=f7e729]:
+              - text: "Missing: Dasna ‎| Show results with:"
+              - link "Dasna" [ref=f7e730] [cursor=pointer]:
+                - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=honeycomb+cooling+pads+%22Dasna%22&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q5t4CegQIbBAB
+          - generic [ref=f7e734]:
+            - generic [ref=f7e737]:
+              - link "Honeycomb Padding in Ghaziabad, Uttar Pradesh IndiaMART https://dir.indiamart.com › ... › Honeycomb Padding" [ref=f7e739] [cursor=pointer]:
+                - /url: https://dir.indiamart.com/ghaziabad/honey-comb-padding.html
+                - heading "Honeycomb Padding in Ghaziabad, Uttar Pradesh" [level=3] [ref=f7e740]
+                - generic [ref=f7e746]:
+                  - generic [ref=f7e747]: IndiaMART
+                  - generic [ref=f7e749]: https://dir.indiamart.com › ... › Honeycomb Padding
+              - button "About this result" [ref=f7e755] [cursor=pointer]
+            - generic [ref=f7e761]:
+              - generic [ref=f7e762]:
+                - emphasis [ref=f7e763]: Honeycomb Cooling Pad, 2 Inch
+                - text: ". ₹ 450/Piece. Thickness: 2 Inch. Honeycomb Cooling Pad. Mahamaya Enterprises. Ghaziabad•8 yrs."
+              - link "Read more" [ref=f7e764] [cursor=pointer]:
+                - /url: https://dir.indiamart.com/ghaziabad/honey-comb-padding.html#:~:text=Honeycomb%20Cooling%20Pad%2C%202%20Inch,Ghaziabad%E2%80%A28%20yrs
+            - generic [ref=f7e766]:
+              - text: "Missing: Dasna ‎| Show results with:"
+              - link "Dasna" [ref=f7e767] [cursor=pointer]:
+                - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=honeycomb+cooling+pads+%22Dasna%22&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q5t4CegQIchAB
+          - generic [ref=f7e771]:
+            - generic [ref=f7e774]:
+              - link "Vinayak Industries - Honeycomb Pad Trader IndiaMART https://www.indiamart.com › vinayak-industries-ghazia..." [ref=f7e776] [cursor=pointer]:
+                - /url: https://www.indiamart.com/vinayak-industries-ghaziabad/?srsltid=AU7gw4UDP95M7ml4oohWdbQvkazup5PytkUQQnGn94yPddwd4AaZrmIK
+                - heading "Vinayak Industries - Honeycomb Pad Trader" [level=3] [ref=f7e777]
+                - generic [ref=f7e783]:
+                  - generic [ref=f7e784]: IndiaMART
+                  - generic [ref=f7e786]: https://www.indiamart.com › vinayak-industries-ghazia...
+              - button "About this result" [ref=f7e792] [cursor=pointer]
+            - generic [ref=f7e798]:
+              - generic [ref=f7e799]:
+                - emphasis [ref=f7e800]: 7mm Honeycomb Cooling Pad ₹ 40/Sq ft
+                - text: · 7mm Honeycomb Cooling Pad. ₹ 40/Sq ft. Green Honeycomb Cooling Pads ₹ 40/Square Feet. Green Honeycomb Cooling Pads.
+              - link "Read more" [ref=f7e801] [cursor=pointer]:
+                - /url: https://www.indiamart.com/vinayak-industries-ghaziabad/?srsltid=AU7gw4UDP95M7ml4oohWdbQvkazup5PytkUQQnGn94yPddwd4AaZrmIK#:~:text=7mm%20Honeycomb%20Cooling%20Pad,Green%20Honeycomb%20Cooling%20Pads
+            - img "Rated 4.1 out of 5, (9) user reviews" [ref=f7e806]: 4.1(9)
+            - generic [ref=f7e811]:
+              - text: "Missing: Dasna ‎| Show results with:"
+              - link "Dasna" [ref=f7e812] [cursor=pointer]:
+                - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=honeycomb+cooling+pads+%22Dasna%22&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q5t4CegQIaxAB
+          - generic [ref=f7e816]:
+            - generic [ref=f7e819]:
+              - link "Honeycomb Cooling Pad Amazon.in https://www.amazon.in › honeycomb-cooling › k=honey..." [ref=f7e821] [cursor=pointer]:
+                - /url: https://www.amazon.in/honeycomb-cooling/s?k=honeycomb+cooling+pad
+                - heading "Honeycomb Cooling Pad" [level=3] [ref=f7e822]
+                - generic [ref=f7e828]:
+                  - generic [ref=f7e829]: Amazon.in
+                  - generic [ref=f7e831]: https://www.amazon.in › honeycomb-cooling › k=honey...
+              - button "About this result" [ref=f7e837] [cursor=pointer]
+            - generic [ref=f7e844]:
+              - emphasis [ref=f7e845]: Air Cooler Cooling Pads (Brown
+              - text: ) (16" X 12 (16" X 12" X 1.5" Inch) Non Slip Washable Cover. High-Efficiency, Durable & Long-Lasting | Universal Fit for Coolers ...
+            - generic [ref=f7e847]:
+              - generic [ref=f7e849]:
+                - img "Rated 4.1 out of 5," [ref=f7e851]: "4.1"
+                - generic [ref=f7e855]:
+                  - text: store rating (
+                  - link "1.5K user reviews" [ref=f7e856] [cursor=pointer]:
+                    - /url: https://www.google.com/m/storepages?q=amazon.in&c=IN&hl=en-IN
+                    - text: 1.5K
+                  - text: )
+              - text: ·
+              - generic [ref=f7e857]: Free delivery
+          - generic [ref=f7e861]:
+            - generic [ref=f7e863]:
+              - heading "Videos" [level=2] [ref=f7e864]
+              - button "About this result" [ref=f7e869] [cursor=pointer]
+            - generic [ref=f7e875]:
+              - generic [ref=f7e882]:
+                - generic [ref=f7e883]:
+                  - link [ref=f7e885] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=As4qzsmm_50
+                    - heading "सिर्फ ₹300 में AC जैसी ठंडी हवा Honeycomb Pad Ka Best जुगाड़ YouTube Technical Sokil 18 May 2026" [level=3] [ref=f7e886]:
+                      - generic [ref=f7e887]: सिर्फ ₹300 में AC जैसी ठंडी हवा Honeycomb Pad Ka Best जुगाड़
+                      - generic [ref=f7e891]:
+                        - generic [ref=f7e892]:
+                          - text: YouTube
+                          - generic [ref=f7e893]: · Technical Sokil
+                        - generic [ref=f7e894]: 18 May 2026
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - text: YouTube
+                            - generic: · Technical Sokil
+                      - button "About this result" [ref=f7e898] [cursor=pointer]
+                - button "सिर्फ ₹300 में AC जैसी ठंडी हवा Honeycomb Pad Ka Best जुगाड़ by Technical Sokil on YouTube. Play on Google. 14:29" [ref=f7e903] [cursor=pointer]:
+                  - generic [ref=f7e913]: 14:29
+              - generic [ref=f7e924]:
+                - generic [ref=f7e925]:
+                  - link [ref=f7e927] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=i-WpiZhk7OY
+                    - heading "पुराने Cooler में Honeycomb Pad कैसे लगाऐं YouTube TechTools By ZeroLab 19 Apr 2022" [level=3] [ref=f7e928]:
+                      - generic [ref=f7e929]: पुराने Cooler में Honeycomb Pad कैसे लगाऐं
+                      - generic [ref=f7e933]:
+                        - generic [ref=f7e934]:
+                          - text: YouTube
+                          - generic [ref=f7e935]: · TechTools By ZeroLab
+                        - generic [ref=f7e936]: 19 Apr 2022
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - text: YouTube
+                            - generic: · TechTools By ZeroLab
+                      - button "About this result" [ref=f7e940] [cursor=pointer]
+                - button "पुराने Cooler में Honeycomb Pad कैसे लगाऐं by TechTools By ZeroLab on YouTube. Play on Google. 16:50" [ref=f7e945] [cursor=pointer]:
+                  - generic [ref=f7e952]: 16:50
+              - generic [ref=f7e962]:
+                - generic [ref=f7e963]:
+                  - link [ref=f7e965] [cursor=pointer]:
+                    - /url: https://www.instagram.com/reel/DWQKhm0j9PI/?hl=en
+                    - heading "Super Cooling Honeycomb Pad Cooler Cooling Upgrade ... Instagram Mahuva keshav electric 23 Mar 2026" [level=3] [ref=f7e966]:
+                      - generic [ref=f7e967]: Super Cooling Honeycomb Pad Cooler Cooling Upgrade ...
+                      - generic [ref=f7e971]:
+                        - generic [ref=f7e972]:
+                          - text: Instagram
+                          - generic [ref=f7e973]: · Mahuva keshav electric
+                        - generic [ref=f7e974]: 23 Mar 2026
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - text: Instagram
+                            - generic: · Mahuva keshav electric
+                      - button "About this result" [ref=f7e978] [cursor=pointer]
+                - link "Super Cooling Honeycomb Pad Cooler Cooling Upgrade ... by Mahuva keshav electric on Instagram. Play on Instagram. 0:19" [ref=f7e983] [cursor=pointer]:
+                  - /url: https://www.instagram.com/reel/DWQKhm0j9PI/?hl=en
+                  - generic [ref=f7e990]: 0:19
+              - generic [ref=f7e998]:
+                - generic [ref=f7e999]:
+                  - link [ref=f7e1001] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=6IZ4aN8SZYM
+                    - heading "How To Change HoneyComb Cooling Pad of Air Cooler YouTube Kanhaiya Mehrotra 4 Jun 2022" [level=3] [ref=f7e1002]:
+                      - generic [ref=f7e1003]: How To Change HoneyComb Cooling Pad of Air Cooler
+                      - generic [ref=f7e1007]:
+                        - generic [ref=f7e1008]:
+                          - text: YouTube
+                          - generic [ref=f7e1009]: · Kanhaiya Mehrotra
+                        - generic [ref=f7e1010]: 4 Jun 2022
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - text: YouTube
+                            - generic: · Kanhaiya Mehrotra
+                      - button "About this result" [ref=f7e1014] [cursor=pointer]
+                - button "How To Change HoneyComb Cooling Pad of Air Cooler by Kanhaiya Mehrotra on YouTube. Play on Google. 3:52" [ref=f7e1019] [cursor=pointer]:
+                  - generic [ref=f7e1029]: 3:52
+            - link "View all videos" [ref=f7e1037] [cursor=pointer]:
+              - /url: /search?sca_esv=0b6b5098e114a672&udm=vids&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=honeycomb+cooling+pads+Dasna&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8ccDKAJ6BAhvEAU
+              - separator [aria-hidden] [ref=f7e1038]
+              - generic [ref=f7e1039]: View all
+          - generic [ref=f7e1047]:
+            - heading "Images" [level=2] [ref=f7e1051]
+            - generic [ref=f7e1055]:
+              - generic [ref=f7e1059] [cursor=pointer]:
+                - link "Top Honeycomb Cooling Pad Distributors in Ghaziabad ... Justdial" [ref=f7e1060]:
+                  - /url: https://www.justdial.com/Ghaziabad/Honeycomb-Cooling-Pad-Distributors/nct-11918182
+                - button [ref=f7e1062]:
+                  - img "Top Honeycomb Cooling Pad Distributors in Ghaziabad ..." [ref=f7e1064]
+                - generic [ref=f7e1066]:
+                  - generic [ref=f7e1068]: Top Honeycomb Cooling Pad Distributors in Ghaziabad ...
+                  - generic [ref=f7e1069]:
+                    - generic [ref=f7e1071]: Justdial
+                    - button "About this result" [ref=f7e1081]
+              - generic [ref=f7e1089] [cursor=pointer]:
+                - link "Honeycomb Cooling Pad for Air Cooler | High Efficiency Cooling Pad | Durable, Eco-Friendly Cellulose Material | Easy Replacement | Brown (21\" × 21\" × ... Amazon.in" [ref=f7e1090]:
+                  - /url: https://www.amazon.in/Honeycomb-Efficiency-Eco-Friendly-Cellulose-Replacement/dp/B0H1M9XLXD
+                - button [ref=f7e1092]:
+                  - img "Honeycomb Cooling Pad for Air Cooler | High Efficiency Cooling Pad | Durable, Eco-Friendly Cellulose Material | Easy Replacement | Brown (21\" × 21\" × ..." [ref=f7e1094]
+                - generic [ref=f7e1096]:
+                  - generic [ref=f7e1098]: Honeycomb Cooling Pad for Air Cooler | High Efficiency Cooling Pad | Durable, Eco-Friendly Cellulose Material | Easy Replacement | Brown (21" × 21" × ...
+                  - generic [ref=f7e1099]:
+                    - generic [ref=f7e1101]: Amazon.in
+                    - button "About this result" [ref=f7e1111]
+              - generic [ref=f7e1119] [cursor=pointer]:
+                - link "Top Honeycomb Cooling Pad Distributors near Shreya ... Justdial" [ref=f7e1120]:
+                  - /url: https://www.justdial.com/Sahibabad/Honeycomb-Cooling-Pad-Distributors-in-Shreya-Hospital-Shalimar-Garden-Extention-1/nct-11918182
+                - button [ref=f7e1122]:
+                  - img "Top Honeycomb Cooling Pad Distributors near Shreya ..." [ref=f7e1124]
+                - generic [ref=f7e1126]:
+                  - generic [ref=f7e1128]: Top Honeycomb Cooling Pad Distributors near Shreya ...
+                  - generic [ref=f7e1129]:
+                    - generic [ref=f7e1131]: Justdial
+                    - button "About this result" [ref=f7e1141]
+            - button "Show more images" [ref=f7e1147] [cursor=pointer]:
+              - separator [aria-hidden] [ref=f7e1148]
+          - generic [ref=f7e1159]:
+            - generic [ref=f7e1162]:
+              - link "Honeycomb Pad Replacement for Coolers @ RAJ COOLING ... Facebook · Raj Cooling Systems Private Limited 20+ reactions · 2 years ago" [ref=f7e1164] [cursor=pointer]:
+                - /url: https://www.facebook.com/rajcoolingsystems/videos/honeycomb-pad-replacement-for-coolers-raj-cooling-systems-pvt-ltd-%F0%9D%97%99%F0%9D%97%BC%F0%9D%97%BF-%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%86-%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%BE%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%BF/879906617306728/
+                - heading "Honeycomb Pad Replacement for Coolers @ RAJ COOLING ..." [level=3] [ref=f7e1165]
+                - generic [ref=f7e1171]:
+                  - generic [ref=f7e1172]: Facebook · Raj Cooling Systems Private Limited
+                  - generic [ref=f7e1174]: 20+ reactions · 2 years ago
+              - button "About this result" [ref=f7e1180] [cursor=pointer]
+            - generic [ref=f7e1185]:
+              - link "Honeycomb Pad Replacement for Coolers @ RAJ COOLING ... by Raj Cooling Systems Private Limited on Facebook. Play on Facebook. 1:37" [ref=f7e1186] [cursor=pointer]:
+                - /url: https://www.facebook.com/rajcoolingsystems/videos/honeycomb-pad-replacement-for-coolers-raj-cooling-systems-pvt-ltd-%F0%9D%97%99%F0%9D%97%BC%F0%9D%97%BF-%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%86-%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%BE%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%BF/879906617306728/
+                - generic [ref=f7e1187]: 1:37
+              - generic [ref=f7e1196]: This video from Raj Cooling Systems demonstrates the process of replacing a honeycomb pad on a domestic air cooler. 4-side honeycomb cooling. ...
+        - generic [ref=f7e1199]:
+          - generic [ref=f7e1204]:
+            - heading "People also search for" [level=2] [ref=f7e1206]
+            - generic [ref=f7e1208]:
+              - generic [ref=f7e1209]:
+                - link "Honeycomb cooling pads dasna price" [ref=f7e1213] [cursor=pointer]:
+                  - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=Honeycomb+cooling+pads+dasna+price&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q1QJ6BAhXEAE
+                - link "Honeycomb cooling pads dasna reviews" [ref=f7e1227] [cursor=pointer]:
+                  - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=Honeycomb+cooling+pads+dasna+reviews&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q1QJ6BAhbEAE
+                - link "Honeycomb cooling pads dasna address" [ref=f7e1241] [cursor=pointer]:
+                  - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=Honeycomb+cooling+pads+dasna+address&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q1QJ6BAhaEAE
+              - generic [ref=f7e1252]:
+                - link "Honeycomb cooling pads dasna near me" [ref=f7e1256] [cursor=pointer]:
+                  - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=Honeycomb+cooling+pads+dasna+near+me&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q1QJ6BAhZEAE
+                - link "Honeycomb cooling pads dasna contact number" [ref=f7e1270] [cursor=pointer]:
+                  - /url: /search?sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&q=Honeycomb+cooling+pads+dasna+contact+number&sa=X&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q1QJ6BAhYEAE
+          - navigation [ref=f7e1281]:
+            - heading "Page navigation" [level=1] [ref=f7e1282]
+            - text: "1"
+            - link "Page 2" [ref=f7e1285] [cursor=pointer]:
+              - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&ei=EHLQasrWK8GUruEPqM21aA&start=10&sa=N&sstk=AS6-VmJDda8RJuabDxQYQXKUHe5nRywkx5-cYu-drXmMWhyZYVW7Ftwrp5zs5WJmKh87RnTFMM6lSchuDgFfwRblXuN4ny3hy2Uupg&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8tMDegQIVBAE
+              - text: "2"
+            - link "Page 3" [ref=f7e1287] [cursor=pointer]:
+              - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&ei=EHLQasrWK8GUruEPqM21aA&start=20&sa=N&sstk=AS6-VmJDda8RJuabDxQYQXKUHe5nRywkx5-cYu-drXmMWhyZYVW7Ftwrp5zs5WJmKh87RnTFMM6lSchuDgFfwRblXuN4ny3hy2Uupg&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8tMDegQIVBAG
+              - text: "3"
+            - link "Page 4" [ref=f7e1289] [cursor=pointer]:
+              - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&ei=EHLQasrWK8GUruEPqM21aA&start=30&sa=N&sstk=AS6-VmJDda8RJuabDxQYQXKUHe5nRywkx5-cYu-drXmMWhyZYVW7Ftwrp5zs5WJmKh87RnTFMM6lSchuDgFfwRblXuN4ny3hy2Uupg&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8tMDegQIVBAI
+              - text: "4"
+            - link "Page 5" [ref=f7e1291] [cursor=pointer]:
+              - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&ei=EHLQasrWK8GUruEPqM21aA&start=40&sa=N&sstk=AS6-VmJDda8RJuabDxQYQXKUHe5nRywkx5-cYu-drXmMWhyZYVW7Ftwrp5zs5WJmKh87RnTFMM6lSchuDgFfwRblXuN4ny3hy2Uupg&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8tMDegQIVBAK
+              - text: "5"
+            - link "Page 6" [ref=f7e1293] [cursor=pointer]:
+              - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&ei=EHLQasrWK8GUruEPqM21aA&start=50&sa=N&sstk=AS6-VmJDda8RJuabDxQYQXKUHe5nRywkx5-cYu-drXmMWhyZYVW7Ftwrp5zs5WJmKh87RnTFMM6lSchuDgFfwRblXuN4ny3hy2Uupg&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8tMDegQIVBAM
+              - text: "6"
+            - link "Page 7" [ref=f7e1295] [cursor=pointer]:
+              - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&ei=EHLQasrWK8GUruEPqM21aA&start=60&sa=N&sstk=AS6-VmJDda8RJuabDxQYQXKUHe5nRywkx5-cYu-drXmMWhyZYVW7Ftwrp5zs5WJmKh87RnTFMM6lSchuDgFfwRblXuN4ny3hy2Uupg&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8tMDegQIVBAO
+              - text: "7"
+            - link "Page 8" [ref=f7e1297] [cursor=pointer]:
+              - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&ei=EHLQasrWK8GUruEPqM21aA&start=70&sa=N&sstk=AS6-VmJDda8RJuabDxQYQXKUHe5nRywkx5-cYu-drXmMWhyZYVW7Ftwrp5zs5WJmKh87RnTFMM6lSchuDgFfwRblXuN4ny3hy2Uupg&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8tMDegQIVBAQ
+              - text: "8"
+            - link "Page 9" [ref=f7e1299] [cursor=pointer]:
+              - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&ei=EHLQasrWK8GUruEPqM21aA&start=80&sa=N&sstk=AS6-VmJDda8RJuabDxQYQXKUHe5nRywkx5-cYu-drXmMWhyZYVW7Ftwrp5zs5WJmKh87RnTFMM6lSchuDgFfwRblXuN4ny3hy2Uupg&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8tMDegQIVBAS
+              - text: "9"
+            - link "Page 10" [ref=f7e1301] [cursor=pointer]:
+              - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&ei=EHLQasrWK8GUruEPqM21aA&start=90&sa=N&sstk=AS6-VmJDda8RJuabDxQYQXKUHe5nRywkx5-cYu-drXmMWhyZYVW7Ftwrp5zs5WJmKh87RnTFMM6lSchuDgFfwRblXuN4ny3hy2Uupg&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8tMDegQIVBAU
+              - text: "10"
+            - heading [level=2] [ref=f7e1303]:
+              - link "Next" [ref=f7e1304] [cursor=pointer]:
+                - /url: /search?q=honeycomb+cooling+pads+Dasna&sca_esv=0b6b5098e114a672&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723&ei=EHLQasrWK8GUruEPqM21aA&start=10&sa=N&sstk=AS6-VmJDda8RJuabDxQYQXKUHe5nRywkx5-cYu-drXmMWhyZYVW7Ftwrp5zs5WJmKh87RnTFMM6lSchuDgFfwRblXuN4ny3hy2Uupg&ved=2ahUKEwjKnv6DsruXAxVBiisGHahmDQ0Q8NMDegQIVBAW
+        - navigation
+    - contentinfo [ref=f7e1308]:
+      - heading "Footer links" [level=1] [ref=f7e1309]
+      - generic [ref=f7e1313]:
+        - generic [ref=f7e1316]:
+          - generic [ref=f7e1317]: Results are personalised
+          - generic [ref=f7e1318]: "-"
+          - link "Try without personalisation" [ref=f7e1320] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=honeycomb+cooling+pads+Dasna&peek_pws=0&sxsrf=APpeQnuj1dr9i8jU0VW2b0VG7EefFgpRsA:1792045584723
+        - generic [ref=f7e1323]:
+          - text: India
+          - generic [ref=f7e1325]:
+            - button "Karwal Nagar, Delhi - Based on your past activity" [ref=f7e1327] [cursor=pointer]:
+              - generic [ref=f7e1328]: Karwal Nagar, Delhi
+              - generic [ref=f7e1330]:
+                - text: "-"
+                - generic [ref=f7e1331]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f7e1333] [cursor=pointer]
+        - generic [ref=f7e1336]:
+          - link "Help" [ref=f7e1337] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - button "Send feedback" [ref=f7e1339] [cursor=pointer]
+          - link "Privacy" [ref=f7e1341] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f7e1342] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

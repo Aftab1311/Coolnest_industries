@@ -59,29 +59,6 @@ export function HomepageWebSiteStructuredData() {
   }} />;
 }
 
-export function ProductStructuredData({
-  name,
-  description,
-  image,
-  path,
-}: {
-  name: string;
-  description: string;
-  image: string;
-  path: string;
-}) {
-  return <JsonLd data={{
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name,
-    description,
-    image: new URL(image, siteUrl).href,
-    url: new URL(path, siteUrl).href,
-    brand: { "@type": "Brand", name: siteName },
-    manufacturer: { "@id": businessId },
-  }} />;
-}
-
 export function BreadcrumbStructuredData({
   items,
 }: {

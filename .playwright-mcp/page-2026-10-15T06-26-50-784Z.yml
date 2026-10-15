@@ -1,0 +1,50 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "Main menu" [ref=e7] [cursor=pointer]
+        - link "Google Search Console" [ref=e12] [cursor=pointer]:
+          - /url: ./search-console
+      - generic [ref=e17]:
+        - generic [ref=e19]:
+          - button "Help" [ref=e20] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e22]: help_outline
+          - tooltip [aria-hidden] [ref=e24]: Help
+        - generic [ref=e26]:
+          - button "User settings" [ref=e27] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e29]: manage_accounts
+          - tooltip [aria-hidden] [ref=e31]: User settings
+      - generic [ref=e33]:
+        - button "Google apps" [ref=e37] [cursor=pointer]
+        - 'button "Google Account: Umar Khan (umar8368khan@gmail.com)" [ref=e43] [cursor=pointer]'
+  - dialog "navigational drawer" [ref=e49]:
+    - navigation "Primary" [ref=e52]:
+      - button "Search property" [ref=e56] [cursor=pointer]:
+        - generic [ref=e63]:
+          - combobox "Add property" [ref=e64]
+          - generic [aria-hidden]: Add property
+        - generic [aria-hidden] [ref=e65]: 
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - button "Submit feedback" [ref=e71] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e73]: feedback
+          - button "About Search Console" [ref=e78] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e80]: info
+        - generic [ref=e86]:
+          - link "Privacy" [ref=e87] [cursor=pointer]:
+            - /url: https://myaccount.google.com/privacypolicy?hl=en
+          - link "Terms" [ref=e88] [cursor=pointer]:
+            - /url: https://myaccount.google.com/termsofservice?hl=en
+  - generic [ref=e91]:
+    - generic [aria-hidden] [ref=e93]: 
+    - generic [ref=e94]: Oops, you don't have access to this property
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - text: "Signed in as:"
+        - generic [ref=e97]: umar8368khan@gmail.com
+      - generic [ref=e98]:
+        - text: "Property:"
+        - generic [ref=e99]: https://coolnestindustries.com/
+      - generic [ref=e100]: Sign in with an account that can access this property, or request access from a property owner.
+      - generic [ref=e101]: Otherwise
+      - button "Verify your ownership" [ref=e103] [cursor=pointer]
