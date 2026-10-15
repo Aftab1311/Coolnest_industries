@@ -22,7 +22,7 @@ export function SiteStructuredData() {
         "@type": "Organization",
         "@id": organizationId,
         name: siteName,
-        alternateName: ["CoolNest Industries", "coolnestindustries.com"],
+        alternateName: ["CoolNest Industries"],
         url: siteUrl.href,
         logo: new URL("/favicon-512x512.png", siteUrl).href,
         founder: company.founders.map((name) => ({ "@type": "Person", name })),
@@ -53,7 +53,7 @@ export function HomepageWebSiteStructuredData() {
     "@id": websiteId,
     url: siteUrl.href,
     name: siteName,
-    alternateName: ["CoolNest Industries", "coolnestindustries.com"],
+    alternateName: ["CoolNest Industries"],
     publisher: { "@id": organizationId },
     inLanguage: "en-IN",
   }} />;
